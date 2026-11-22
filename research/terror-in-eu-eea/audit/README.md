@@ -1,6 +1,6 @@
 # Independent audit of the 2015–2025 foundation
 
-18 November 2026 · baseline `3280084` · internal quality review.
+The recalculation uses source tables and recorded allocations. Its original audit baseline is `3280084` (18 November 2026).
 
 - [Recalculated statistical series](recalculated.csv) and [validation script](recalculate.py)
 - [Source integrity and legal evidence](EVIDENCE.md)
@@ -10,9 +10,6 @@
 - [Phase 20 event linkage](PHASE_20_EVENT_LINKAGE.md)
 - [Phase 21 reporting mechanisms, denominator and evidence priorities](PHASE_21_REPORTING_MECHANISMS.md)
 - [Phase 22 controlled historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md)
-- [Phase 23 internal editorial package](phase23/REPORT.md)
-- [Phase 24 adversarial editorial audit](phase24/AUDIT.md)
-- [Publication decisions and remediation](PUBLICATION_READINESS.md)
 
 ## Statistical controls
 
@@ -32,4 +29,4 @@ The provenance ledger yields later official historical totals of 56 for 2020 and
 - For 2015–2022 the script checks linked incident ID uniqueness across cells and the country, category, outcome and ascertainable year for linked records. For 2023–2024 it reconstructs confidence counts from case rows using country/category/outcome, since no explicit key is carried in each cell. Phase 6's 2025 allocation is checked against the two country inputs and the 18 positive country/category/outcome cells. The 2025 source text and allocation descriptions do not constitute an event-keyed official return.
 - The 2015 Paris November series and 2022 Spain series demonstrate that the number of physical acts can differ from the number of statistical entries. The original 2015 record links the series with a minimum supported allocation and leaves detailed grouping unverified. The 2022 p. 79 annex and pp. 59–60 narrative support one Spanish slot for six connected acts. The 2023 Duisburg count likewise requires preserving the two physical acts in the one adjudicated case. An ID uniqueness test cannot detect two aliases for a physical event or two explicit reporting entries later grouped into a single case.
 - Three French completed jihadist candidates compete for two 2025 slots. The 7/17/21 partition is coherent and the 18 possible candidate identities do not add a slot. Named Europol examples support specific identifications, such as Munich, Bielefeld and Villach. France's two names, Essen's statistical match and event-level duplicate testing for the retrospective cohorts still require keyed evidence. No confidence class changed.
-- All years have 31 geographic research rows. Judicial, national and historical incident coverage remains incomplete. See the [limitations and decision rules](PUBLICATION_READINESS.md).
+- All years have 31 geographic research rows. Judicial, national and historical incident coverage remains incomplete. See the [discrepancy register](DISCREPANCIES.md) and [research methodology](../METHODOLOGY.md).

@@ -1,66 +1,37 @@
-# terror in eu/eea
+# European terrorism reporting and evidence, 2015–2025
 
-created: 2026-11-18  
-coverage: fixed 31-country research area: 27 current eu member states, norway, iceland, liechtenstein and the united kingdom  
-historical window: 2015–2025; 2026 developments tracked separately
+This investigation follows two related questions. How did European institutions count terrorism across eleven reporting years, and what do public sources establish about some of the cases behind those counts? The archive brings together Europol's reporting tables, national records, court findings and the evidence used to connect them.
 
-## purpose
+## Overview and key findings
 
-build a verifiable, source-linked research database describing terrorism across the defined research area: incidents, victims, ideology classifications, actors, organisations, documented links, financing, institutional responses and uncertainties.
+- **Geography changes the comparison.** Europol originally reported 119 attack entries for 2019, including 64 from the UK, and 57 for 2020. On fixed EU27 geography the original figures are 55 and 57. A later official revision gives 56 for 2020.
+- **Reporting year and occurrence year can differ.** The 2023 reporting cohort includes 26 French separatist entries dated to 2021 and 2022. The archive shows the original series, the later official revisions and a separate conditional redistribution.
+- **An identifiable case has its own evidence trail.** The archive records where a public source supports an adequate or candidate match to a statistical entry. In the original reporting cohorts, 168 of 1,129 entries have adequate matches. Identification does not establish a link between actors or show how many physical incidents occurred.
 
-start with an all-category overview, then investigate jihadist terrorism in greater depth based on the documented record. no predetermined conclusion about any ideology, religion, population or institution.
+The **31-country research area** includes the current EU27, the United Kingdom, Norway, Iceland and Liechtenstein. It defines where the investigation looks for records. The **fixed EU27 series** uses the current 27 member states throughout, removing documented UK rows for 2015–2019. The original series follows the coverage of each Europol edition, including EU28 totals through 2019. National classifications and completeness can still differ on fixed geography.
 
-## read first
+## Research methodology
 
-- [part 2 — ideologies, organisations and objectives](part-2/README.md)
+- [Scope, definitions and evidence rules](METHODOLOGY.md) and [data model](DATA_MODEL.md)
+- [Country and year coverage](COVERAGE_REGISTER.md) and [UK coverage](UK_COVERAGE_AUDIT.md)
 
-- [method and definitions](METHODOLOGY.md)
-- [data model](DATA_MODEL.md)
-- [source register](SOURCES.md)
-- [independent 2015–2025 audit](audit/README.md)
-- [controlled historical analysis and analytical dataset](audit/PHASE_22_HISTORICAL_ANALYSIS.md)
-- [internal editorial draft and figures](audit/phase23/REPORT.md)
+## Statistical evidence
 
-## status and limitations
+- [2015–2025 comparability](COMPARABILITY_2015_2025.md), [consolidated statistical reconciliation](STATISTICAL_RECONCILIATION_2015_2025.md) and [analytical dataset](data/phase22_annual_analysis.csv)
+- Annual records: [2015](2015/BASELINE.md) · [2016](2016/BASELINE.md) · [2017](2017/BASELINE.md) · [2018](2018/BASELINE.md) · [2019](2019/BASELINE.md) · [2020](2020/BASELINE.md) · [2021](2021/BASELINE.md) · [2022](2022/BASELINE.md) · [2023](2023/BASELINE.md) · [2024](2024/BASELINE.md) · [2025](2025_INCIDENT_IDENTIFICATION_PHASE6.md)
+- [Figures, captions and data tables](EVIDENCE_FIGURES.md)
 
-the project title is a shorthand, not a claim that the united kingdom belongs to the eu or eea. this is a schema and source foundation, not a completed dataset or publication-ready finding. europol eu totals must not be labelled 31-country research-area totals. the united kingdom and non-eu eea countries require independently checked records for years not covered by comparable eu reporting. historical membership changes, including the uk's eu exit on 2020-01-31, must be annotated.
+## Actors, organisations and case studies
 
-no medium publication is authorised by this research setup.
+- [Ideologies, organisations and attribution](part-2/README.md) and [comparative case evidence](part-2/ATTRIBUTION_COMPARISON.md)
+- [Selected 2025 case records](incidents/) and [judicial and arrest measures](audit/PHASE_22_ARREST_AND_JUDICIAL_MEASURES.md)
 
-## 2025 incident verification update — 2026-11-18
+## Primary sources and datasets
 
-[Reconciliation, release status and exact gaps](2025_INCIDENT_RECONCILIATION.md) supersedes the earlier provisional mapping wherever it documents new evidence. The structured incident, source, casualty, relationship and judicial extracts are under [data](data/).
+- [Source register](SOURCES.md), [case and organisation sources](part-2/SOURCES.md) and [source retrieval ledger](audit/source_integrity.csv)
+- [Data files](data/), [statistical recalculation and evidence checks](audit/README.md) and [figure reproducibility](audit/phase25/FIGURE_VALIDATION.md)
 
-[Further verification and consolidated evidence gaps, 18 November 2026](2025_EVIDENCE_FOLLOW_UP_2026-11-18.md).
+## Limitations, discrepancies and corrections
 
-[2025 comparative report, 31-country coverage and next priorities](2025_EUROPE_COMPARATIVE_REPORT.md).
-
-[Phase 4 incident crosswalk and coverage of the 45 Europol slots](2025_INCIDENT_IDENTIFICATION_PHASE4.md), with [dated case and evidence gaps](2025_EVIDENCE_GAPS_PHASE4_2026-11-18.md).
-
-[Phase 5 incident crosswalk](2025_INCIDENT_IDENTIFICATION_PHASE5.md) and [primary-source recovery and remaining gaps](2025_EVIDENCE_GAPS_PHASE5_2026-11-18.md).
-
-[Phase 6 crosswalk and progress](2025_INCIDENT_IDENTIFICATION_PHASE6.md), [independent evidence audit](2025_INDEPENDENT_CROSSWALK_AUDIT_PHASE6.md), [Europol reporting methodology](2025_EUROPOL_REPORTING_METHOD.md) and [dated discrepancy register](2025_EVIDENCE_GAPS_PHASE6_2026-11-18.md).
-
-[Phase 7 source, statistical and publication-readiness audit](2025_PUBLICATION_READINESS_PHASE7.md) and [claim-to-source matrix](2025_CLAIM_VERIFICATION_PHASE7.md).
-
-[2024 statistical baseline and comparability](2024/BASELINE.md) · [2024 progress and evidence gaps](2024/PROGRESS.md). The provisional 2025 evidence baseline is preserved at commit 9a255e4.
-
-[2023 statistical baseline](2023/BASELINE.md) · [2023–2025 comparability](2023/COMPARABILITY_2023_2025.md) · [2023 progress and evidence gaps](2023/PROGRESS.md).
-
-[2022 statistical baseline](2022/BASELINE.md) · [cross-year reporting audit](2022/CROSS_YEAR_REPORTING_AUDIT.md) · [2022–2025 comparability](2022/COMPARABILITY_2022_2025.md) · [2022 evidence gaps](2022/PROGRESS.md).
-
-[2021 statistical baseline](2021/BASELINE.md) · [retrospective reporting reconciliation](2021/REPORTING_RECONCILIATION.md) · [2021–2025 comparison](2021/COMPARABILITY_2021_2025.md) · [2021 evidence gaps](2021/PROGRESS.md).
-
-[2020 statistical baseline](2020/BASELINE.md) · [German judicial reclassification audit](2020/RECLASSIFICATION_AUDIT.md) · [2020–2025 comparison](2020/COMPARABILITY_2020_2025.md) · [2020 evidence gaps](2020/PROGRESS.md).
-
-[2019 statistical baseline](2019/BASELINE.md) · [UK membership and reporting geography](2019/GEOGRAPHY_AUDIT.md) · [2019–2025 comparison](2019/COMPARABILITY_2019_2025.md) · [2019 evidence gaps](2019/PROGRESS.md).
-
-[2018 statistical baseline](2018/BASELINE.md) · [EU28 to EU27 audit](2018/GEOGRAPHY_AUDIT.md) · [2018–2025 comparison](2018/COMPARABILITY_2018_2025.md) · [2018 evidence gaps](2018/PROGRESS.md).
-
-[2017 statistical baseline](2017/BASELINE.md) · [EU28 to EU27 audit](2017/GEOGRAPHY_AUDIT.md) · [2017–2025 comparison](2017/COMPARABILITY_2017_2025.md) · [2017 evidence gaps](2017/PROGRESS.md).
-
-[2016 statistical baseline](2016/BASELINE.md) · [EU28 to EU27 audit](2016/GEOGRAPHY_AUDIT.md) · [2016–2025 comparison](2016/COMPARABILITY_2016_2025.md) · [2016 evidence gaps](2016/PROGRESS.md).
-
-[2015 statistical baseline](2015/BASELINE.md) · [EU28 to EU27 audit](2015/GEOGRAPHY_AUDIT.md) · [2015 evidence gaps](2015/PROGRESS.md).
-
-[2015–2025 consolidated comparison](COMPARABILITY_2015_2025.md) · [Research-wide statistical reconciliation](STATISTICAL_RECONCILIATION_2015_2025.md).
+- The [discrepancy register](audit/DISCREPANCIES.md) documents the two 2015 figures (211 and 193), the 2016 injury figures (379 overall, 374 jihadist and 597 across three narratives), the Corsica overnight count (32 and 34) and the 2025 arrest figures (347 in the jihadist table and 344 in an age footnote). The [arrest and judicial measures](audit/PHASE_22_ARREST_AND_JUDICIAL_MEASURES.md) explain why the 2023 arrest total of 426 and the later sum of 431 remain separate.
+- [Event linkage](audit/PHASE_20_EVENT_LINKAGE.md) and [reporting mechanisms](audit/PHASE_21_REPORTING_MECHANISMS.md) distinguish confirmed observations, candidate matches and open questions.

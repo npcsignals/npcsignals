@@ -2,7 +2,7 @@
 
 ## scope
 
-fixed research area: 27 current eu members plus norway, iceland, liechtenstein and the united kingdom (31 countries). the title "terror in eu/eea" is shorthand and explicitly includes the uk outside eu/eea membership. distinguish geographic territory at event date from institutional membership at reporting date. use a fixed 31-country comparison for 2015–2025 and track 2026 separately. the uk is included throughout, including after its eu departure on 2020-01-31. never treat historical europol eu totals as the fixed 31-country total; separately supplement uk and non-eu eea records where necessary.
+fixed research area: 27 current eu members plus norway, iceland, liechtenstein and the united kingdom (31 countries). the title "terror in eu/eea" is shorthand and explicitly includes the uk outside eu/eea membership. distinguish geographic territory at event date from institutional membership at reporting date. use the same 31-country coverage grid for 2015–2025 and track 2026 separately. the fixed EU27 statistical series is a separate comparison of the current 27 member states. the uk is included throughout, including after its eu departure on 2020-01-31. never treat historical europol eu totals as the fixed 31-country total; separately supplement uk and non-eu eea records where necessary.
 
 ## categories
 
@@ -20,6 +20,6 @@ confirmed = primary documentation supports the precise claim; reported = attribu
 
 do not publish personal identifiers of uninvolved individuals, addresses, operational attack instructions, or actionable terrorist financing methods. distinguish organisational membership, logistical support, communication, ideological inspiration and unverified association. avoid presenting islam or muslim communities as equivalent to jihadist extremism. document contradictory evidence and corrections.
 
-## publication gate
+## verification checks
 
-independent source and arithmetic checks, cross-border deduplication, country coverage audit, review of legal classification, privacy and harm review, explicit unresolved questions. github evidence first; medium synthesis only after review.
+check sources and arithmetic independently, check for cross-border duplication, audit country coverage, review legal classifications and potential harm, and record unresolved questions explicitly.
