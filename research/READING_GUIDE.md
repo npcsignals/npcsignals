@@ -41,4 +41,4 @@ read the retrieval time and coverage statement. a saved response may describe on
 
 older checkpoints can contain instructions written during research. they are historical provenance, not current instructions to the reader. current reader pages replace their role as entry points. corrections, rejected hypotheses and explicit limitations are retained.
 
-Read the methodology and source notes for each investigation before relying on a checksum or running a historical script.
+check the [checksum exception review](../archive-maintenance/HASH_EXCEPTION_REVIEW.json) and the [source-link guide](../archive-maintenance/SOURCE_LINKS.md) before relying on a checksum or running a historical script. evidence files have not been renamed to make the interface simpler.
