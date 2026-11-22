@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="360" height="599" viewBox="0 0 360 599" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="360" height="617" viewBox="0 0 360 617" role="img" aria-labelledby="title desc">
 <title id="title">Reported counts at fixed EU27</title>
-<desc id="desc">2015: 108 / 943 | 2016: 66 / 853 | 2017: 98 / 807 | 2018: 69 / 783 | 2019: 55 / 723 | 2020: 57 / 449 | 2021: 15 / 388 | 2022: 28 / 380 | 2023: 120 / 426 | 2024: 58 / 449 | 2025: 45 / 486. Each row: reported attack entries / reported arrests. From 2020 the UK is outside the original series. 2023 contains 26 older attack entries; arrests 426 versus later annex sum 431. The 2015 chart value 193 and 2025 age denominator 347/344 remain unresolved. Sources: TE-SAT 2016–2026. The series does not measure physical attack frequency.</desc>
+<desc id="desc">2015: 108 / 943 | 2016: 66 / 853 | 2017: 98 / 807 | 2018: 69 / 783 | 2019: 55 / 723 | 2020: 57 / 449 | 2021: 15 / 388 | 2022: 28 / 380 | 2023: 120 / 426 | 2024: 58 / 449 | 2025: 45 / 486. Each row: reported attack entries / reported arrests. From 2020 the UK is outside the original series. The 2023 reporting group contains 26 earlier French attack entries; arrests 426 versus later annex sum 431. The 2015 chart value 193 and 2025 age denominator 347/344 remain unresolved. Sources: TE-SAT 2016–2026. The series does not measure physical attack frequency.</desc>
 <metadata>NPCsignals internal review. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
 <rect width="100%" height="100%" fill="#fff"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#162436">
@@ -42,12 +42,13 @@
 <text x="16" y="395" font-size="13">Each row: reported attack entries /</text>
 <text x="16" y="413" font-size="13">reported arrests. From 2020 the UK is</text>
 <text x="16" y="431" font-size="13">outside the original series.</text>
-<text x="16" y="455" font-size="13">2023 contains 26 older attack entries;</text>
-<text x="16" y="473" font-size="13">arrests 426 versus later annex sum 431. The</text>
-<text x="16" y="491" font-size="13">2015 chart value 193 and 2025 age</text>
-<text x="16" y="509" font-size="13">denominator 347/344 remain unresolved.</text>
-<text x="16" y="533" font-size="13">Sources: TE-SAT 2016–2026. The series does</text>
-<text x="16" y="551" font-size="13">not measure physical attack frequency.</text>
-<text x="16" y="575" font-size="13">NPCsignals · internal draft · d1f675e</text>
+<text x="16" y="455" font-size="13">The 2023 reporting group contains 26</text>
+<text x="16" y="473" font-size="13">earlier French attack entries; arrests 426</text>
+<text x="16" y="491" font-size="13">versus later annex sum 431. The 2015 chart</text>
+<text x="16" y="509" font-size="13">value 193 and 2025 age denominator 347/344</text>
+<text x="16" y="527" font-size="13">remain unresolved.</text>
+<text x="16" y="551" font-size="13">Sources: TE-SAT 2016–2026. The series does</text>
+<text x="16" y="569" font-size="13">not measure physical attack frequency.</text>
+<text x="16" y="593" font-size="13">NPCsignals · d1f675e</text>
 </g>
 </svg>

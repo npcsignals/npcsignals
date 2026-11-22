@@ -18,7 +18,7 @@ Years are source reference years. All values represent reported statistical entr
 | 2024 | — | 58 | 449 |
 | 2025 | — | 45 | 486 |
 
-The original eu28 column applies through 2019; the later years have no comparable original eu28 entry. The original 2015 chart observation of 193 is unresolved.
+The original eu28 column applies through 2019; the later years have no comparable original eu28 entry. The later chart observation of 193 for 2015 is unresolved.
 
 ## 03 · later official revisions and conditional sensitivity
 
@@ -55,4 +55,38 @@ Each year's denominator is its original reporting cohort, including the uk throu
 
 [Institutional reporting analysis](../phase23/REPORT.md) · [judicial case analysis](../phase23/REPORT.md) · [English source guide](../phase25/SOURCE_GUIDE.md).
 
-**release warning:** the inherited SVG assets may still contain Norwegian labels and remain subject to translation, accessibility checks and final export review.
+
+### institutional figures for reference year 2025
+
+| country | issuer | count | unit |
+|---|---|---:|---|
+| germany | north rhine-westphalia | 5 | jihadist motivated attacks nationwide |
+| germany | federal government | 4 | locations named in the federal answer |
+| germany | europol | 4 | completed jihadist entries |
+| france | PNAT | 3 | completed jihadist inspired attacks |
+| france | europol | 2 | completed jihadist entries |
+
+the records have no shared event identifier. the totals do not identify any missing event.
+
+### judicial observations and document dates
+
+| case | date | observation and evidence stage |
+|---|---|---|
+| A100 | 19 august 2020 | initial police and prosecutor assessment |
+| A100 | 31 january 2022 | first instance finding and psychiatric placement |
+| A100 | 16 february 2023 | federal court review, decision final |
+| holbæk | 14 may 2024 | eastern high court announced conviction on appeal, case S-25-23; PET also reported the result |
+| solingen | 2025 | TE-SAT publication year for europol's account of contact and encouragement |
+| solingen | 12 may 2026 | federal court dismissed the appeal, 3 StR 55/26 |
+| solingen | 22 may 2026 | federal court published notice 091/2026 summarizing lower court findings about encouragement and advice |
+
+the A100 statistical link remains a candidate. the solingen case chronology concerns the 2024 incident; the last two dates distinguish the appellate decision and notice. additional holbæk review remains unverified. the examples do not establish shared operational command.
+
+## fixed EU27 identification breakdown
+
+The historical UK subsets in the [2015](../../2015/crosswalk.csv), [2016](../../2016/crosswalk.csv), [2017](../../2017/crosswalk.csv), [2018](../../2018/crosswalk.csv) and [2019](../../2019/crosswalk.csv) crosswalks contain 410 entries (12 adequate, 2 candidate and 396 unidentified). To reproduce, filter `country_iso2` to `GB` in these five files and sum `total`, `adequate`, `candidate` and `unidentified`. Subtract each sum from its corresponding original series total. From 2020 the original EU geography is used.
+
+| scope | total | adequate | candidate | unidentified |
+|---|---:|---:|---:|---:|
+| original reporting geography | 1129 | 168 | 35 | 926 |
+| fixed EU27 | 719 | 156 | 33 | 530 |

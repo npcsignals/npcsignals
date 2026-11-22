@@ -56,7 +56,7 @@ def lead(years):
                   text(305 + length, y + 27, value, 22, True)]
     items.extend(text(35, 405 + i * 22, line, 14)
                  for i, line in enumerate((note, limit, qualification, attribution, boundary)))
-    items.append(text(35, 522, "NPCsignals · internal draft · statistical source checkpoint d1f675e", 12))
+    items.append(text(35, 522, "NPCsignals · statistical source checkpoint d1f675e", 12))
     desc = "; ".join(f"{label}: {value}" for label, value in rows) + ". " + boundary
     return svg(900, 540, title, desc, items), title, rows, (note, limit, qualification, attribution, boundary)
 
@@ -77,7 +77,7 @@ def mobile(title, rows, notes):
         items.extend(text(178, y + 18*i, line, 13) for i, line in enumerate(right))
         y += height
     y += 8
-    for note in (*notes, "NPCsignals · internal draft · d1f675e"):
+    for note in (*notes, "NPCsignals · d1f675e"):
         for line in wrap(note, 43, break_long_words=False, break_on_hyphens=False):
             items.append(text(16, y, line, 13))
             y += 18
@@ -99,7 +99,7 @@ def outputs():
     yield "mobile/02_eu27_series_en.svg", mobile(
         "Reported counts at fixed EU27", [(r["reference_year"], f'{r["fixed_eu27_attacks"]} / {r["fixed_eu27_arrests"]}') for r in a],
         ("Each row: reported attack entries / reported arrests. From 2020 the UK is outside the original series.",
-         "2023 contains 26 older attack entries; arrests 426 versus later annex sum 431. The 2015 chart value 193 and 2025 age denominator 347/344 remain unresolved.",
+         "The 2023 reporting group contains 26 earlier French attack entries; arrests 426 versus later annex sum 431. The 2015 chart value 193 and 2025 age denominator 347/344 remain unresolved.",
          "Sources: TE-SAT 2016–2026. The series does not measure physical attack frequency."))
     yield "mobile/03_revisions_en.svg", mobile(
         "Revisions and conditional sensitivity", [(r["reference_year"], " / ".join(
@@ -110,7 +110,7 @@ def outputs():
     yield "mobile/04_coverage_en.svg", mobile(
         "Identification of statistical entries", [(f'{r["reference_year"]} (n={r["original_attacks"]})', " / ".join(
             r[k] for k in ("adequate_slots", "candidate_slots", "unidentified_slots"))) for r in a],
-        ("Adequately identified / candidate / unidentified. Each denominator is the original annual cohort: EU28 through 2019, EU27 from 2020.",
+        ("NPCsignals public source linkage: adequate / candidate / unidentified. Each denominator is the original annual cohort: EU28 through 2019, EU27 from 2020.",
          "2025: 17 candidate entries and 18 possible identities. These counts cannot establish physical incident coverage.",
          "Source: NPCsignals frozen crosswalk and Phase 22 annual analysis."))
     issuers = {"Bundesregierung": "Federal government"}
@@ -123,5 +123,5 @@ def outputs():
     yield "mobile/06_judicial_en.svg", mobile(
         "Judicial and organizational evidence", [(f'{r["case"]}\n{r["date"]}',
             f'{r["stage"]}: {r["evidence"]}') for r in sorted(court, key=lambda r: (r["case"], r["date"]))],
-        ("A100 linkage to the deleted Europol entry remains a candidate. The cases do not establish common operational command.",
+        ("A100 linkage to the entry no longer counted by Europol remains a candidate. The cases do not establish common operational command.",
          "Sources: LG Berlin 5/2022; BGH 036/2023; PET 14 May 2024; TE-SAT 2025; BGH 3 StR 55/26 and notice 091/2026." ))

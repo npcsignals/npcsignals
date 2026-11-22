@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="360" height="599" viewBox="0 0 360 599" role="img" aria-labelledby="title desc">
 <title id="title">Identification of statistical entries</title>
-<desc id="desc">2015 (n=211): 9 / 3 / 199 | 2016 (n=142): 20 / 1 / 121 | 2017 (n=205): 27 / 1 / 177 | 2018 (n=129): 22 / 0 / 107 | 2019 (n=119): 24 / 1 / 94 | 2020 (n=57): 15 / 0 / 42 | 2021 (n=15): 14 / 1 / 0 | 2022 (n=28): 12 / 3 / 13 | 2023 (n=120): 9 / 1 / 110 | 2024 (n=58): 9 / 7 / 42 | 2025 (n=45): 7 / 17 / 21. Adequately identified / candidate / unidentified. Each denominator is the original annual cohort: EU28 through 2019, EU27 from 2020. 2025: 17 candidate entries and 18 possible identities. These counts cannot establish physical incident coverage. Source: NPCsignals frozen crosswalk and Phase 22 annual analysis.</desc>
+<desc id="desc">2015 (n=211): 9 / 3 / 199 | 2016 (n=142): 20 / 1 / 121 | 2017 (n=205): 27 / 1 / 177 | 2018 (n=129): 22 / 0 / 107 | 2019 (n=119): 24 / 1 / 94 | 2020 (n=57): 15 / 0 / 42 | 2021 (n=15): 14 / 1 / 0 | 2022 (n=28): 12 / 3 / 13 | 2023 (n=120): 9 / 1 / 110 | 2024 (n=58): 9 / 7 / 42 | 2025 (n=45): 7 / 17 / 21. NPCsignals public source linkage: adequate / candidate / unidentified. Each denominator is the original annual cohort: EU28 through 2019, EU27 from 2020. 2025: 17 candidate entries and 18 possible identities. These counts cannot establish physical incident coverage. Source: NPCsignals frozen crosswalk and Phase 22 annual analysis.</desc>
 <metadata>NPCsignals internal review. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
 <rect width="100%" height="100%" fill="#fff"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#162436">
@@ -39,15 +39,15 @@
 <rect x="12" y="343" width="336" height="26" fill="#eef3f7"/>
 <text x="18" y="359" font-size="13" font-weight="bold">2025 (n=45)</text>
 <text x="178" y="359" font-size="13">7 / 17 / 21</text>
-<text x="16" y="395" font-size="13">Adequately identified / candidate /</text>
-<text x="16" y="413" font-size="13">unidentified. Each denominator is the</text>
-<text x="16" y="431" font-size="13">original annual cohort: EU28 through 2019,</text>
-<text x="16" y="449" font-size="13">EU27 from 2020.</text>
+<text x="16" y="395" font-size="13">NPCsignals public source linkage: adequate</text>
+<text x="16" y="413" font-size="13">/ candidate / unidentified. Each</text>
+<text x="16" y="431" font-size="13">denominator is the original annual cohort:</text>
+<text x="16" y="449" font-size="13">EU28 through 2019, EU27 from 2020.</text>
 <text x="16" y="473" font-size="13">2025: 17 candidate entries and 18 possible</text>
 <text x="16" y="491" font-size="13">identities. These counts cannot establish</text>
 <text x="16" y="509" font-size="13">physical incident coverage.</text>
 <text x="16" y="533" font-size="13">Source: NPCsignals frozen crosswalk and</text>
 <text x="16" y="551" font-size="13">Phase 22 annual analysis.</text>
-<text x="16" y="575" font-size="13">NPCsignals · internal draft · d1f675e</text>
+<text x="16" y="575" font-size="13">NPCsignals · d1f675e</text>
 </g>
 </svg>

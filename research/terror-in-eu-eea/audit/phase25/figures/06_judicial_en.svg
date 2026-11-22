@@ -24,7 +24,7 @@
 <rect x="30.00" y="236.00" width="820.00" height="34.00" fill="#eef3f7"/>
 <text x="44" y="259" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">Solingen</text>
 <text x="145" y="259" font-size="13" text-anchor="start" fill="#162436">2025</text>
-<text x="255" y="259" font-size="13" text-anchor="start" fill="#162436">Europol reports contact and encouragement</text>
+<text x="255" y="259" font-size="13" text-anchor="start" fill="#162436">Europol publication: contact and encouragement reported</text>
 <rect x="30.00" y="275.00" width="820.00" height="34.00" fill="#ffffff"/>
 <text x="44" y="298" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">Solingen</text>
 <text x="145" y="298" font-size="13" text-anchor="start" fill="#162436">2026-05-12</text>
@@ -33,9 +33,9 @@
 <text x="44" y="337" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">Solingen</text>
 <text x="145" y="337" font-size="13" text-anchor="start" fill="#162436">2026-05-22</text>
 <text x="255" y="337" font-size="13" text-anchor="start" fill="#162436">BGH recounts encouragement and advice from IS contacts</text>
-<text x="30" y="405" font-size="13" text-anchor="start" fill="#162436">A100: link to deleted Europol entry remains a candidate.</text>
+<text x="30" y="405" font-size="13" text-anchor="start" fill="#162436">A100: candidate link to an entry no longer counted by Europol.</text>
 <text x="30" y="428" font-size="12" text-anchor="start" fill="#162436">cases do not establish a shared operational command.</text>
 <text x="30" y="452" font-size="12" text-anchor="start" fill="#162436">BGH original notice 091/2026 and disposition 3 StR 55/26</text>
-<text x="30" y="474" font-size="11" text-anchor="start" fill="#162436">npcsignals · internal draft · source checkpoint d1f675e</text>
+<text x="30" y="474" font-size="11" text-anchor="start" fill="#162436">npcsignals · source checkpoint d1f675e</text>
 </g>
 </svg>
