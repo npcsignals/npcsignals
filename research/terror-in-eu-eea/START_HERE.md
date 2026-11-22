@@ -2,6 +2,12 @@
 
 This investigation follows two related questions. How did European institutions count terrorism across eleven reporting years, and what do public sources establish about some of the cases behind those counts? The archive brings together Europol's reporting tables, national records, court findings and the evidence used to connect them.
 
+## published investigation
+
+[behind the count: europe's terrorism record, and what is known about the actors](https://medium.com/@npcsignals/behind-the-count-europes-terrorism-record-and-what-is-known-about-the-actors-0e7af1b38fcf)
+
+the Medium article presents the findings for general readers. this GitHub archive provides the research methodology, underlying evidence, datasets, figures, limitations and corrections.
+
 ## Overview and key findings
 
 - **Geography changes the comparison.** Europol originally reported 119 attack entries for 2019, including 64 from the UK, and 57 for 2020. On fixed EU27 geography the original figures are 55 and 57. A later official revision gives 56 for 2020.
