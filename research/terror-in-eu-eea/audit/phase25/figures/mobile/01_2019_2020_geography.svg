@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="360" height="487" viewBox="0 0 360 487" role="img" aria-labelledby="title desc">
 <title id="title">2019–2020: geography changes the comparison</title>
 <desc id="desc">2019 · original EU28: 119 | 2019 · fixed EU27: 55 | 2020 · original EU27: 57 | 2020 · later official revision: 56. 2019 UK contribution: 64 entries (119 − 64 = 55). Fixed geography retains national reporting and classification differences. The later official revision is shown separately from the original cohort. TE-SAT 2020 p. 84 · TE-SAT 2021 pp. 12, 99 · TE-SAT 2023 p. 9 n. 4. Reported statistical entries. Physical attack frequency cannot be inferred.</desc>
-<metadata>NPCsignals internal review. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<metadata>NPCsignals. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
 <rect width="100%" height="100%" fill="#fff"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#162436">
 <text x="16" y="23" font-size="19" font-weight="bold">2019–2020: geography</text>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="360" height="437" viewBox="0 0 360 437" role="img" aria-labelledby="title desc">
 <title id="title">Institutional counts, 2025</title>
 <desc id="desc">DE · NRW: 5 · jihadist-motivated attacks nationwide | DE · Federal government: 4 · locations named in federal answer | DE · Europol: 4 · completed jihadist entries | FR · PNAT: 3 · completed jihadist-inspired attacks | FR · Europol: 2 · completed jihadist entries. Different units; no common event key or missing incident is established. Sources: NRW 2025 pp. 28, 216; Bundestag 21/4296 p. 18; PNAT bundle p. 27; TE-SAT 2026 pp. 19, 47.</desc>
-<metadata>NPCsignals internal review. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<metadata>NPCsignals. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
 <rect width="100%" height="100%" fill="#fff"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#162436">
 <text x="16" y="23" font-size="19" font-weight="bold">Institutional counts, 2025</text>

@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="435" viewBox="0 0 880 435" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="469" viewBox="0 0 880 469" role="img" aria-labelledby="title description">
 <title id="title">eu28 and fixed eu27, 2015–2019</title>
 <desc id="description">Two bars per year. Original series includes the UK; fixed EU27 excludes the UK row.</desc>
-<metadata>NPCsignals internal review. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<metadata>NPCsignals. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
 <g font-family="sans-serif">
-<rect x="0.00" y="0.00" width="880.00" height="435.00" fill="#ffffff"/>
+<rect x="0.00" y="0.00" width="880.00" height="469.00" fill="#ffffff"/>
 <text x="30" y="39" font-size="24" text-anchor="start" fill="#162436" font-weight="bold">eu28 and fixed eu27, 2015–2019</text>
 <text x="30" y="69" font-size="14" text-anchor="start" fill="#162436">left: original eu28 · right: fixed eu27</text>
 <text x="30" y="95" font-size="13" text-anchor="start" fill="#162436" font-weight="bold">reported attack entries</text>
@@ -48,5 +48,8 @@
 <text x="30" y="376" font-size="12" text-anchor="start" fill="#162436">2015: chart value 193 is unresolved; original annual total is 211.</text>
 <text x="30" y="395" font-size="12" text-anchor="start" fill="#162436">fixed geography retains national reporting differences.</text>
 <text x="30" y="419" font-size="11" text-anchor="start" fill="#162436">npcsignals · source checkpoint d1f675e</text>
+<g fill="#162436">
+<text x="30" y="447" font-size="13">sources: TE-SAT 2016–2020 attack annexes.</text>
+</g>
 </g>
 </svg>

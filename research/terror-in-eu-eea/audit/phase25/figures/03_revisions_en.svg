@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="490" viewBox="0 0 880 490" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="524" viewBox="0 0 880 524" role="img" aria-labelledby="title description">
 <title id="title">official revisions and conditional sensitivity</title>
 <desc id="description">Fixed EU27 versus conditional scenario, 2020–2023. Two markers show official revisions.</desc>
-<metadata>NPCsignals internal review. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<metadata>NPCsignals. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
 <g font-family="sans-serif">
-<rect x="0.00" y="0.00" width="880.00" height="490.00" fill="#ffffff"/>
+<rect x="0.00" y="0.00" width="880.00" height="524.00" fill="#ffffff"/>
 <text x="30" y="39" font-size="24" text-anchor="start" fill="#162436" font-weight="bold">official revisions and conditional sensitivity</text>
 <text x="30" y="68" font-size="13" text-anchor="start" fill="#162436">left: fixed eu27 · right: conditional · amber: later official</text>
 <text x="30" y="95" font-size="13" text-anchor="start" fill="#162436" font-weight="bold">reported or reallocated attack entries</text>
@@ -48,5 +48,8 @@
 <text x="30" y="424" font-size="12" text-anchor="start" fill="#162436">2015 (not shown): separate chart value 193 remains unresolved.</text>
 <text x="30" y="450" font-size="12" text-anchor="start" fill="#162436">conditional reallocation; individual joins and overlap unresolved.</text>
 <text x="30" y="474" font-size="11" text-anchor="start" fill="#162436">npcsignals · source checkpoint d1f675e</text>
+<g fill="#162436">
+<text x="30" y="502" font-size="13">sources: TE-SAT 2023 p. 9 n. 4; TE-SAT 2024 p. 51 n. 75.</text>
+</g>
 </g>
 </svg>

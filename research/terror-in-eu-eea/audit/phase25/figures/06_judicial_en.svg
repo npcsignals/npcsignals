@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="490" viewBox="0 0 880 490" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="544" viewBox="0 0 880 544" role="img" aria-labelledby="title description">
 <title id="title">judicial and organizational evidence chains</title>
-<desc id="description">Dated observations: A100 assessments and judgments, PET Holbæk summary, and Solingen sources.</desc>
-<metadata>NPCsignals internal review. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<desc id="description">Dated observations: A100 assessments and judgments, the Holbæk court announcement and PET report, and Solingen sources.</desc>
+<metadata>NPCsignals. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
 <g font-family="sans-serif">
-<rect x="0.00" y="0.00" width="880.00" height="490.00" fill="#ffffff"/>
+<rect x="0.00" y="0.00" width="880.00" height="544.00" fill="#ffffff"/>
 <text x="30" y="39" font-size="24" text-anchor="start" fill="#162436" font-weight="bold">judicial and organizational evidence chains</text>
 <rect x="30.00" y="80.00" width="820.00" height="34.00" fill="#eef3f7"/>
 <text x="44" y="103" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">A100</text>
@@ -20,7 +20,7 @@
 <rect x="30.00" y="197.00" width="820.00" height="34.00" fill="#ffffff"/>
 <text x="44" y="220" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">Holbæk</text>
 <text x="145" y="220" font-size="13" text-anchor="start" fill="#162436">2024-05-14</text>
-<text x="255" y="220" font-size="13" text-anchor="start" fill="#162436">PET reports appeal finding: attempt and financing</text>
+<text x="255" y="220" font-size="13" text-anchor="start" fill="#162436">Østre Landsret announced conviction on appeal; PET also reported it</text>
 <rect x="30.00" y="236.00" width="820.00" height="34.00" fill="#eef3f7"/>
 <text x="44" y="259" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">Solingen</text>
 <text x="145" y="259" font-size="13" text-anchor="start" fill="#162436">2025</text>
@@ -37,5 +37,9 @@
 <text x="30" y="428" font-size="12" text-anchor="start" fill="#162436">cases do not establish a shared operational command.</text>
 <text x="30" y="452" font-size="12" text-anchor="start" fill="#162436">BGH original notice 091/2026 and disposition 3 StR 55/26</text>
 <text x="30" y="474" font-size="11" text-anchor="start" fill="#162436">npcsignals · source checkpoint d1f675e</text>
+<g fill="#162436">
+<text x="30" y="502" font-size="13">Holbæk: Østre Landsret, S-25-23, 14 May 2024 (court notice); PET, same date (agency report).</text>
+<text x="30" y="522" font-size="13">A100: LG Berlin 5/2022; BGH 036/2023; TE-SAT 2023 p. 9 n. 4. Solingen: TE-SAT 2025; BGH above.</text>
+</g>
 </g>
 </svg>

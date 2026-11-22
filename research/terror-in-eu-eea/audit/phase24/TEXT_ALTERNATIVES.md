@@ -2,6 +2,17 @@
 
 Years are source reference years. All values represent reported statistical entries, with conditional scenarios in a separate column. Fixed geography does not harmonize national classification. Unresolved discrepancies are described in the [phase 23 report](../phase23/REPORT.md) and the [English editorial draft](EDITORIAL_REPORT_DRAFT.md).
 
+## lead figure · the 2019 to 2020 geography comparison
+
+| year and scope | reported attack entries |
+|---|---:|
+| 2019, original EU28 | 119 |
+| 2019, fixed EU27 | 55 |
+| 2020, original EU27 | 57 |
+| 2020, later official revision | 56 |
+
+the 2019 subtraction removes 64 UK entries. the 2020 revision is a separate observation. sources: TE-SAT 2020 p. 84, TE-SAT 2021 pp. 12 and 99, and TE-SAT 2023 p. 9 n. 4.
+
 ## 01 and 02 · geography, reported attack entries and arrests
 
 | year | original eu28 attacks | fixed eu27 attacks | fixed eu27 arrests |
@@ -18,7 +29,7 @@ Years are source reference years. All values represent reported statistical entr
 | 2024 | — | 58 | 449 |
 | 2025 | — | 45 | 486 |
 
-The original eu28 column applies through 2019; the later years have no comparable original eu28 entry. The later chart observation of 193 for 2015 is unresolved.
+The original eu28 column applies through 2019; the later years have no comparable original eu28 entry. The later chart observation of 193 for 2015 is unresolved. The 2023 reporting cohort includes 26 entries from earlier French occurrence years. Attack entries and reported arrests are separate measures. The 2023 arrest total of 426 remains separate from a later annex sum of 431; the 2025 age note uses 344 while the jihadist arrest table gives 347.
 
 ## 03 · later official revisions and conditional sensitivity
 
@@ -47,7 +58,7 @@ The conditional series uses the two later official revisions and reallocates 26 
 | 2024 | 58 | 9 | 7 | 42 |
 | 2025 | 45 | 7 | 17 | 21 |
 
-Each year's denominator is its original reporting cohort, including the uk through 2019. In 2025, 18 possible event identities relate to 17 candidate entries. The figures describe the investigation's public-source linkage coverage, not the existence of physical incidents or europol's internal evidence.
+Each year's denominator is its original reporting cohort, including the uk through 2019. In 2025, 18 possible event identities relate to 17 candidate entries. The figures describe the investigation's public-source linkage coverage, not the existence of physical incidents or europol's internal evidence. Each desktop bar is a share of that year’s original cohort. Class order is adequate, candidate and unidentified, from bottom to top. The table gives exact counts.
 
 ## 05 and 06 · institutional and judicial observations
 
@@ -75,7 +86,7 @@ the records have no shared event identifier. the totals do not identify any miss
 | A100 | 19 august 2020 | initial police and prosecutor assessment |
 | A100 | 31 january 2022 | first instance finding and psychiatric placement |
 | A100 | 16 february 2023 | federal court review, decision final |
-| holbæk | 14 may 2024 | eastern high court announced conviction on appeal, case S-25-23; PET also reported the result |
+| holbæk | 14 may 2024 | Østre Landsret announced the conviction on appeal and 16 year sentence in case S-25-23; PET reported the result in a separate agency statement |
 | solingen | 2025 | TE-SAT publication year for europol's account of contact and encouragement |
 | solingen | 12 may 2026 | federal court dismissed the appeal, 3 StR 55/26 |
 | solingen | 22 may 2026 | federal court published notice 091/2026 summarizing lower court findings about encouragement and advice |

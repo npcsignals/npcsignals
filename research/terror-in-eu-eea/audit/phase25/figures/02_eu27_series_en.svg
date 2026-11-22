@@ -1,10 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="655" viewBox="0 0 880 655" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="689" viewBox="0 0 880 689" role="img" aria-labelledby="title description">
 <title id="title">reported counts on fixed eu27 geography</title>
 <desc id="description">Eleven years of reported attacks and arrests in separate zero-based panels.</desc>
-<metadata>NPCsignals internal review. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<metadata>NPCsignals. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
 <g font-family="sans-serif">
-<rect x="0.00" y="0.00" width="880.00" height="655.00" fill="#ffffff"/>
+<rect x="0.00" y="0.00" width="880.00" height="689.00" fill="#ffffff"/>
 <text x="30" y="39" font-size="24" text-anchor="start" fill="#162436" font-weight="bold">reported counts on fixed eu27 geography</text>
+<g fill="#162436"><text x="30" y="60" font-size="15" font-weight="bold">2023 reporting cohort includes 26 entries from earlier French occurrence years.</text></g>
 <text x="30" y="78" font-size="13" text-anchor="start" fill="#162436" font-weight="bold">attack entries</text>
 <rect x="68.00" y="245.00" width="778.00" height="1.00" fill="#c9d3df"/>
 <text x="59" y="249.0" font-size="12" text-anchor="end" fill="#162436">0</text>
@@ -102,5 +103,8 @@
 <text x="30" y="584" font-size="12" text-anchor="start" fill="#162436">2015: separate chart value 193 · 2025: age denominator 347/344 unresolved.</text>
 <text x="30" y="606" font-size="12" text-anchor="start" fill="#162436">reported cohorts; physical incident frequency cannot be inferred.</text>
 <text x="30" y="639" font-size="11" text-anchor="start" fill="#162436">npcsignals · source checkpoint d1f675e</text>
+<g fill="#162436">
+<text x="30" y="667" font-size="13">sources: TE-SAT 2016–2026 annual tables; 2024 report p. 51 n. 75 for the French entries.</text>
+</g>
 </g>
 </svg>

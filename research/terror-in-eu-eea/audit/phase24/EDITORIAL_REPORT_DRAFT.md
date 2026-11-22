@@ -42,7 +42,7 @@ an adequate match has enough documentary evidence to link a named case to a stat
 
 these figures measure **this investigation's ability to link published statistical entries to available source material**. they do not establish that europol lacks internal documentation for 926 incidents, or that those incidents did not occur. a single statistical entry may have several competing event candidates. in 2025, 18 possible identities relate to 17 candidate entries.
 
-**primary illustration 03 — figure 04:** [identification coverage](../phase25/figures/04_coverage_en.svg). the figure uses each original edition’s denominator, including the uk through 2019. the counts describe matches made by this project.
+**primary illustration 03 — figure 04:** [identification coverage](../phase25/figures/04_coverage_en.svg). the figure uses each original edition’s denominator, including the uk through 2019. the counts describe matches made by this project using public sources. they do not measure europol’s internal documentation.
 
 ## what a judicial decision actually establishes
 
@@ -50,13 +50,13 @@ three judicial examples illustrate why initial classification, investigation, al
 
 in the berlin city motorway case (A100), the regional court's notice reports that the judge rejected the initial islamist attack characterization and ordered psychiatric placement after finding the accused lacked criminal responsibility. the decision became final following review on 16 february 2023. in a separate statistical record, TE-SAT 2023 p. 9 n. 4 says one german entry was no longer counted following a court ruling. the note supplies no event identifier, and A100 remains a candidate match. [c11]
 
-in the holbæk case in denmark, the [eastern high court's announcement, case S-25-23](https://domstoldk.euwest01.umbraco.io/oestrelandsret/aktuelt/2024/5/faengsel-i-16-aar-og-udvisning-for-bla-forsoeg-paa-terrorisme/) records a conviction on appeal and a 16 year sentence on 14 may 2024. the offences included attempted terrorism and terrorist financing. later review or finality beyond that appellate decision remains unverified. [c12]
+in the holbæk case in denmark, the [eastern high court's announcement, case S-25-23](https://domstoldk.euwest01.umbraco.io/oestrelandsret/aktuelt/2024/5/faengsel-i-16-aar-og-udvisning-for-bla-forsoeg-paa-terrorisme/) records a conviction on appeal and a 16 year sentence on 14 may 2024. the offences included attempted terrorism and terrorist financing. PET also reported the ruling in an agency statement. later review or finality beyond that appellate decision remains unverified. [c12]
 
 in the solingen case, the federal court of justice dismissed the appeal on **12 may 2026**; the announcement was published on **22 may**. it summarizes lower-court findings about encouragement and advice from is contacts. that finding is not equivalent to verified operational command by those contacts. [c13]
 
 the three cases illustrate different evidentiary boundaries. they are not a representative sample and do not establish a common command structure.
 
-**appendix illustration — figure 06:** [judicial evidence chains](../phase25/figures/06_judicial_en.svg). dates refer to the evidence stage shown in each row. the two May 2026 entries distinguish the decision from publication of the court notice.
+**appendix illustration — figure 06:** [judicial evidence chains](../phase25/figures/06_judicial_en.svg). dates refer to the evidence stage shown in each row. the Holbæk row cites Østre Landsret’s court announcement and identifies PET as a separate reporting source. the two may 2026 entries distinguish the decision from publication of the court notice.
 
 ## discrepancies that remain unresolved
 

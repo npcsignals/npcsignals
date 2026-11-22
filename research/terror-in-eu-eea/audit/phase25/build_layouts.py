@@ -25,7 +25,7 @@ def svg(width, height, title, description, items):
         f'viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
         f'<title id="title">{escape(title)}</title>',
         f'<desc id="desc">{escape(description)}</desc>',
-        f'<metadata>NPCsignals internal review. Statistical source commit {SOURCE}.</metadata>',
+        f'<metadata>NPCsignals. Statistical source commit {SOURCE}.</metadata>',
         '<rect width="100%" height="100%" fill="#fff"/>',
         '<g font-family="DejaVu Sans, sans-serif" fill="#162436">',
         *items, "</g>", "</svg>", "",
@@ -61,13 +61,18 @@ def lead(years):
     return svg(900, 540, title, desc, items), title, rows, (note, limit, qualification, attribution, boundary)
 
 
-def mobile(title, rows, notes):
+def mobile(title, rows, notes, lead_note=None):
     items = []
     y = 23
     for line in wrap(title, 27, break_long_words=False):
         items.append(text(16, y, line, 19, True))
         y += 24
     y += 8
+    if lead_note:
+        for line in wrap(lead_note, 41, break_long_words=False):
+            items.append(text(16, y, line, 13, True))
+            y += 18
+        y += 12
     for key, value in rows:
         left = [line for part in key.splitlines() for line in wrap(part, 19, break_long_words=False)]
         right = wrap(value, 22, break_long_words=False)
@@ -82,7 +87,7 @@ def mobile(title, rows, notes):
             items.append(text(16, y, line, 13))
             y += 18
         y += 6
-    description = " | ".join(f"{key}: {value}" for key, value in rows) + ". " + " ".join(notes)
+    description = ((lead_note + ". ") if lead_note else "") + " | ".join(f"{key}: {value}" for key, value in rows) + ". " + " ".join(notes)
     return svg(360, y, title, description, items)
 
 
@@ -100,7 +105,8 @@ def outputs():
         "Reported counts at fixed EU27", [(r["reference_year"], f'{r["fixed_eu27_attacks"]} / {r["fixed_eu27_arrests"]}') for r in a],
         ("Each row: reported attack entries / reported arrests. From 2020 the UK is outside the original series.",
          "The 2023 reporting group contains 26 earlier French attack entries; arrests 426 versus later annex sum 431. The 2015 chart value 193 and 2025 age denominator 347/344 remain unresolved.",
-         "Sources: TE-SAT 2016–2026. The series does not measure physical attack frequency."))
+         "Sources: TE-SAT 2016–2026. The series does not measure physical attack frequency."),
+        lead_note="2023 includes 26 entries from earlier French occurrence years.")
     yield "mobile/03_revisions_en.svg", mobile(
         "Revisions and conditional sensitivity", [(r["reference_year"], " / ".join(
             (r["fixed_eu27_attacks"], r["later_official_attack_revision"] or "—", r["occurrence_sensitivity_attacks"]))) for r in a[5:9]],
@@ -112,7 +118,8 @@ def outputs():
             r[k] for k in ("adequate_slots", "candidate_slots", "unidentified_slots"))) for r in a],
         ("NPCsignals public source linkage: adequate / candidate / unidentified. Each denominator is the original annual cohort: EU28 through 2019, EU27 from 2020.",
          "2025: 17 candidate entries and 18 possible identities. These counts cannot establish physical incident coverage.",
-         "Source: NPCsignals frozen crosswalk and Phase 22 annual analysis."))
+         "Source: NPCsignals frozen crosswalk and Phase 22 annual analysis."),
+        lead_note="NPCsignals public-source linkage. Original scope: EU28 through 2019; EU27 from 2020.")
     issuers = {"Bundesregierung": "Federal government"}
     institutions = read(ROOT / "audit/phase23/institutional_counts.csv")
     yield "mobile/05_institutions_en.svg", mobile(
@@ -120,8 +127,13 @@ def outputs():
         ("Different units; no common event key or missing incident is established.",
          "Sources: NRW 2025 pp. 28, 216; Bundestag 21/4296 p. 18; PNAT bundle p. 27; TE-SAT 2026 pp. 19, 47."))
     court = read(ROOT / "audit/phase23/judicial_chain.csv")
+    # Use the later court announcement without rewriting the historical input ledger.
+    for row in court:
+        if row["case"] == "Holbæk":
+            row["stage"] = "appellate conviction announced"
+            row["evidence"] = "Østre Landsret; also reported by PET"
     yield "mobile/06_judicial_en.svg", mobile(
         "Judicial and organizational evidence", [(f'{r["case"]}\n{r["date"]}',
             f'{r["stage"]}: {r["evidence"]}') for r in sorted(court, key=lambda r: (r["case"], r["date"]))],
         ("A100 linkage to the entry no longer counted by Europol remains a candidate. The cases do not establish common operational command.",
-         "Sources: LG Berlin 5/2022; BGH 036/2023; PET 14 May 2024; TE-SAT 2025; BGH 3 StR 55/26 and notice 091/2026." ))
+         "Sources: LG Berlin 5/2022; BGH 036/2023; TE-SAT 2023 p. 9 n. 4; Østre Landsret S-25-23 and PET, 14 May 2024; TE-SAT 2025; BGH 3 StR 55/26 and notice 091/2026." ))
