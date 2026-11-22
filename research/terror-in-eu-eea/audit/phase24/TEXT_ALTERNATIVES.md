@@ -1,6 +1,6 @@
 # accessible text alternatives for figures
 
-Years are source reference years. All values represent reported statistical entries, with conditional scenarios in a separate column. Fixed geography does not harmonize national classification. Unresolved discrepancies are described in the [phase 23 report](../phase23/REPORT.md) and the [English editorial draft](EDITORIAL_REPORT_DRAFT.md).
+Years are source reference years. All values represent reported statistical entries, with conditional scenarios in a separate column. Fixed geography does not harmonize national classification. Unresolved discrepancies are described in the [discrepancy register](../DISCREPANCIES.md) and [interpretation limits](../INTERPRETATION_LIMITS.md).
 
 ## lead figure · the 2019 to 2020 geography comparison
 
@@ -64,7 +64,7 @@ Each year's denominator is its original reporting cohort, including the uk throu
 
 [Institutional observations with exact counting units](../phase23/institutional_counts.csv) · [judicial observations with dates and source types](../phase23/judicial_chain.csv).
 
-[Institutional reporting analysis](../phase23/REPORT.md) · [judicial case analysis](../phase23/REPORT.md) · [English source guide](../phase25/SOURCE_GUIDE.md).
+[Institutional reporting analysis](../PHASE_21_REPORTING_MECHANISMS.md) · [judicial source provenance](../JUDICIAL_SOURCE_NOTES.md) · [English source guide](../phase25/SOURCE_GUIDE.md).
 
 
 ### institutional figures for reference year 2025

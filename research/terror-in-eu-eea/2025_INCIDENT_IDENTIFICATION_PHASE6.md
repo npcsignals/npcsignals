@@ -24,4 +24,4 @@ Baseline 6a70bbd. One French right-wing foiled slot moves from unidentified to c
 | Spain jihadist completed | 1 | 0 | 1 | 0 | Vallecas |
 | **Total** | **45** | **7** | **17** | **21** | Candidate slots represent 18 distinct candidate events. |
 
-See the [independent evidence check and candidate decisions](2025_INDEPENDENT_CROSSWALK_AUDIT_PHASE6.md), [reporting methodology](2025_EUROPOL_REPORTING_METHOD.md) and [remaining evidence](2025_EVIDENCE_GAPS_PHASE6_2026-11-18.md).
+See the [independent evidence check and candidate decisions](2025_INDEPENDENT_CROSSWALK_AUDIT_PHASE6.md), [reporting methodology](2025_EUROPOL_REPORTING_METHOD.md) and [Case evidence and source limitations](2025_CASE_EVIDENCE_NOTES.md).

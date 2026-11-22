@@ -1,6 +1,6 @@
 # Phase 22 — Controlled historical analysis, 2015–2025
 
-Internal draft · 18 November 2026 · [PR #7](https://github.com/npcsignals/npcsignals/pull/7)
+18 November 2026
 
 Verified starting head `50243a0e811420810616bd7a345559fdef05afcd` on `research/terror-eu-eea-foundation-2026`. Main was at `18ff335e85b36f072a03a19faac8ee051fb32867`. This analysis uses the existing annual registers and [Phase 18](README.md), [Phase 19](PHASE_19_REMEDIATION.md), [Phase 20](PHASE_20_EVENT_LINKAGE.md) and [Phase 21](PHASE_21_REPORTING_MECHANISMS.md) reviews.
 
@@ -52,7 +52,7 @@ Named publisher narratives and dated court records make high-profile completed e
 
 ## Readiness and validation
 
-See the [arrest and judicial measures report](PHASE_22_ARREST_AND_JUDICIAL_MEASURES.md), [visualisation specification](PHASE_22_VISUALISATION_SPEC.md) and [current publication-readiness matrix](PUBLICATION_READINESS.md#phase-22-analytical-readiness). This phase prepares internal analysis and design only.
+See the [arrest and judicial measures report](PHASE_22_ARREST_AND_JUDICIAL_MEASURES.md), [visualisation specification](PHASE_22_VISUALISATION_SPEC.md) and [interpretation limits](INTERPRETATION_LIMITS.md).
 
 From the repository root:
 

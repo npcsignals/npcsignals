@@ -1,5 +1,4 @@
-"""Verify claim-to-report parity, core numeric statements and accessible SVG metadata."""
-import re
+"""Verify the evidence ledger, core numeric statements and accessible SVG metadata."""
 from xml.etree import ElementTree
 
 from build_figures import HERE, SOURCE_COMMIT, read
@@ -9,9 +8,6 @@ def main():
     rows = read(HERE.parents[1] / "data" / "phase22_annual_analysis.csv")
     years = {int(row["reference_year"]): row for row in rows}
     claims = read(HERE / "claims.csv")
-    report = (HERE / "REPORT.md").read_text(encoding="utf-8")
-    bodies = re.findall(r"^\*\*(C\d+)\*\* (.+)$", report, re.MULTILINE)
-    assert bodies == [(claim["claim_id"], claim["exact_wording"]) for claim in claims]
     assert len({claim["claim_id"] for claim in claims}) == len(claims)
     assert {int(claim["section"]) for claim in claims} == set(range(1, 13))
     assert all(all(claim.values()) for claim in claims)
@@ -52,7 +48,7 @@ def main():
         assert svg.attrib["role"] == "img"
         assert svg.findtext(namespace + "title") and svg.findtext(namespace + "desc")
         assert SOURCE_COMMIT in svg.findtext(namespace + "metadata")
-    print(f"Verified {len(claims)} claims, 12 sections and {len(figures)} figure documents.")
+    print(f"Verified the evidence ledger ({len(claims)} claims), 12 sections and {len(figures)} figure documents.")
 
 
 if __name__ == "__main__":

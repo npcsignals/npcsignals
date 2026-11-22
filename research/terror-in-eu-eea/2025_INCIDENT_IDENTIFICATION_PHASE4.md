@@ -36,4 +36,4 @@ Italy's January travel-agency event is individually identifiable by the unique d
 
 The Thessaloniki bank explosion of 3 May was checked against early police-attributed reporting and coverage of the 2026 proceedings. Those sources do not establish an other/unspecified terrorist designation or a submission link. It remains outside the candidate allocation. The Maltese court results reviewed did not supply a matched terrorist event. Belgium's OCAM publishes threat reports, while the federal prosecutor confirms judicial proceedings for Antwerp. Neither supplies the second TE-SAT event identity.
 
-The source IDs for these findings resolve through the [additional source register](data/terror_2025_additional_sources.csv) or the [existing jihadist register](data/jihadist_2025_sources.csv). See the [dated case and gap register](2025_EVIDENCE_GAPS_PHASE4_2026-11-18.md).
+The source IDs for these findings resolve through the [additional source register](data/terror_2025_additional_sources.csv) or the [existing jihadist register](data/jihadist_2025_sources.csv). See the [Case evidence and source limitations](2025_CASE_EVIDENCE_NOTES.md).

@@ -17,3 +17,6 @@ python3 -B "$root/audit/phase23/verify_package.py"
 ```
 
 Expected Phase 18 audit SHA-256 `fc351da07034e81754741f8fc3963855d62627747c84e366f634f9fcb5a6ab9f`. Expected Phase 22 analytical dataset SHA-256 `d88bbcae61083b791dc253f834d754767618f96e90c3d960ac41fa23ef02507d`. [Figure captions](FIGURES.md) identify exact data fields and sources and remain part of any reviewable export.
+
+
+The current package check validates the evidence ledger, statistical values and SVG metadata. The original draft-to-ledger wording check belongs to the historical editorial package.

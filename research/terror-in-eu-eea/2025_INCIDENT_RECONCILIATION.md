@@ -20,18 +20,10 @@ German official roster: [Bundestag 21/4296, answer 29](https://dserver.bundestag
 
 Munich 57 and Bielefeld 4 are explicit TE-SAT incident counts. Villach is explicitly described with one death and several injured. Thus 61 injuries are numerically specified by Europol in the two named German examples, leaving 20 of the EU 81 to account for before adding any other counts. National values may have a different observation basis. No full nine-row victim ledger is claimed. The source-specific injury figures in the CSV package must never be added across alternative counts of the same event. Munich's official series confirms 57/81 (70.37%) using Europol values.
 
-## Publication readiness
+## Later source evidence
 
-Ready for internal review: original EU aggregates and three identifiable Europol case examples, national Vallecas proceeding, candidate roster and source-linked judicial snapshots. An exact nine-event EU list and EU casualty reconciliation remain open.
 
-1. Find existing public national submission records or an official incident crosswalk for FR, IE and ES, and reconcile the Essen age discrepancy. Retrieve the French and Irish reporting cutoff and outcome definitions.
-2. Check published BGH decisions for Berlin and Bielefeld and obtain the full first-instance judgment or case reference where missing. Check revision filings and/or later finality for Munich and Essen. Follow Berlin's separate alleged-assistance proceeding.
-3. Obtain Irish Special Criminal Court sentencing orders, charge-level sentences and appeal record. Retrieve the Vallecas detention order, any merits indictment, subsequent status and outcome. Check Lyon's transfer and formal suspect status, Apt's judicial investigation status and the latest Mulhouse proceedings.
-4. Obtain primary casualty definitions and observation dates for Munich, and close remaining event counts without imputing the EU residual.
-5. Check available court findings on case-specific assistance, finance, tasking and command. Preserve unknowns where documents are unavailable. Independent source and editorial review remain pending. The broader 31-country, multi-ideology 2025 incident census remains outside this priority package.
-
-## Follow-up — 2026-11-18
 
 The [DNRT transcript and reporting chronology](FRANCE_2025_PNAT_VS_EUROPOL_DISCREPANCY.md) provide a French match lead independent of casualty arithmetic. The earliest French two-incident count found names Mulhouse and describes a southern incident consistent with Apt. It is an October 2025 snapshot and supplies no Europol crosswalk. Lyon remains in the national records.
 
-The [dated follow-up and consolidated evidence gaps](2025_EVIDENCE_FOLLOW_UP_2026-11-18.md) records the check of Essen, judicial progress, relationship review and additional casualty observations.
+The [case evidence and source limitations](2025_CASE_EVIDENCE_NOTES.md) records the check of Essen, judicial progress, relationship review and additional casualty observations.

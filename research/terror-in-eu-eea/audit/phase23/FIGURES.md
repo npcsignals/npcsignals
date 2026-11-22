@@ -1,4 +1,4 @@
-# figure captions for internal review
+# figure captions and source data
 
 The shared statistical source checkpoint is [phase 22 commit d1f675e](https://github.com/npcsignals/npcsignals/commit/d1f675eb785db712655c6952e43f3a57dd31f66c). [Build instructions](BUILD.md) describe how to reproduce the original six SVGs. Their metadata also records the source commit. The [claim register](claims.csv) provides source locators for corresponding report statements.
 
@@ -13,6 +13,4 @@ The shared statistical source checkpoint is [phase 22 commit d1f675e](https://gi
 
 [English geographic comparison for 2019–2020](../phase25/figures/01_2019_2020_geography.svg) and [its accessible alternative](../phase25/figures/01_2019_2020_geography_ALT.md).
 
-**release warning:** the inherited SVG images and their generator have not yet been fully converted to English. captions in this file are English, but attached graphics must not be described as fully English or approved for mobile export.
-
-[Original narrow-screen text alternatives](../phase24/TEXT_ALTERNATIVES.md) remain subject to language remediation.
+[English figures and validated mobile layouts](../phase25/FIGURE_VALIDATION.md) · [Text alternatives](../phase24/TEXT_ALTERNATIVES.md).

@@ -26,4 +26,4 @@ Baseline 65b8bb5. The [Phase 4 criteria](2025_INCIDENT_IDENTIFICATION_PHASE4.md)
 
 The Vienna Westbahnhof and two French projects move three slots from unidentified to candidate. The August case has a reported formal investigation for one jihadist-inspired project; its exact disruption threshold is still unverified. The October case is reported as one intervention involving three suspects. No candidate was upgraded to adequate. The Brussels mosque plot is a domestic record with a suspected right-wing motive and does not occupy the Belgian other/unspecified cell.
 
-See the [research record and remaining gaps](2025_EVIDENCE_GAPS_PHASE5_2026-11-18.md).
+See the [Case evidence and source limitations](2025_CASE_EVIDENCE_NOTES.md).

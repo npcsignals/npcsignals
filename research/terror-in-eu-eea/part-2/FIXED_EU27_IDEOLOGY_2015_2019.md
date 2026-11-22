@@ -19,7 +19,7 @@ The first five original Europol cohorts in this investigation use EU28. For comp
 - The fixed-EU27 jihadist category totals for these five reporting years are 17, 13, 19, 20 and 18. This is a narrow observation about the published statistical categories, not a claim that risk, fatalities, ideological influence or actual event incidence stayed constant.
 - The fixed-EU27 left-wing/anarchist category totals are 13, 27, 24, 19 and 26. These are a combined category; they do not identify anarchist-only events or any particular organisation.
 - The separatist EU27 remainder moves from 65 in 2015 to one in 2019. That large variation must not be attributed to an organisational collapse without event-level, national and reporting-practice evidence.
-- The 2015 original publication contains an unresolved figure/text conflict (193 versus 211). The table uses the annex-reconciled 211, as Part 1 does.
+- The original edition reports 211 for 2015. A later Europol chart gives 193, an unresolved discrepancy. The table uses the annex-reconciled 211, as Part 1 does.
 - The 2018 Dutch annex contains a printed cell inconsistency documented in Part 1; the table uses its reconciled 129 total.
 
 ## Implications for organisational research

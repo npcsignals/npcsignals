@@ -25,3 +25,6 @@ python3 -B "$root/audit/phase25/verify_layouts.py"
 ```
 
 The last check requires Inkscape. It measures text bounds, validates title/description metadata and tests minimum mobile text size and left-column clearance. For a raster review, export each desktop SVG with `inkscape INPUT.svg -w 900 -o OUTPUT.png` and each dedicated mobile SVG with width 360. The builder without `--check` regenerates the 14 tracked SVGs. The original six Phase 23 SVGs are preserved.
+
+
+The original 880–900 px reviews found that labels and notes on the desktop exports can be too small when reduced to 360 px. The dedicated mobile versions and linked text alternatives preserve the exact values, scope and provenance at narrow widths. The layout test checks bounds and metadata. It does not certify accessibility in readers or on external platforms.

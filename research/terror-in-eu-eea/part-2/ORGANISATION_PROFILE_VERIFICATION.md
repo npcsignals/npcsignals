@@ -26,7 +26,7 @@ This is a documentary control sheet for Part 2, not a finding of organisational 
 4. Build an event-to-organisation register recording each relationship type and source, including negative evidence boundaries.
 5. Only after source validation, attempt comparative organisational histories and target/attack analyses.
 
-**Publication gate:** no organisation-wide attack totals, membership estimates or command claims should be published without the relevant primary-source and event-level support. Missing documentation is an unresolved question, not evidence of absence.
+**Evidence limit:** no organisation-wide attack totals, membership estimates or command claims should be published without the relevant primary-source and event-level support. Missing documentation is an unresolved question, not evidence of absence.
 
 ## Primary-document upgrade, 20 November 2026
 

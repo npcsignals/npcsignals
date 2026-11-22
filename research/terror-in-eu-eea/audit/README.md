@@ -3,13 +3,13 @@
 The recalculation uses source tables and recorded allocations. Its original audit baseline is `3280084` (18 November 2026).
 
 - [Recalculated statistical series](recalculated.csv) and [validation script](recalculate.py)
-- [Source integrity and legal evidence](EVIDENCE.md)
+- [Source integrity and legal evidence](EVIDENCE.md) and [judicial source provenance](JUDICIAL_SOURCE_NOTES.md)
 - [Report retrieval ledger](source_integrity.csv) and [2025 arrest rows](arrests_2025.csv)
 - [Phase 18 discrepancies and corrections](DISCREPANCIES.md)
 - [Phase 19 evidence remediation](PHASE_19_REMEDIATION.md)
 - [Phase 20 event linkage](PHASE_20_EVENT_LINKAGE.md)
 - [Phase 21 reporting mechanisms, denominator and evidence priorities](PHASE_21_REPORTING_MECHANISMS.md)
-- [Phase 22 controlled historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md)
+- [Phase 22 controlled historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md) and [interpretation limits](INTERPRETATION_LIMITS.md)
 
 ## Statistical controls
 

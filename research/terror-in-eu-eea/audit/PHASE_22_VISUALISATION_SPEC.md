@@ -1,6 +1,6 @@
 # Phase 22 — Reproducible visualisation specification
 
-Internal specification. Inputs are versioned in this research tree. Use reference years as integers, source-provenance in captions or hover detail, accessible labels alongside colour and explicit missing-value handling. Do not connect across missing official revisions. For an export, record the Git commit and output of both CSV comparisons in the [historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md#readiness-and-validation).
+Inputs are versioned in this research tree. Use reference years as integers, source-provenance in captions or hover detail, accessible labels alongside colour and explicit missing-value handling. Do not connect across missing official revisions. For an export, record the Git commit and output of both CSV comparisons in the [historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md#readiness-and-validation).
 
 | Visual | Source, population and unit | Reproducible construction | Caption and inference boundary |
 |---|---|---|---|
@@ -11,4 +11,4 @@ Internal specification. Inputs are versioned in this research tree. Use referenc
 | **Institutional reporting differences** | [Reporting chain](phase21_reporting_chain.csv), [denominators](phase21_denominators.csv) and Phase 21 case studies | Use a grouped institutional table or two compact diagrams. Only draw documented transitions as solid edges; render unknown national-to-EU joins explicitly. Show DE 5/4/4 and FR 3/2 with agency, period, and scope adjacent to values. | Distinct administrative, intelligence, prosecutorial and statistical units. Count differences do not identify omitted events or establish a direct data flow. |
 | **Judicial and organisational evidence chains** | [Case sample](PHASE_22_ARREST_AND_JUDICIAL_MEASURES.md#case-sample-and-evidence-level) and its source IDs, selected cases | Use a case-level timeline with source type, procedural stage and dates. Show only documented relationship claims with predicate and evidence status. Keep allegations, official attribution, judgment and finality in separate labels. | An appeal announcement, inquiry assessment or responsibility claim establishes only its stated scope. Edges do not establish shared command, financing or a comparative organisational rate. |
 
-No visual has been deployed or released. Visual assembly should use the exact counts in the CSV rather than rounded display percentages.
+Visual assembly should use the exact counts in the CSV rather than rounded display percentages.

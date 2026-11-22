@@ -1,6 +1,6 @@
 # Phase 22 — Arrest measures and case-specific judicial evidence
 
-Internal draft · [Historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md) · [Denominator register](phase21_denominators.csv)
+[Historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md) · [Denominator register](phase21_denominators.csv)
 
 ## Arrests and adjudication
 

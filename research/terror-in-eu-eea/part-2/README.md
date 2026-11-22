@@ -18,7 +18,7 @@ An official category tells you how an entry was reported. A court can establish 
 - [Fixed EU27 ideological categories, 2015–2019](FIXED_EU27_IDEOLOGY_2015_2019.md)
 - [Comparative case evidence: ideology, claims, membership and command](ATTRIBUTION_COMPARISON.md)
 - [Claims, ideological influence and reported contacts: 2022 cases](CLAIMS_AND_INFLUENCE_2022.md)
-- [Source register](SOURCES.md)
+- [Source register](SOURCES.md) and [documented evidence corrections](EVIDENCE_PROVENANCE.md)
 - [Part 1 methodology](../METHODOLOGY.md)
 
 - [Greek and Italian judgment-to-incident crosswalk](JUDGMENT_INCIDENT_CROSSWALK.md) — conservative event-ID mapping; no unverified direct judicial joins.

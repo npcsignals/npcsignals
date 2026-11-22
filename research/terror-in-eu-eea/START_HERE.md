@@ -25,12 +25,12 @@ The **31-country research area** includes the current EU27, the United Kingdom, 
 
 - [2015–2025 comparability](COMPARABILITY_2015_2025.md), [consolidated statistical reconciliation](STATISTICAL_RECONCILIATION_2015_2025.md) and [analytical dataset](data/phase22_annual_analysis.csv)
 - Annual records: [2015](2015/BASELINE.md) · [2016](2016/BASELINE.md) · [2017](2017/BASELINE.md) · [2018](2018/BASELINE.md) · [2019](2019/BASELINE.md) · [2020](2020/BASELINE.md) · [2021](2021/BASELINE.md) · [2022](2022/BASELINE.md) · [2023](2023/BASELINE.md) · [2024](2024/BASELINE.md) · [2025](2025_INCIDENT_IDENTIFICATION_PHASE6.md)
-- [Figures, captions and data tables](EVIDENCE_FIGURES.md)
+- [Figures, captions and data tables](EVIDENCE_FIGURES.md) and [annual evidence notes](audit/ANNUAL_EVIDENCE_NOTES.md)
 
 ## Actors, organisations and case studies
 
 - [Ideologies, organisations and attribution](part-2/README.md) and [comparative case evidence](part-2/ATTRIBUTION_COMPARISON.md)
-- [Selected 2025 case records](incidents/) and [judicial and arrest measures](audit/PHASE_22_ARREST_AND_JUDICIAL_MEASURES.md)
+- [Selected 2025 case records](incidents/), [case evidence and source limitations](2025_CASE_EVIDENCE_NOTES.md) and [judicial and arrest measures](audit/PHASE_22_ARREST_AND_JUDICIAL_MEASURES.md)
 
 ## Primary sources and datasets
 

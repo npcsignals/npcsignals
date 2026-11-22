@@ -1,12 +1,12 @@
 # phase 25 — reader-facing source guide
 
-internal evidence presentation · 18 november 2026 · not publication clearance
+source notes · 18 november 2026
 
 ## citation conventions
 
-- each claim reference in the [editorial report](../phase24/EDITORIAL_REPORT_DRAFT.md) maps to the [audited claim register](../phase23/claims.csv). these are traceability identifiers, not substitutes for readable citations.
+- the numbered references map to the [audited claim register](../phase23/claims.csv), a record of the earlier statistical and source checks. these are traceability identifiers, not substitutes for readable citations.
 - original reporting cohorts, later official revisions and conditional calculations are different evidence classes. retain the distinction in article text and graphics.
-- source links below point to known original publications or internal evidence records. page numbers are printed pages as recorded in the audited claim register; PDF viewer pagination may differ.
+- source links below point to known original publications or repository evidence records. page numbers are printed pages as recorded in the audited claim register; PDF viewer pagination may differ.
 - all eleven edition PDFs were reopened and checked at the linked statistical pages. the [source register](REOPENED_SOURCES.csv) contains exact URLs, edition dates, locators and fingerprints. the [claim matrix](CLAIM_VERIFICATION.csv) states which propositions each passage supports.
 
 ## annual original editions
@@ -38,8 +38,8 @@ internal evidence presentation · 18 november 2026 · not publication clearance
 | holbæk | c12 | [Østre Landsret announcement, case S-25-23, 14 May 2024](https://domstoldk.euwest01.umbraco.io/oestrelandsret/aktuelt/2024/5/faengsel-i-16-aar-og-udvisning-for-bla-forsoeg-paa-terrorisme/); [appellate judgment reproduction, printed pp. 47–48 and operative conclusion](https://openlaw.dk/sag/oestre-landsret/ss-25-2023-olr-b6315fc7); PET statement of 14 may 2024 (separate agency reporting); [relationship record](../../2021/proceedings_relationships.csv). the appellate conviction is documented; any further review and external operational command remain unverified. |
 | solingen | c13 | [federal court of justice notice 091/2026](https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2026/2026091.html), decision 12 may 2026, notice 22 may 2026; TE-SAT 2025 assessment. encouragement/advice is not proof of operational command. |
 | unresolved numerical conflicts | c16–c18 | **2015: TE-SAT 2016 pp. 10–11 and 44 report 211; the *later* TE-SAT 2017 p. 10 also says 211, but its p. 11 figure 1 plots 193.** For 2016 injuries, TE-SAT 2017 pp. 10, 23–24 and 49 give the unreconciled 379 / 374 / three-event 597 observations. TE-SAT 2024 pp. 51, 63; TE-SAT 2026 pp. 18, 22, 27 n. 36, 49–52; French Senate answer 03246 p. 4146 support other distinct discrepancies. Retain all as unreconciled observations, not corrected values. |
-| supported conclusions and limits | c19–c20 | [phase 22 historical analysis](../PHASE_22_HISTORICAL_ANALYSIS.md), [denominator decisions](../phase21_denominators.csv), [publication readiness](../PUBLICATION_READINESS.md). no physical incident census or cross-year command trend. |
+| supported conclusions and limits | c19–c20 | [phase 22 historical analysis](../PHASE_22_HISTORICAL_ANALYSIS.md), [denominator decisions](../phase21_denominators.csv), [interpretation limits](../INTERPRETATION_LIMITS.md). no physical incident census or cross-year command trend. |
 
 ## review status
 
-The [direct-source verification](DIRECT_SOURCE_VERIFICATION.md) records the remaining evidence limits. All claims remain subject to independent human editorial review and explicit publication authorization.
+The [direct-source verification](DIRECT_SOURCE_VERIFICATION.md) records the remaining evidence limits.
