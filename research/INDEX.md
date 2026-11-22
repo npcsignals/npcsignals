@@ -26,5 +26,7 @@ one entrance per subject. start with the short explanation, then follow the repo
 
 ## methods and historical frameworks
 
+- **[european terrorism reporting, 2015–2025](terror-in-eu-eea/START_HERE.md)** — statistical records, case evidence and source comparisons.
+
 - **[ai trading-performance narratives](ai-performance-narrative-audit-2026/START_HERE.md)** — archived.
 - **[gen z political participation: early framework](gcr-01/README.md)** — archived.
