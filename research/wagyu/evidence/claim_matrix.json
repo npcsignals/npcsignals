@@ -1,0 +1,240 @@
+[
+  {
+    "id": "c01",
+    "claim": "preserved 36-account baseline holds 3,586.887420 xmr1",
+    "classification": "CONFIRMED",
+    "sources": "s10",
+    "scope_or_gap": "saved checkpoint cutoff only; not a new account recheck"
+  },
+  {
+    "id": "c02",
+    "claim": "historical execution acquisition cost 2,029,761.5937 usdc",
+    "classification": "CONFIRMED",
+    "sources": "s10",
+    "scope_or_gap": "execution cost; not all-in cost or guaranteed recovery"
+  },
+  {
+    "id": "c03",
+    "claim": "no new fills/ledger events in baseline period",
+    "classification": "CONFIRMED",
+    "sources": "s10",
+    "scope_or_gap": "within returned api coverage; off-platform events unknown"
+  },
+  {
+    "id": "c04",
+    "claim": "formal wagyu establishment date",
+    "classification": "UNRESOLVED",
+    "sources": "s07,s13",
+    "scope_or_gap": "domain capture and operator duration are not incorporation evidence"
+  },
+  {
+    "id": "c05",
+    "claim": "xmr1 identity, genesis allocation and deployment metadata",
+    "classification": "CONFIRMED",
+    "sources": "s01",
+    "scope_or_gap": "API timestamp strings lack timezone suffix; reproduced verbatim"
+  },
+  {
+    "id": "c06",
+    "claim": "fixed inventory automatically proves matched monero reserves",
+    "classification": "UNRESOLVED",
+    "sources": "s01,s04",
+    "scope_or_gap": "no automatic proof or reserve/liability audit retrieved"
+  },
+  {
+    "id": "c07",
+    "claim": "shared original deployer for xmr1, zec1, tao1 and trx1",
+    "classification": "CONFIRMED",
+    "sources": "s01",
+    "scope_or_gap": "does not prove identical native custody or servers"
+  },
+  {
+    "id": "c08",
+    "claim": "5,200,000 xmr1 sent issuer to seller in three entries",
+    "classification": "CONFIRMED",
+    "sources": "s02",
+    "scope_or_gap": "matched hashes and quantities; authorization not established"
+  },
+  {
+    "id": "c09",
+    "claim": "369,622.92 sold after funding through 13:00 utc",
+    "classification": "CONFIRMED",
+    "sources": "s03",
+    "scope_or_gap": "raw fills; 13,507,983.519996 usdc gross; specific time window"
+  },
+  {
+    "id": "c10",
+    "claim": "374,843.15 sold after funding through last returned sale",
+    "classification": "CONFIRMED",
+    "sources": "s03",
+    "scope_or_gap": "13,513,203.749996 gross less 8,112.81099269 fees"
+  },
+  {
+    "id": "c11",
+    "claim": "november price collapse on exact token @260",
+    "classification": "CONFIRMED",
+    "sources": "s10,s01",
+    "scope_or_gap": "minute bars and account fills; no invented intraminute timestamp"
+  },
+  {
+    "id": "c12",
+    "claim": "7,348.333000303897411894 eth in three chain/address positions",
+    "classification": "CONFIRMED",
+    "sources": "s09",
+    "scope_or_gap": "dated fixed-block observations; two distinct literal addresses"
+  },
+  {
+    "id": "c13",
+    "claim": "all conversion and bridge stages fully allocated to proceeds",
+    "classification": "UNRESOLVED",
+    "sources": "s02,s03,s09",
+    "scope_or_gap": "sampled receipts and end balances do not close complete route"
+  },
+  {
+    "id": "c14",
+    "claim": "hosting security incident occurred",
+    "classification": "SUPPORTED",
+    "sources": "s08",
+    "scope_or_gap": "joint notice available as media reproduction; direct retrieval blocked"
+  },
+  {
+    "id": "c15",
+    "claim": "wagyu key exposure caused by that hosting incident",
+    "classification": "UNRESOLVED",
+    "sources": "s07,s08",
+    "scope_or_gap": "operator explanation; no independent forensic chain"
+  },
+  {
+    "id": "c16",
+    "claim": "october data exposure acknowledgement",
+    "classification": "CONFIRMED",
+    "sources": "s07",
+    "scope_or_gap": "statement verified; scope/loss assertions remain operator claims"
+  },
+  {
+    "id": "c17",
+    "claim": "october disclosure caused november key incident",
+    "classification": "UNRESOLVED",
+    "sources": "s07,s08",
+    "scope_or_gap": "no established causal link"
+  },
+  {
+    "id": "c18",
+    "claim": "native monero reserves before/after incident",
+    "classification": "UNRESOLVED",
+    "sources": "s04,s05",
+    "scope_or_gap": "no independent scoped assets/liabilities attestation retrieved"
+  },
+  {
+    "id": "c19",
+    "claim": "native monero redemption by frogman accounts",
+    "classification": "UNRESOLVED",
+    "sources": "s10",
+    "scope_or_gap": "neither absence nor completion established"
+  },
+  {
+    "id": "c20",
+    "claim": "complete compensation rules, snapshot and exclusions",
+    "classification": "UNRESOLVED",
+    "sources": "s07,s12",
+    "scope_or_gap": "not obtained in complete primary form"
+  },
+  {
+    "id": "c21",
+    "claim": "13,662 hxmr outgoing in three treasury sends",
+    "classification": "CONFIRMED",
+    "sources": "s12",
+    "scope_or_gap": "purpose and beneficiary entitlements unverified"
+  },
+  {
+    "id": "c22",
+    "claim": "those sends are completed compensation payments",
+    "classification": "UNRESOLVED",
+    "sources": "s12",
+    "scope_or_gap": "observable transfers are not an entitlement/payment reconciliation"
+  },
+  {
+    "id": "c23",
+    "claim": "frogman-related accounts received compensation",
+    "classification": "UNRESOLVED",
+    "sources": "s10,s12",
+    "scope_or_gap": "none documented in original account data; alternate payout accounts unknown"
+  },
+  {
+    "id": "c24",
+    "claim": "hxmr separate identity and separate genesis vault",
+    "classification": "CONFIRMED",
+    "sources": "s01",
+    "scope_or_gap": "not interchangeable with old token by ticker similarity"
+  },
+  {
+    "id": "c25",
+    "claim": "hxmr deployer and inventory vault configured two-of-three",
+    "classification": "CONFIRMED",
+    "sources": "s06",
+    "scope_or_gap": "same three returned signer addresses; independence unknown"
+  },
+  {
+    "id": "c26",
+    "claim": "new controls guarantee native custody security",
+    "classification": "UNRESOLVED",
+    "sources": "s06",
+    "scope_or_gap": "off-chain custody, key isolation and reserve assets unverified"
+  },
+  {
+    "id": "c27",
+    "claim": "current docs close xmr1 and accept hxmr for new bridge flows",
+    "classification": "CONFIRMED",
+    "sources": "s05",
+    "scope_or_gap": "operator documentation, not transaction availability or legal ruling"
+  },
+  {
+    "id": "c28",
+    "claim": "published new fees 0% deposit and 2% withdrawal",
+    "classification": "CONFIRMED",
+    "sources": "s05",
+    "scope_or_gap": "documentation observation; no live signed swap attempted"
+  },
+  {
+    "id": "c29",
+    "claim": "all old-token holders have an enforceable migration right",
+    "classification": "NOT ASSESSED",
+    "sources": "s05,s07",
+    "scope_or_gap": "legal enforceability not assessed; no universal conversion demonstrated"
+  },
+  {
+    "id": "c30",
+    "claim": "frogman and wagyu share a controller",
+    "classification": "UNRESOLVED",
+    "sources": "s02,s10",
+    "scope_or_gap": "shared token exposure establishes no identity or coordination"
+  },
+  {
+    "id": "c31",
+    "claim": "verified current realizable value of all frogman holdings",
+    "classification": "UNRESOLVED",
+    "sources": "s10",
+    "scope_or_gap": "mark, midpoint and static bid illustration are distinct from executed proceeds"
+  },
+  {
+    "id": "c32",
+    "claim": "complete historical holder concentration at incident snapshot",
+    "classification": "NOT ASSESSED",
+    "sources": "s01",
+    "scope_or_gap": "issuer current inventory assessed; exhaustive historical holder ranking not retrieved"
+  },
+  {
+    "id": "c33",
+    "claim": "independent signers, hardware custody, native reserve multisig",
+    "classification": "UNRESOLVED",
+    "sources": "s06",
+    "scope_or_gap": "public account threshold alone cannot establish these assertions"
+  },
+  {
+    "id": "c34",
+    "claim": "all refunds completed",
+    "classification": "UNRESOLVED",
+    "sources": "s07,s12",
+    "scope_or_gap": "operator majority/payment-plan claim is not independently reconciled"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "url": "https://web.archive.org/cdx/search/cdx?url=wagyu.xyz&output=json&filter=statuscode:200&filter=mimetype:text/html&collapse=timestamp:6&filter=timestamp:202[56].*&limit=30",
+  "request": null,
+  "started_utc": "2026-11-25T04:56:14.768652+00:00",
+  "http_status": 200,
+  "retrieved_utc": "2026-11-25T04:56:18.537492+00:00",
+  "sha256": "0e5c1cfc59c81f9967d69889b522ef691d663355963ee83e1a9df6898dab638b"
+}

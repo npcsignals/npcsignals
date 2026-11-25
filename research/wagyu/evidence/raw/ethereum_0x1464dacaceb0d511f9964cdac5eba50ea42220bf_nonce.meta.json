@@ -1,0 +1,16 @@
+{
+  "url": "https://mainnet.gateway.tenderly.co",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionCount",
+    "params": [
+      "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+      "0x1943460"
+    ]
+  },
+  "started_utc": "2026-11-25T04:58:00.335331+00:00",
+  "http_status": 200,
+  "retrieved_utc": "2026-11-25T04:58:03.536599+00:00",
+  "sha256": "e2585c04a540f906f9c59eda11a23e0a0306beb621b27d7498bc38d2ba3320c9"
+}

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Changelog · Wagyu Docs</title>
+<meta name="description" content="Changes to the Wagyu API and its products that integrators need to act on, newest first, from the HXMR launch and the XMR1 and ZEC1 closures to the paused error code and the site notice.">
+<link rel="canonical" href="https://docs.wagyu.xyz/changelog">
+<link rel="alternate" type="text/markdown" href="/changelog.md" title="This page as Markdown">
+<meta name="theme-color" content="#0081ff">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Wagyu Docs">
+<meta property="og:title" content="Changelog">
+<meta property="og:description" content="Changes to the Wagyu API and its products that integrators need to act on, newest first, from the HXMR launch and the XMR1 and ZEC1 closures to the paused error code and the site notice.">
+<meta property="og:url" content="https://docs.wagyu.xyz/changelog">
+<meta property="og:image" content="https://docs.wagyu.xyz/brand/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/brand/icon.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/brand/icon.png">
+<link rel="preload" href="/fonts/nunito-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.937c0a510b.css">
+<script src="/assets/theme.6022e36dea.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"Changelog","description":"Changes to the Wagyu API and its products that integrators need to act on, newest first, from the HXMR launch and the XMR1 and ZEC1 closures to the paused error code and the site notice.","url":"https://docs.wagyu.xyz/changelog","dateModified":"2026-11-24T15:11:30.694Z","inLanguage":"en","publisher":{"@type":"Organization","name":"Wagyu","url":"https://wagyu.xyz","logo":"https://docs.wagyu.xyz/brand/icon.png"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Docs","item":"https://docs.wagyu.xyz/"},{"@type":"ListItem","position":2,"name":"Changelog","item":"https://docs.wagyu.xyz/changelog"}]}]}</script>
+</head>
+<body class="guide">
+<a class="skip" href="#content">Skip to content</a>
+<header class="topbar">
+  <div class="topbar-inner">
+    <button class="pill icon-btn menu-btn" type="button" data-menu aria-label="Open navigation" aria-expanded="false"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16"/> <path d="M4 12h16"/> <path d="M4 19h16"/></svg></button>
+    <nav class="pill pill-main" aria-label="Main">
+      <a class="brand" href="/"><img src="/brand/logo.png" alt="" width="26" height="25"><span>Wagyu</span><span class="brand-sub">Docs</span></a>
+      <a href="/getting-started" class="tab active">Guides</a><a href="/api-reference" class="tab">API reference</a><a href="/mcp" class="tab">AI agents</a>
+    </nav>
+    <div class="pill pill-actions">
+      <button class="search-btn" type="button" data-search-open aria-label="Search the docs"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 21-4.34-4.34"/> <circle cx="11" cy="11" r="8"/></svg><span>Search</span><kbd>Ctrl K</kbd></button>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch between light and dark"><svg class="icon i-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg><svg class="icon i-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/> <path d="M12 2v2"/> <path d="M12 20v2"/> <path d="m4.93 4.93 1.41 1.41"/> <path d="m17.66 17.66 1.41 1.41"/> <path d="M2 12h2"/> <path d="M20 12h2"/> <path d="m6.34 17.66-1.41 1.41"/> <path d="m19.07 4.93-1.41 1.41"/></svg></button>
+      <a class="app-btn" href="https://wagyu.xyz">Open app <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/> <path d="M7 17 17 7"/></svg></a>
+    </div>
+  </div>
+  
+</header>
+<div class="layout">
+  <aside class="sidebar" id="sidebar" aria-label="Documentation">
+    <nav><div class="nav-section"><p class="nav-title">Get started</p><ul><li><a href="/" class="">Overview</a></li><li><a href="/getting-started" class="">Quickstart</a></li><li><a href="/authentication" class="">API keys and fees</a></li><li><a href="/chains" class="">Chains and tokens</a></li><li><a href="/changelog" class="active" aria-current="page">Changelog</a></li></ul></div><div class="nav-section"><p class="nav-title">Build a swap</p><ul><li><a href="/order-lifecycle" class="">Order lifecycle</a></li><li><a href="/deposits" class="">Deposits and refunds</a></li><li><a href="/money-and-settlement" class="">Amounts and fees</a></li><li><a href="/actions-and-retries" class="">Errors, limits, retries</a></li><li><a href="/live-updates" class="">Live updates</a></li></ul></div><div class="nav-section"><p class="nav-title">More products</p><ul><li><a href="/native-bridge" class="">Bridge: XMR to HXMR</a></li><li><a href="/public-data" class="">Public data and stats</a></li></ul></div><div class="nav-section"><p class="nav-title">AI agents</p><ul><li><a href="/mcp" class="">MCP server</a></li><li><a href="/agent-handoff" class="">Build with an AI agent</a></li></ul></div><div class="nav-section"><p class="nav-title">API reference</p><ul><li><a href="/api-reference" class="">Overview</a></li><li><details class="nav-group"><summary>Swaps</summary><ul><li><a href="/api-reference/get-swap-terms" class="ref"><span class="m m-get">GET</span><span>Get swap terms</span></a></li><li><a href="/api-reference/get-swap-assets" class="ref"><span class="m m-get">GET</span><span>List chains and featured tokens</span></a></li><li><a href="/api-reference/get-swap-asset-tokens" class="ref"><span class="m m-get">GET</span><span>Search tokens</span></a></li><li><a href="/api-reference/quote-swap" class="ref"><span class="m m-post">POST</span><span>Quote a swap</span></a></li><li><a href="/api-reference/create-swap-order" class="ref"><span class="m m-post">POST</span><span>Create a swap order</span></a></li><li><a href="/api-reference/get-swap-order" class="ref"><span class="m m-get">GET</span><span>Read a swap order</span></a></li><li><a href="/api-reference/get-swap-fills" class="ref"><span class="m m-get">GET</span><span>List Hyperliquid fills</span></a></li><li><a href="/api-reference/resolve-coinflip" class="ref"><span class="m m-put">PUT</span><span>Answer a swap’s bonus flip</span></a></li></ul></details></li><li><details class="nav-group"><summary>Bridge</summary><ul><li><a href="/api-reference/get-bridge-terms" class="ref"><span class="m m-get">GET</span><span>Get bridge terms</span></a></li><li><a href="/api-reference/quote-bridge" class="ref"><span class="m m-get">GET</span><span>Quote a bridge amount</span></a></li><li><a href="/api-reference/create-bridge-order" class="ref"><span class="m m-post">POST</span><span>Create a bridge order</span></a></li><li><a href="/api-reference/get-bridge-order" class="ref"><span class="m m-get">GET</span><span>Read a bridge order</span></a></li></ul></details></li><li><details class="nav-group"><summary>Orders</summary><ul><li><a href="/api-reference/delete-order" class="ref"><span class="m m-delete">DEL</span><span>Delete an order</span></a></li><li><a href="/api-reference/list-session-orders" class="ref"><span class="m m-get">GET</span><span>List a session’s orders</span></a></li><li><a href="/api-reference/get-order-review" class="ref"><span class="m m-get">GET</span><span>Read an order review</span></a></li><li><a href="/api-reference/submit-order-review" class="ref"><span class="m m-put">PUT</span><span>Review an order</span></a></li><li><a href="/api-reference/submit-refund-address" class="ref"><span class="m m-put">PUT</span><span>Submit a refund address</span></a></li><li><a href="/api-reference/continue-on-arrived-deposit" class="ref"><span class="m m-post">POST</span><span>Continue on a short deposit</span></a></li><li><a href="/api-reference/submit-payout-address" class="ref"><span class="m m-put">PUT</span><span>Submit a replacement payout address</span></a></li></ul></details></li><li><details class="nav-group"><summary>Integrator</summary><ul><li><a href="/api-reference/get-integrator" class="ref"><span class="m m-get">GET</span><span>Read your integration</span></a></li><li><a href="/api-reference/list-integrator-orders" class="ref"><span class="m m-get">GET</span><span>List attributed orders</span></a></li></ul></details></li><li><details class="nav-group"><summary>Stats</summary><ul><li><a href="/api-reference/get-protocol-stats" class="ref"><span class="m m-get">GET</span><span>Get protocol statistics</span></a></li><li><a href="/api-reference/get-swap-route-stats" class="ref"><span class="m m-get">GET</span><span>Get route execution times</span></a></li></ul></details></li><li><details class="nav-group"><summary>Activity</summary><ul><li><a href="/api-reference/get-recent-swaps" class="ref"><span class="m m-get">GET</span><span>List recent swaps</span></a></li><li><a href="/api-reference/get-recent-bridge-orders" class="ref"><span class="m m-get">GET</span><span>List recent bridge orders</span></a></li></ul></details></li><li><details class="nav-group"><summary>Config</summary><ul><li><a href="/api-reference/get-site-notice" class="ref"><span class="m m-get">GET</span><span>Read the site notice</span></a></li><li><a href="/api-reference/list-nodes" class="ref"><span class="m m-get">GET</span><span>List Monero nodes</span></a></li></ul></details></li><li><details class="nav-group"><summary>Points</summary><ul><li><a href="/api-reference/get-points" class="ref"><span class="m m-get">GET</span><span>Get an address’s points</span></a></li><li><a href="/api-reference/get-points-leaderboard" class="ref"><span class="m m-get">GET</span><span>Get the points leaderboard</span></a></li></ul></details></li><li><details class="nav-group"><summary>Coinflip</summary><ul><li><a href="/api-reference/place-coinflip-bet" class="ref"><span class="m m-post">POST</span><span>Place a coinflip bet</span></a></li><li><a href="/api-reference/cash-out-coinflip" class="ref"><span class="m m-post">POST</span><span>Cash out a coinflip table</span></a></li><li><a href="/api-reference/coinflip-presence" class="ref"><span class="m m-post">POST</span><span>Keep a coinflip table open</span></a></li><li><a href="/api-reference/reopen-coinflip" class="ref"><span class="m m-post">POST</span><span>Reopen a coinflip table</span></a></li><li><a href="/api-reference/get-recent-coinflip-rounds" class="ref"><span class="m m-get">GET</span><span>List recent coinflip rounds</span></a></li><li><a href="/api-reference/get-coinflip-terms" class="ref"><span class="m m-get">GET</span><span>Get coinflip terms</span></a></li><li><a href="/api-reference/create-coinflip-order" class="ref"><span class="m m-post">POST</span><span>Create a coinflip table</span></a></li><li><a href="/api-reference/get-coinflip-order" class="ref"><span class="m m-get">GET</span><span>Read a coinflip table</span></a></li></ul></details></li></ul></div><div class="nav-section"><p class="nav-title">Policies</p><ul><li><a href="/compliance-policy" class="">Compliance policy</a></li><li><a href="/privacy-policy" class="">Wallet privacy policy</a></li></ul></div></nav>
+  </aside>
+  <main id="content" class="content">
+    <article class="doc">
+      <div class="doc-top"><p class="eyebrow">Get started</p><div class="page-actions"><button type="button" class="ghost-btn" data-copy-page="/changelog.md"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/> <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg><span>Copy page</span></button><a class="ghost-btn" href="/changelog.md"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/> <path d="M14 2v5a1 1 0 0 0 1 1h5"/> <path d="M10 9H8"/> <path d="M16 13H8"/> <path d="M16 17H8"/></svg><span>Markdown</span></a></div></div>
+      <h1>Changelog</h1>
+<p>Changes that affect what an integration sends, reads or shows, newest first. The machine-readable contract is always the live <a href="/openapi.json">OpenAPI document</a>; this page explains what changed and what to do about it.</p>
+<h2 id="2026-11-22-hxmr-replaces-xmr1-on-the-bridge"><a class="anchor" href="#2026-11-22-hxmr-replaces-xmr1-on-the-bridge" aria-label="Link to this section">#</a>2026-11-22: HXMR replaces XMR1 on the bridge</h2>
+<ul>
+<li><strong>HXMR</strong> is the wrapped Monero the native bridge now issues and accepts on Hyperliquid: token index <code>1339</code>, token ID <code>0x700beac50c950503f401d218e52014e7</code>, spot market <code>@1193</code> (HXMR/USDC). The full identity is on <a href="/native-bridge#hxmr-token-identity">the bridge page</a>.</li>
+<li>The bridge asset key is still <code>xmr</code>. Create deposits and withdrawals exactly as before: <code>POST /v2/bridges</code> with <code>&quot;asset&quot;: &quot;xmr&quot;</code>.</li>
+<li>A withdrawal waiting for HXMR has the new status <strong><code>awaiting_hxmr</code></strong>. Add it wherever you handle order statuses; until you do, treat any unknown status as not final and keep tracking the order.</li>
+<li>Bridge amounts stay in XMR atomic units (12 decimals) on both sides, including HXMR sent to a withdrawal.</li>
+</ul>
+<h3 id="names-kept-on-purpose"><a class="anchor" href="#names-kept-on-purpose" aria-label="Link to this section">#</a>Names kept on purpose</h3>
+<p>So that existing clients keep working, some names still say XMR1:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>What it carries now</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>xmr1DepositAddress</code> on a withdrawal order</td>
+<td>The Hyperliquid address to send <strong>HXMR</strong> to.</td>
+</tr>
+<tr>
+<td><code>awaiting_xmr1</code>, <code>awaiting_zec1</code>, <code>awaiting_trx1</code></td>
+<td>Legacy statuses of orders created before each token closed. No new order gets them. See <a href="/order-lifecycle#legacy-statuses">legacy statuses</a>.</td>
+</tr>
+</tbody></table></div>
+<h2 id="2026-11-21-zec1-and-zcash-closed"><a class="anchor" href="#2026-11-21-zec1-and-zcash-closed" aria-label="Link to this section">#</a>2026-11-21: ZEC1 and Zcash closed</h2>
+<ul>
+<li>ZEC1 (token <code>1021</code>, market <code>@867</code>) was closed and has no successor. The <code>zec</code> bridge asset is switched off for good, and every swap from or to Zcash is closed: Zcash is no longer in the chain catalog.</li>
+<li>Orders that were still open in ZEC1 are settled or refunded by support.</li>
+<li>Remove Zcash from your pickers. Do not quote or create Zcash routes.</li>
+</ul>
+<h2 id="2026-11-20-xmr1-closed"><a class="anchor" href="#2026-11-20-xmr1-closed" aria-label="Link to this section">#</a>2026-11-20: XMR1 closed</h2>
+<ul>
+<li>XMR1 (token <code>404</code>, market <code>@260</code>) was closed after its deployer key was compromised. It is <strong>no longer a claim on Wagyu&#39;s Monero</strong> and the bridge no longer accepts it.</li>
+<li>Orders that were open in XMR1 are settled or refunded by support. Show them as waiting on support; never ask a user to send XMR1.</li>
+<li>Do not list, price or accept XMR1 as wrapped XMR. Use HXMR.</li>
+</ul>
+<h2 id="2026-11-11-trx1-bridge-retired"><a class="anchor" href="#2026-11-11-trx1-bridge-retired" aria-label="Link to this section">#</a>2026-11-11: TRX1 bridge retired</h2>
+<ul>
+<li>The Tron native bridge (TRX1) was retired; the <code>trx</code> bridge asset is switched off for good.</li>
+<li>Tron itself is unaffected: it remains a swap chain, listed in <a href="/chains">Chains and tokens</a>.</li>
+</ul>
+<h2 id="new-in-the-contract-version-0-8-0"><a class="anchor" href="#new-in-the-contract-version-0-8-0" aria-label="Link to this section">#</a>New in the contract (version 0.8.0)</h2>
+<ul>
+<li><strong><code>paused</code> error code</strong> (<code>409</code>): Wagyu switched the requested pair, asset, bridge direction or product off. The message names what is paused. It replaces the <code>503 unavailable</code> answer for a switched-off bridge asset or direction; <code>unavailable</code> now means only a temporary failure on Wagyu&#39;s side. Do not retry a <code>paused</code> answer in a loop. See <a href="/actions-and-retries#error-codes">error codes</a>.</li>
+<li><strong><code>GET /v2/notice</code></strong> returns the current site-wide notice (<code>info</code>, <code>warning</code> or <code>outage</code>), or <code>null</code>. See <a href="/public-data#site-notice">Public data</a>.</li>
+<li><strong><code>awaiting_hxmr</code></strong>, as above.</li>
+<li><strong><code>trackerUrl</code></strong> on each leg of a swap order&#39;s <code>route</code>: a link to follow that leg on its route provider&#39;s public tracker, or <code>null</code> when there is none.</li>
+</ul>
+
+      <nav class="pager" aria-label="Previous and next"><a class="prev" href="/chains"><span>Previous</span><strong>Supported chains and tokens</strong></a><a class="next" href="/order-lifecycle"><span>Next</span><strong>Order lifecycle</strong></a></nav>
+    </article>
+    <footer class="site-footer">
+      <p>Wagyu Docs · Built from the live Wagyu API, 2026-11-24. Facts on these pages come from the live API and are checked when the site builds.</p>
+      <p><a href="https://wagyu.xyz">wagyu.xyz</a> · <a href="https://t.me/wagyu_support" rel="noopener">Support</a> · <a href="https://x.com/PerpetualCow" rel="noopener">X</a> · <a href="/llms.txt">llms.txt</a> · <a href="/openapi.json">openapi.json</a> · <a href="/compliance-policy">Compliance</a></p>
+    </footer>
+  </main>
+  <nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li class="d2"><a href="#2026-11-22-hxmr-replaces-xmr1-on-the-bridge">2026-11-22: HXMR replaces XMR1 on the bridge</a></li><li class="d3"><a href="#names-kept-on-purpose">Names kept on purpose</a></li><li class="d2"><a href="#2026-11-21-zec1-and-zcash-closed">2026-11-21: ZEC1 and Zcash closed</a></li><li class="d2"><a href="#2026-11-20-xmr1-closed">2026-11-20: XMR1 closed</a></li><li class="d2"><a href="#2026-11-11-trx1-bridge-retired">2026-11-11: TRX1 bridge retired</a></li><li class="d2"><a href="#new-in-the-contract-version-0-8-0">New in the contract (version 0.8.0)</a></li></ul></nav>
+</div>
+<div class="scrim" data-scrim hidden></div>
+<dialog class="search" id="search" aria-label="Search">
+  <form method="dialog" class="search-box"><span class="search-icon"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 21-4.34-4.34"/> <circle cx="11" cy="11" r="8"/></svg></span><input type="search" placeholder="Search guides and endpoints" autocomplete="off" spellcheck="false" aria-label="Search"><kbd>Esc</kbd></form>
+  <ul class="results" role="listbox"></ul>
+  <p class="search-hint">Tip: every page is also plain Markdown, and <a href="/llms.txt">/llms.txt</a> indexes them for AI tools.</p>
+</dialog>
+<script src="/assets/app.1f4fd7a1bd.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+{
+  "issuer_transfers": [
+    {
+      "utc": "2026-11-20T04:46:58.926000+00:00",
+      "time": 1795150018926,
+      "hash": "0x328fc4efdff6c881340904492f4b780201d700d57af9e753d65870429efaa26b",
+      "delta": {
+        "type": "send",
+        "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+        "destination": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+        "sourceDex": "spot",
+        "destinationDex": "spot",
+        "token": "XMR1",
+        "amount": "100000.0",
+        "usdcValue": "49401000.0",
+        "fee": "0.0",
+        "nativeTokenFee": "0.0",
+        "nonce": 1795149951749,
+        "feeToken": ""
+      }
+    },
+    {
+      "utc": "2026-11-20T05:14:30.952000+00:00",
+      "time": 1795151670952,
+      "hash": "0xfe18b36928ccc7ecff9204492fa62e0208de004ec3cfe6bfa1e15ebbe7c0a1d7",
+      "delta": {
+        "type": "send",
+        "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+        "destination": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+        "sourceDex": "spot",
+        "destinationDex": "spot",
+        "token": "XMR1",
+        "amount": "100000.0",
+        "usdcValue": "2120000.0",
+        "fee": "0.0",
+        "nativeTokenFee": "0.0",
+        "nonce": 1795151661077,
+        "feeToken": ""
+      }
+    },
+    {
+      "utc": "2026-11-20T05:16:10.436000+00:00",
+      "time": 1795151770436,
+      "hash": "0x8453d81d6945e81885cd04492fab940204a80003044906ea281c83702849c203",
+      "delta": {
+        "type": "send",
+        "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+        "destination": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+        "sourceDex": "spot",
+        "destinationDex": "spot",
+        "token": "XMR1",
+        "amount": "5000000.0",
+        "usdcValue": "130500000.0",
+        "fee": "0.0",
+        "nativeTokenFee": "0.0",
+        "nonce": 1795151760512,
+        "feeToken": ""
+      }
+    }
+  ],
+  "issuer_transferred_xmr1": "5200000",
+  "side_transfers_xmr1": "6000.0",
+  "side_transfer_count": 7,
+  "system_usdc_transfers": "13281001.7254710004",
+  "system_transfer_count": 11,
+  "system_transfer_warning": "HyperCore system destination; not independently matched to all Arbitrum receipts; never count as a second loss",
+  "observed_seller_xmr1": "4819156.8599664196",
+  "coverage": "raw pagination with overlapping timestamps, deduplicated hash/tid; 2000/2000/715 records; aggregate responses cross-check quantities; no-endTime queries resolve earlier empty bounded results; actual response times bound collection",
+  "raw_fill_reconciliation": {
+    "pages": [
+      {
+        "page": 0,
+        "start": 0,
+        "rows": 2000
+      },
+      {
+        "page": 1,
+        "start": 1795150609914,
+        "rows": 2000
+      },
+      {
+        "page": 2,
+        "start": 1795151811477,
+        "rows": 715
+      }
+    ],
+    "unique_all_market_fills": 4594,
+    "metrics": {
+      "all_returned": {
+        "fills": 4588,
+        "sold_xmr1": "374843.19",
+        "gross_usdc": "13513223.613896",
+        "usdc_fees": "8112.82930922",
+        "net_usdc": "13505110.78458678",
+        "first_utc": "2026-11-20T03:49:04.122000+00:00",
+        "last_utc": "2026-11-20T15:15:25.631000+00:00"
+      },
+      "after_issuer_funding": {
+        "fills": 4586,
+        "sold_xmr1": "374843.15",
+        "gross_usdc": "13513203.749996",
+        "usdc_fees": "8112.81099269",
+        "net_usdc": "13505090.93900331",
+        "first_utc": "2026-11-20T04:49:32.170000+00:00",
+        "last_utc": "2026-11-20T15:15:25.631000+00:00"
+      },
+      "after_funding_through_13utc": {
+        "fills": 4574,
+        "sold_xmr1": "369622.92",
+        "gross_usdc": "13507983.519996",
+        "usdc_fees": "8110.80642437",
+        "net_usdc": "13499872.71357163",
+        "first_utc": "2026-11-20T04:49:32.170000+00:00",
+        "last_utc": "2026-11-20T10:28:02.058000+00:00"
+      }
+    },
+    "prior_buy_xmr1": "0.05",
+    "xmr1_buy_fees": "0.00003358",
+    "expected_closing_xmr1": "4819156.85996642",
+    "observed_closing_xmr1": "4819156.8599664196",
+    "unallocated_residual_xmr1": "-4E-10",
+    "classification": "CONFIRMED first-party API arithmetic; residual retained; not consensus replay",
+    "correction": "raw unaggregated fills supersede aggregate price-times-size precision; tests before first issuer funding are separated"
+  },
+  "superseded_aggregate_calculation": {
+    "xmr1_buy_quantity": "0.05",
+    "xmr1_sold_all_returned": "374843.19",
+    "gross_proceeds_all_returned_usdc": "13513223.613896153859",
+    "usdc_trade_fees_all_returned": "8112.82930922",
+    "net_xmr1_sale_proceeds_usdc": "13505110.784586933859",
+    "last_sale_utc": "2026-11-20T15:15:25.631000+00:00",
+    "first_sale_utc": "2026-11-20T03:49:04.122000+00:00",
+    "through_13utc_quantity": "369622.96",
+    "through_13utc_gross_usdc": "13508003.383896153859",
+    "expected_xmr1_before_unexplained_adjustment": "4819156.81",
+    "xmr1_residual_unresolved": "0.0499664196",
+    "warning": "retained for audit; superseded by raw_fill_reconciliation; initial balance calculation omitted pre-funding buy and token-denominated fee"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "source_package": "npcsignals_wagyu_editorial_final.zip",
+  "source_sha256": "39eaa7fae18d6ce3aa6db810a5f815b36306007ea405a17e70397c65725d6abf",
+  "source_checks": 884,
+  "source_claims": 34,
+  "source_svg_count": 10,
+  "original_baseline_zip_sha256": "8cd344434a71849bc6509b6b36266618cb86d91e59e1273a78b95d4a546e2d55",
+  "published_baseline_zip_sha256": "8d354228029f5a0d405bb98b77dee5c6b55644b002ec2bf886f3a137dfc46e5b",
+  "baseline_files_retained": 500,
+  "baseline_files_omitted": [
+    {
+      "path": "ACCOUNTS.md",
+      "sha256": "01984c209534f2d83fa5039f77487038f53a12d1495fbec6429fff9ab416ea4b",
+      "reason": "private prose or internal collection/report orchestration; raw requests and results retained"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d28b4b695875a5817e489a8dd5533736317c9c9318d1b20388d511b4cd1501e2",
+      "reason": "private prose or internal collection/report orchestration; raw requests and results retained"
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "cd3c4e453ca7752323d4edb5531e66a7d78ace42833e8d989ae2e5023cfb2df1",
+      "reason": "private prose or internal collection/report orchestration; raw requests and results retained"
+    },
+    {
+      "path": "build.py",
+      "sha256": "7abbad440071cee365d1dbe2d690559a843c7b72d486182740ed07f99e1d8c7b",
+      "reason": "private prose or internal collection/report orchestration; raw requests and results retained"
+    },
+    {
+      "path": "collect.py",
+      "sha256": "16698cd8b41e264a964f35a57e8d7bb572f06ad95b5f3de952bf075223060aaf",
+      "reason": "private prose or internal collection/report orchestration; raw requests and results retained"
+    },
+    {
+      "path": "fullcheck.py",
+      "sha256": "7ec919c0aee030bd7f2bebd664709373a4696b608da41a8ab3e8f14e74b6ee7b",
+      "reason": "private prose or internal collection/report orchestration; raw requests and results retained"
+    },
+    {
+      "path": "report_writer.py",
+      "sha256": "d90c459365b5e2a5ec7b81d8aace3e2b2c19dfb0f7ed5a21babcb9bbb029c5a4",
+      "reason": "private prose or internal collection/report orchestration; raw requests and results retained"
+    },
+    {
+      "path": "supplement.py",
+      "sha256": "1c59e37d1ed49091c963c693f76b687bc0ad9bfc39e420fdac9b34659bf52c36",
+      "reason": "private prose or internal collection/report orchestration; raw requests and results retained"
+    }
+  ],
+  "excluded_editorial_files": [
+    {
+      "path": "EDITORIAL_REVISION.md",
+      "sha256": "f8a0e001470ade405d1c091cabd16b5b05ee2cf71d50b9da5c543edeba6e6314",
+      "reason": "internal editorial/generation or archive-status material; not needed to reproduce evidence"
+    },
+    {
+      "path": "PUBLICATION_READINESS.md",
+      "sha256": "b234a2edb0111124aa713662eb7e1142291c32abb9650e70a3559dae95f2e4d9",
+      "reason": "internal editorial/generation or archive-status material; not needed to reproduce evidence"
+    },
+    {
+      "path": "complete_archive.py",
+      "sha256": "a35fa729c71aef682be334412122f706f304c6dd1367e8a9d1de2567aaacacf9",
+      "reason": "internal editorial/generation or archive-status material; not needed to reproduce evidence"
+    },
+    {
+      "path": "write_archive.py",
+      "sha256": "2865d05a67e0d47ce7d90e110476ee99c03ef276a086bac54e6b502b46a3818a",
+      "reason": "internal editorial/generation or archive-status material; not needed to reproduce evidence"
+    },
+    {
+      "path": "make_visuals.py",
+      "sha256": "a85a708bde7f252fe00f409cd14a1b7b0708673cad941409a4ce45fd1ffcdddc",
+      "reason": "internal editorial/generation or archive-status material; not needed to reproduce evidence"
+    },
+    {
+      "path": "evidence/quality_review.json",
+      "sha256": "428090b3b411cdbccd53be9a79944ff1edce064e81e772206efe543c136b4b14",
+      "reason": "internal editorial/generation or archive-status material; not needed to reproduce evidence"
+    },
+    {
+      "path": "evidence/checkpoint_scope.json",
+      "sha256": "87b55c03db10a26ce3ef3062b3ffbd9664d0888029c08a2ff8fca1ca9bea75b4",
+      "reason": "internal editorial/generation or archive-status material; not needed to reproduce evidence"
+    },
+    {
+      "path": "evidence/repository_provenance.json",
+      "sha256": "f3f42cc35d5e4abbefcc3af2218fca763fb3220524fdf917b841c15e2de8794e",
+      "reason": "internal editorial/generation or archive-status material; not needed to reproduce evidence"
+    },
+    {
+      "path": "visuals/contact_sheet.png",
+      "sha256": "56f9fe0581975a9963c4096d7a066799adc5bd9d3e60ad4967f13d3393cb5545",
+      "reason": "internal editorial/generation or archive-status material; not needed to reproduce evidence"
+    }
+  ],
+  "policy": "raw and source evidence bytes unchanged; selected evidence repackaged; final svg bytes unchanged"
+}

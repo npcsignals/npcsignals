@@ -1,0 +1,11 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "tokenDetails",
+    "tokenId": "0x700beac50c950503f401d218e52014e7"
+  },
+  "started_utc": "2026-11-25T04:56:03.492762+00:00",
+  "http_status": 200,
+  "retrieved_utc": "2026-11-25T04:56:06.410049+00:00",
+  "sha256": "10b0ad99c0e43dbf56c542aa6a8c807d3338afe21795ed23de27c062df3f71fd"
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "file": "evidence/raw/arb_history.error.json",
+    "url": "https://arbitrum.blockscout.com/api/v2/addresses/0x1464dacaceb0d511f9964cdac5eba50ea42220bf/transactions",
+    "request": null,
+    "started_utc": "2026-11-25T04:59:20.443508+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "finished_utc": "2026-11-25T04:59:23.486699+00:00"
+  },
+  {
+    "file": "evidence/raw/bridge_docs.error.json",
+    "url": "https://docs.wagyu.xyz/bridge",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:07.777944+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "finished_utc": "2026-11-25T04:56:11.272942+00:00"
+  },
+  {
+    "file": "evidence/raw/bridge_terms_docs.error.json",
+    "url": "https://docs.wagyu.xyz/api-reference/bridge/terms",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:07.778839+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "finished_utc": "2026-11-25T04:56:11.338823+00:00"
+  },
+  {
+    "file": "evidence/raw/hosting_announcements.error.json",
+    "url": "https://1984.hosting/announcements/",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:11.273553+00:00",
+    "error": "HTTP Error 503: Service Unavailable",
+    "finished_utc": "2026-11-25T04:56:19.615358+00:00"
+  },
+  {
+    "file": "evidence/raw/hosting_home.error.json",
+    "url": "https://1984.hosting/",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:11.117220+00:00",
+    "error": "HTTP Error 503: Service Unavailable",
+    "finished_utc": "2026-11-25T04:56:19.615000+00:00"
+  },
+  {
+    "file": "evidence/raw/issuer_explorer.error.json",
+    "url": "https://api.hyperliquid.xyz/explorer",
+    "request": {
+      "type": "userDetails",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T04:56:18.254232+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "finished_utc": "2026-11-25T04:56:21.528122+00:00"
+  },
+  {
+    "file": "evidence/raw/operator_oct_mirror.error.json",
+    "url": "https://www.nitter.cf/PerpetualCow/status/2123711967055458711",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:11.339212+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "finished_utc": "2026-11-25T04:56:15.414612+00:00"
+  },
+  {
+    "file": "evidence/raw/seller_explorer.error.json",
+    "url": "https://api.hyperliquid.xyz/explorer",
+    "request": {
+      "type": "userDetails",
+      "user": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf"
+    },
+    "started_utc": "2026-11-25T04:56:12.590592+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "finished_utc": "2026-11-25T04:56:15.466841+00:00"
+  }
+]
