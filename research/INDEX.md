@@ -26,6 +26,10 @@ one entrance per subject. start with the short explanation, then follow the repo
 - **[tennessee execution protocol](tennessee-execution-protocol-stress-test-2026/START_HERE.md)** — under verification.
 - **[ibrahim traoré: documented record and online claims](traore-narrative-audit-2026/START_HERE.md)** — archived.
 
+## platforms and information systems
+
+- **[the architecture of influence](architecture-of-influence/START_HERE.md)** — how recommendation systems shape exposure, perception and knowledge; TikTok is the principal case study.
+
 ## methods and historical frameworks
 
 - **[european terrorism reporting, 2015–2025](terror-in-eu-eea/START_HERE.md)** — statistical records, case evidence and source comparisons.
