@@ -8,6 +8,7 @@
 - **school work:** follow the timeline, choose one claim, then compare its evidence and limitations. cite the dated source and the archive path, not just a headline.
 - **journalism:** use the source ledger and original document or transaction identifier. distinguish a publisher’s claim from the archive’s independent checks.
 - **research review:** inspect methodology, exact datasets, version history, checksums and reproducibility scripts.
+- **platforms and recommendation systems:** start with [the architecture of influence](architecture-of-influence/START_HERE.md) for an accessible summary, then follow the eight chapters, evidence register and source notes. The investigation separates observed exposure from persuasion and reports the limits of public access to platform systems.
 
 ## evidence strength
 

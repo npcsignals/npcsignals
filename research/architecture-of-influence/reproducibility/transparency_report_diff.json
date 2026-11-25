@@ -1,0 +1,194 @@
+{
+  "retrieval_date_utc": "2026-11-22",
+  "original_zip_sha256": "5133a718289ca4ae4f1addc20ed09ffb55456375e4f69fb1b0a7fcc3cd2315d4",
+  "corrected_zip_sha256": "40657ab454cdf5822d316bb7c24d97ffcddb6604780067e2dfd8ed9aabcbb310",
+  "non_macos_archive_members": {
+    "original": 13,
+    "corrected": 15
+  },
+  "only_in_original": [],
+  "only_in_corrected": [
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 4_notices_updated_28082026.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025_updated_28082026.xlsx"
+  ],
+  "byte_identical_common_members": [
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 10_AMAR.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 11_qualitative.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 1_report_identification.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 2_categories_names.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 3_member_states_orders.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 4_notices.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 5_own_initiative_illegal.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 6_own_initiative_TC.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 7_appeals_and_recidivism.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 8_automated_means.csv",
+    "DSA_Transparency_Report_TikTok_July_December_2025 - 9_human_resources.csv"
+  ],
+  "changed_common_members": [
+    {
+      "name": "DSA_Transparency_Report_TikTok_July_December_2025.xlsx",
+      "old_bytes": 159349,
+      "new_bytes": 171418,
+      "old_sha256": "8518b3ff31e0d3b6431dfc9d7e82aed10c647759b5b6b3e382509811ab9a98b0",
+      "new_sha256": "08078843ebabb4529290fec7885701eb0ac54e5274ded1ca7763c8d01222ccfe"
+    },
+    {
+      "name": "TikTok - DSA Transparency report - Additional documentation - July to Dec 2025.pdf",
+      "old_bytes": 418051,
+      "new_bytes": 419903,
+      "old_sha256": "9a6bc4e0a6180e3fe86c71b4a1d6d510e03484f018dd2919e86aaae4e4eb58c5",
+      "new_sha256": "276d24676cff5f1fd643d7afbdb550e87c7962b7364cb0aa316fb43c21bf8675"
+    }
+  ],
+  "workbook_comparison": {
+    "same_named_workbook_cell_diff": {
+      "sheet_names_original": [
+        "1_report_identification",
+        "2_categories_names",
+        "3_member_states_orders",
+        "4_notices",
+        "5_own_initiative_illegal",
+        "6_own_initiative_TC",
+        "7_appeals_and_recidivism",
+        "8_automated_means",
+        "9_human_resources",
+        "10_AMAR",
+        "11_qualitative"
+      ],
+      "sheet_names_corrected": [
+        "1_report_identification",
+        "2_categories_names",
+        "3_member_states_orders",
+        "4_notices",
+        "5_own_initiative_illegal",
+        "6_own_initiative_TC",
+        "7_appeals_and_recidivism",
+        "8_automated_means",
+        "9_human_resources",
+        "10_AMAR",
+        "11_qualitative"
+      ],
+      "changed_cells": {}
+    },
+    "updated_workbook_cell_diff": {
+      "sheet_names_original": [
+        "1_report_identification",
+        "2_categories_names",
+        "3_member_states_orders",
+        "4_notices",
+        "5_own_initiative_illegal",
+        "6_own_initiative_TC",
+        "7_appeals_and_recidivism",
+        "8_automated_means",
+        "9_human_resources",
+        "10_AMAR",
+        "11_qualitative"
+      ],
+      "sheet_names_corrected": [
+        "1_report_identification",
+        "2_categories_names",
+        "3_member_states_orders",
+        "4_notices",
+        "5_own_initiative_illegal",
+        "6_own_initiative_TC",
+        "7_appeals_and_recidivism",
+        "8_automated_means",
+        "9_human_resources",
+        "10_AMAR",
+        "11_qualitative"
+      ],
+      "changed_cells": {
+        "4_notices": [
+          {
+            "cell": "F66",
+            "old": "Under this category, we consider user or trusted flaggers report for the following reason: Consumer- related offences.",
+            "new": "Under this category, we consider user or trusted flaggers report for the following reason: Terrorist Content"
+          },
+          {
+            "cell": "G66",
+            "old": 77729,
+            "new": 43119
+          },
+          {
+            "cell": "I66",
+            "old": 35606,
+            "new": 28421
+          },
+          {
+            "cell": "K66",
+            "old": 6.82,
+            "new": 2.43
+          },
+          {
+            "cell": "Q66",
+            "old": null,
+            "new": "The values for specific data points included in tab \"4_notices\" of the report published on 27 February 2026 have been updated with the correct values for Category 10d and Category 13b. This update does not affect any other parts of the report."
+          },
+          {
+            "cell": "S66",
+            "old": null,
+            "new": "The values for specific data points included in tab \"4_notices\" of the report published on 27 February 2026 have been updated with the correct values for Category 10d and Category 13b. This update does not affect any other parts of the report."
+          },
+          {
+            "cell": "U66",
+            "old": null,
+            "new": "The values for specific data points included in tab \"4_notices\" of the report published on 27 February 2026 have been updated with the correct values for Category 10d and Category 13b. This update does not affect any other parts of the report."
+          },
+          {
+            "cell": "F83",
+            "old": null,
+            "new": "Under this category, we consider user or trusted flaggers report for the following reason: Unsafe or non-compliant products"
+          },
+          {
+            "cell": "G83",
+            "old": null,
+            "new": 34575
+          },
+          {
+            "cell": "H83",
+            "old": null,
+            "new": 0
+          },
+          {
+            "cell": "I83",
+            "old": null,
+            "new": 25163
+          },
+          {
+            "cell": "J83",
+            "old": null,
+            "new": 0
+          },
+          {
+            "cell": "K83",
+            "old": null,
+            "new": 5.75
+          },
+          {
+            "cell": "Q83",
+            "old": null,
+            "new": "The values for specific data points included in tab \"4_notices\" of the report published on 27 February 2026 have been updated with the correct values for Category 10d and Category 13b. This update does not affect any other parts of the report."
+          },
+          {
+            "cell": "S83",
+            "old": null,
+            "new": "The values for specific data points included in tab \"4_notices\" of the report published on 27 February 2026 have been updated with the correct values for Category 10d and Category 13b. This update does not affect any other parts of the report."
+          },
+          {
+            "cell": "U83",
+            "old": null,
+            "new": "The values for specific data points included in tab \"4_notices\" of the report published on 27 February 2026 have been updated with the correct values for Category 10d and Category 13b. This update does not affect any other parts of the report."
+          }
+        ]
+      }
+    }
+  },
+  "supplementary_pdf_comparison": {
+    "original_bytes": 418051,
+    "corrected_bytes": 419903,
+    "original_sha256": "9a6bc4e0a6180e3fe86c71b4a1d6d510e03484f018dd2919e86aaae4e4eb58c5",
+    "corrected_sha256": "276d24676cff5f1fd643d7afbdb550e87c7962b7364cb0aa316fb43c21bf8675",
+    "extracted_text_identical": false,
+    "corrected_notice_first_page": true
+  }
+}
