@@ -1,0 +1,11 @@
+# evidence selection and provenance
+
+source: `npcsignals_wagyu_editorial_final.zip`, sha256 `39eaa7fae18d6ce3aa6db810a5f815b36306007ea405a17e70397c65725d6abf`. the exact source passed 884 checks before publication adaptation and contains 34 claim assessments and ten finalized svg figures.
+
+internal editorial revision and publication-status documents, internal document/figure generators, local archive-status records and the redundant contact-sheet preview are excluded. the nested private baseline zip is replaced with `evidence/frogman_baseline_evidence.zip`: **500 retained files**, with byte-identical raw responses, requests, timestamps, cost evidence and account rows. private baseline prose and internal orchestration scripts are omitted. all omissions and digests are itemized in [publication provenance](evidence/publication_provenance.json).
+
+original evidence is not silently redacted. [original editorial digests](evidence/original_editorial_manifest.json) and [original baseline digests](evidence/original_baseline_manifest.json) permit comparison against retained files. the old source zip digest is preserved; the new public evidence zip has its own digest and subset manifest. `verify.py` explicitly verifies the public subset rather than pretending to verify unpublished prose. current [publication checksums](SHA256SUMS.json) cover the public files. this packaging change does not remove evidence used for any financial, token-control or account-level finding.
+
+public-source raw evidence was reviewed for secret material, credential-bearing urls, private network endpoints and unauthorized customer data. no such material was identified in the selected evidence. public wallet identifiers, transaction hashes and public-source statements are intentionally retained. public documents discussing a data breach are not leaked customer records. no confidentiality conclusion rests solely on an automated pattern scan.
+
+readers can reproduce raw-response integrity, baseline quantities and costs, trade arithmetic, matched transfers, signer configurations and sampled evm inclusions offline. the internal writing process cannot be reconstructed from this public edition; it is not necessary to verify those findings. original scientific uncertainty and collection failures remain visible in the evidence and limitations.

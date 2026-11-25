@@ -1,0 +1,8 @@
+{
+  "verified_manifest_entries": 508,
+  "accounts": 36,
+  "xmr1": "3586.887420",
+  "execution_cost_usdc": "2029761.5937",
+  "cutoff": "2026-11-25T04:28:08.797000+00:00",
+  "classification": "CONFIRMED: saved checkpoint integrity and arithmetic; no new account collection"
+}

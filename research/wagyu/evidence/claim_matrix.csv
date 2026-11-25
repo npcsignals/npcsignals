@@ -1,0 +1,35 @@
+id,claim,classification,sources,scope_or_gap
+c01,"preserved 36-account baseline holds 3,586.887420 xmr1",CONFIRMED,s10,saved checkpoint cutoff only; not a new account recheck
+c02,"historical execution acquisition cost 2,029,761.5937 usdc",CONFIRMED,s10,execution cost; not all-in cost or guaranteed recovery
+c03,no new fills/ledger events in baseline period,CONFIRMED,s10,within returned api coverage; off-platform events unknown
+c04,formal wagyu establishment date,UNRESOLVED,"s07,s13",domain capture and operator duration are not incorporation evidence
+c05,"xmr1 identity, genesis allocation and deployment metadata",CONFIRMED,s01,API timestamp strings lack timezone suffix; reproduced verbatim
+c06,fixed inventory automatically proves matched monero reserves,UNRESOLVED,"s01,s04",no automatic proof or reserve/liability audit retrieved
+c07,"shared original deployer for xmr1, zec1, tao1 and trx1",CONFIRMED,s01,does not prove identical native custody or servers
+c08,"5,200,000 xmr1 sent issuer to seller in three entries",CONFIRMED,s02,matched hashes and quantities; authorization not established
+c09,"369,622.92 sold after funding through 13:00 utc",CONFIRMED,s03,"raw fills; 13,507,983.519996 usdc gross; specific time window"
+c10,"374,843.15 sold after funding through last returned sale",CONFIRMED,s03,"13,513,203.749996 gross less 8,112.81099269 fees"
+c11,november price collapse on exact token @260,CONFIRMED,"s10,s01",minute bars and account fills; no invented intraminute timestamp
+c12,"7,348.333000303897411894 eth in three chain/address positions",CONFIRMED,s09,dated fixed-block observations; two distinct literal addresses
+c13,all conversion and bridge stages fully allocated to proceeds,UNRESOLVED,"s02,s03,s09",sampled receipts and end balances do not close complete route
+c14,hosting security incident occurred,SUPPORTED,s08,joint notice available as media reproduction; direct retrieval blocked
+c15,wagyu key exposure caused by that hosting incident,UNRESOLVED,"s07,s08",operator explanation; no independent forensic chain
+c16,october data exposure acknowledgement,CONFIRMED,s07,statement verified; scope/loss assertions remain operator claims
+c17,october disclosure caused november key incident,UNRESOLVED,"s07,s08",no established causal link
+c18,native monero reserves before/after incident,UNRESOLVED,"s04,s05",no independent scoped assets/liabilities attestation retrieved
+c19,native monero redemption by frogman accounts,UNRESOLVED,s10,neither absence nor completion established
+c20,"complete compensation rules, snapshot and exclusions",UNRESOLVED,"s07,s12",not obtained in complete primary form
+c21,"13,662 hxmr outgoing in three treasury sends",CONFIRMED,s12,purpose and beneficiary entitlements unverified
+c22,those sends are completed compensation payments,UNRESOLVED,s12,observable transfers are not an entitlement/payment reconciliation
+c23,frogman-related accounts received compensation,UNRESOLVED,"s10,s12",none documented in original account data; alternate payout accounts unknown
+c24,hxmr separate identity and separate genesis vault,CONFIRMED,s01,not interchangeable with old token by ticker similarity
+c25,hxmr deployer and inventory vault configured two-of-three,CONFIRMED,s06,same three returned signer addresses; independence unknown
+c26,new controls guarantee native custody security,UNRESOLVED,s06,"off-chain custody, key isolation and reserve assets unverified"
+c27,current docs close xmr1 and accept hxmr for new bridge flows,CONFIRMED,s05,"operator documentation, not transaction availability or legal ruling"
+c28,published new fees 0% deposit and 2% withdrawal,CONFIRMED,s05,documentation observation; no live signed swap attempted
+c29,all old-token holders have an enforceable migration right,NOT ASSESSED,"s05,s07",legal enforceability not assessed; no universal conversion demonstrated
+c30,frogman and wagyu share a controller,UNRESOLVED,"s02,s10",shared token exposure establishes no identity or coordination
+c31,verified current realizable value of all frogman holdings,UNRESOLVED,s10,"mark, midpoint and static bid illustration are distinct from executed proceeds"
+c32,complete historical holder concentration at incident snapshot,NOT ASSESSED,s01,issuer current inventory assessed; exhaustive historical holder ranking not retrieved
+c33,"independent signers, hardware custody, native reserve multisig",UNRESOLVED,s06,public account threshold alone cannot establish these assertions
+c34,all refunds completed,UNRESOLVED,"s07,s12",operator majority/payment-plan claim is not independently reconciled

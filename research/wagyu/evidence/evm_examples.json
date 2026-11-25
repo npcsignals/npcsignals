@@ -1,0 +1,35 @@
+[
+  {
+    "stage": "tornado",
+    "chain": "ethereum",
+    "hash": "0x33513047a342ea41bbcc6503aa8c889a8b5d05a4ef332354fba682fdc60b53ee",
+    "from": "0x0a5b2bf3ccfb44c1d22f07eed9553ecba752d4ad",
+    "to": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+    "native_value_eth": "0",
+    "block": 26453625,
+    "utc": "2026-11-20T03:30:23+00:00",
+    "classification": "CONFIRMED execution; full bridge protocol association not reproduced"
+  },
+  {
+    "stage": "bridge",
+    "chain": "arbitrum",
+    "hash": "0x1b6f68247603d6c3d1754680d9f73aee87d1791a8e51ec92bea1dfa58a47733e",
+    "from": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+    "to": "0x50c4e75a512f2a14a7b304787adf79c4531a5909",
+    "native_value_eth": "1013.04352015932699883",
+    "block": 525828140,
+    "utc": "2026-11-20T05:03:54+00:00",
+    "classification": "CONFIRMED execution; full bridge protocol association not reproduced"
+  },
+  {
+    "stage": "onward",
+    "chain": "ethereum",
+    "hash": "0x74a704c0b00bd9cb6c671e339f361718c7d885d5776d13074ecb0ed17edf4752",
+    "from": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+    "to": "0xf32d7842611a5d63b875075dadd19c55f3f1dc59",
+    "native_value_eth": "2325.669594723330818716",
+    "block": 26454104,
+    "utc": "2026-11-20T05:06:11+00:00",
+    "classification": "CONFIRMED execution; full bridge protocol association not reproduced"
+  }
+]

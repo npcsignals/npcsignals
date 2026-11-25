@@ -6,6 +6,8 @@ one entrance per subject. start with the short explanation, then follow the repo
 
 ## investigations
 
+- **[behind the wrapper: wagyu and xmr1](wagyu/START_HERE.md)** — token architecture, the november collapse and the limits of public evidence.
+
 - **[frogman wallet drain](frogman-wallet-drain/START_HERE.md)** — ongoing investigation.
 - **[zyrox token launch](zyrox-investigation/START_HERE.md)** — ongoing investigation.
 - **[gamdom incident](gamdom/README.md)** — ongoing investigation.

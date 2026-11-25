@@ -32,3 +32,7 @@ ongoing investigation. this label describes the research work, not guilt, legal 
 - [read limitations and observation boundaries](<audit_2026_11_13/LIMITATIONS.md>)
 - [see the additional account separately](<audit_2026_11_13/ADDITIONAL_FINDINGS.md>)
 - [open historical research](<README.md>)
+
+## related research
+
+[behind the wrapper: wagyu, xmr1 and the architecture of trust](../wagyu/START_HERE.md) examines the separate november issuer incident and the preserved 36-account exposure. holding the same token does not establish shared control or responsibility. the original frogman findings and evidence remain unchanged.

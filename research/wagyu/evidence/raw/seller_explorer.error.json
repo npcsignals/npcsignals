@@ -1,0 +1,10 @@
+{
+  "url": "https://api.hyperliquid.xyz/explorer",
+  "request": {
+    "type": "userDetails",
+    "user": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf"
+  },
+  "started_utc": "2026-11-25T04:56:12.590592+00:00",
+  "error": "HTTP Error 404: Not Found",
+  "finished_utc": "2026-11-25T04:56:15.466841+00:00"
+}

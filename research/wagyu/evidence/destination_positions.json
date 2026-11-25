@@ -1,0 +1,30 @@
+{
+  "positions": [
+    {
+      "chain": "ethereum",
+      "address": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+      "eth": "1974.556474143708189012",
+      "nonce": 5,
+      "block": 26489952,
+      "block_utc": "2026-11-25T04:57:47+00:00"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf32d7842611a5d63b875075dadd19c55f3f1dc59",
+      "eth": "4835.669594723330818717",
+      "nonce": 0,
+      "block": 26489952,
+      "block_utc": "2026-11-25T04:57:47+00:00"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+      "eth": "538.106931436858404165",
+      "nonce": 7,
+      "block": 527325389,
+      "block_utc": "2026-11-25T04:58:16+00:00"
+    }
+  ],
+  "total_eth": "7348.333000303897411894",
+  "scope": "three chain/address positions, two literal addresses; native holdings only, no freeze/recovery or exclusive source allocation"
+}

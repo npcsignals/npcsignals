@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Native bridge (XMR and HXMR) · Wagyu Docs</title>
+<meta name="description" content="Bridge Monero to Hyperliquid as HXMR and back with the Wagyu API, with HXMR's token identity, live fees, minimums, availability and request examples.">
+<link rel="canonical" href="https://docs.wagyu.xyz/native-bridge">
+<link rel="alternate" type="text/markdown" href="/native-bridge.md" title="This page as Markdown">
+<meta name="theme-color" content="#0081ff">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Wagyu Docs">
+<meta property="og:title" content="Native bridge (XMR and HXMR)">
+<meta property="og:description" content="Bridge Monero to Hyperliquid as HXMR and back with the Wagyu API, with HXMR's token identity, live fees, minimums, availability and request examples.">
+<meta property="og:url" content="https://docs.wagyu.xyz/native-bridge">
+<meta property="og:image" content="https://docs.wagyu.xyz/brand/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/brand/icon.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/brand/icon.png">
+<link rel="preload" href="/fonts/nunito-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.937c0a510b.css">
+<script src="/assets/theme.6022e36dea.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"Native bridge (XMR and HXMR)","description":"Bridge Monero to Hyperliquid as HXMR and back with the Wagyu API, with HXMR's token identity, live fees, minimums, availability and request examples.","url":"https://docs.wagyu.xyz/native-bridge","dateModified":"2026-11-24T15:11:30.694Z","inLanguage":"en","publisher":{"@type":"Organization","name":"Wagyu","url":"https://wagyu.xyz","logo":"https://docs.wagyu.xyz/brand/icon.png"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Docs","item":"https://docs.wagyu.xyz/"},{"@type":"ListItem","position":2,"name":"Native bridge (XMR and HXMR)","item":"https://docs.wagyu.xyz/native-bridge"}]}]}</script>
+</head>
+<body class="guide">
+<a class="skip" href="#content">Skip to content</a>
+<header class="topbar">
+  <div class="topbar-inner">
+    <button class="pill icon-btn menu-btn" type="button" data-menu aria-label="Open navigation" aria-expanded="false"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16"/> <path d="M4 12h16"/> <path d="M4 19h16"/></svg></button>
+    <nav class="pill pill-main" aria-label="Main">
+      <a class="brand" href="/"><img src="/brand/logo.png" alt="" width="26" height="25"><span>Wagyu</span><span class="brand-sub">Docs</span></a>
+      <a href="/getting-started" class="tab active">Guides</a><a href="/api-reference" class="tab">API reference</a><a href="/mcp" class="tab">AI agents</a>
+    </nav>
+    <div class="pill pill-actions">
+      <button class="search-btn" type="button" data-search-open aria-label="Search the docs"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 21-4.34-4.34"/> <circle cx="11" cy="11" r="8"/></svg><span>Search</span><kbd>Ctrl K</kbd></button>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch between light and dark"><svg class="icon i-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg><svg class="icon i-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/> <path d="M12 2v2"/> <path d="M12 20v2"/> <path d="m4.93 4.93 1.41 1.41"/> <path d="m17.66 17.66 1.41 1.41"/> <path d="M2 12h2"/> <path d="M20 12h2"/> <path d="m6.34 17.66-1.41 1.41"/> <path d="m19.07 4.93-1.41 1.41"/></svg></button>
+      <a class="app-btn" href="https://wagyu.xyz">Open app <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/> <path d="M7 17 17 7"/></svg></a>
+    </div>
+  </div>
+  
+</header>
+<div class="layout">
+  <aside class="sidebar" id="sidebar" aria-label="Documentation">
+    <nav><div class="nav-section"><p class="nav-title">Get started</p><ul><li><a href="/" class="">Overview</a></li><li><a href="/getting-started" class="">Quickstart</a></li><li><a href="/authentication" class="">API keys and fees</a></li><li><a href="/chains" class="">Chains and tokens</a></li><li><a href="/changelog" class="">Changelog</a></li></ul></div><div class="nav-section"><p class="nav-title">Build a swap</p><ul><li><a href="/order-lifecycle" class="">Order lifecycle</a></li><li><a href="/deposits" class="">Deposits and refunds</a></li><li><a href="/money-and-settlement" class="">Amounts and fees</a></li><li><a href="/actions-and-retries" class="">Errors, limits, retries</a></li><li><a href="/live-updates" class="">Live updates</a></li></ul></div><div class="nav-section"><p class="nav-title">More products</p><ul><li><a href="/native-bridge" class="active" aria-current="page">Bridge: XMR to HXMR</a></li><li><a href="/public-data" class="">Public data and stats</a></li></ul></div><div class="nav-section"><p class="nav-title">AI agents</p><ul><li><a href="/mcp" class="">MCP server</a></li><li><a href="/agent-handoff" class="">Build with an AI agent</a></li></ul></div><div class="nav-section"><p class="nav-title">API reference</p><ul><li><a href="/api-reference" class="">Overview</a></li><li><details class="nav-group"><summary>Swaps</summary><ul><li><a href="/api-reference/get-swap-terms" class="ref"><span class="m m-get">GET</span><span>Get swap terms</span></a></li><li><a href="/api-reference/get-swap-assets" class="ref"><span class="m m-get">GET</span><span>List chains and featured tokens</span></a></li><li><a href="/api-reference/get-swap-asset-tokens" class="ref"><span class="m m-get">GET</span><span>Search tokens</span></a></li><li><a href="/api-reference/quote-swap" class="ref"><span class="m m-post">POST</span><span>Quote a swap</span></a></li><li><a href="/api-reference/create-swap-order" class="ref"><span class="m m-post">POST</span><span>Create a swap order</span></a></li><li><a href="/api-reference/get-swap-order" class="ref"><span class="m m-get">GET</span><span>Read a swap order</span></a></li><li><a href="/api-reference/get-swap-fills" class="ref"><span class="m m-get">GET</span><span>List Hyperliquid fills</span></a></li><li><a href="/api-reference/resolve-coinflip" class="ref"><span class="m m-put">PUT</span><span>Answer a swap’s bonus flip</span></a></li></ul></details></li><li><details class="nav-group"><summary>Bridge</summary><ul><li><a href="/api-reference/get-bridge-terms" class="ref"><span class="m m-get">GET</span><span>Get bridge terms</span></a></li><li><a href="/api-reference/quote-bridge" class="ref"><span class="m m-get">GET</span><span>Quote a bridge amount</span></a></li><li><a href="/api-reference/create-bridge-order" class="ref"><span class="m m-post">POST</span><span>Create a bridge order</span></a></li><li><a href="/api-reference/get-bridge-order" class="ref"><span class="m m-get">GET</span><span>Read a bridge order</span></a></li></ul></details></li><li><details class="nav-group"><summary>Orders</summary><ul><li><a href="/api-reference/delete-order" class="ref"><span class="m m-delete">DEL</span><span>Delete an order</span></a></li><li><a href="/api-reference/list-session-orders" class="ref"><span class="m m-get">GET</span><span>List a session’s orders</span></a></li><li><a href="/api-reference/get-order-review" class="ref"><span class="m m-get">GET</span><span>Read an order review</span></a></li><li><a href="/api-reference/submit-order-review" class="ref"><span class="m m-put">PUT</span><span>Review an order</span></a></li><li><a href="/api-reference/submit-refund-address" class="ref"><span class="m m-put">PUT</span><span>Submit a refund address</span></a></li><li><a href="/api-reference/continue-on-arrived-deposit" class="ref"><span class="m m-post">POST</span><span>Continue on a short deposit</span></a></li><li><a href="/api-reference/submit-payout-address" class="ref"><span class="m m-put">PUT</span><span>Submit a replacement payout address</span></a></li></ul></details></li><li><details class="nav-group"><summary>Integrator</summary><ul><li><a href="/api-reference/get-integrator" class="ref"><span class="m m-get">GET</span><span>Read your integration</span></a></li><li><a href="/api-reference/list-integrator-orders" class="ref"><span class="m m-get">GET</span><span>List attributed orders</span></a></li></ul></details></li><li><details class="nav-group"><summary>Stats</summary><ul><li><a href="/api-reference/get-protocol-stats" class="ref"><span class="m m-get">GET</span><span>Get protocol statistics</span></a></li><li><a href="/api-reference/get-swap-route-stats" class="ref"><span class="m m-get">GET</span><span>Get route execution times</span></a></li></ul></details></li><li><details class="nav-group"><summary>Activity</summary><ul><li><a href="/api-reference/get-recent-swaps" class="ref"><span class="m m-get">GET</span><span>List recent swaps</span></a></li><li><a href="/api-reference/get-recent-bridge-orders" class="ref"><span class="m m-get">GET</span><span>List recent bridge orders</span></a></li></ul></details></li><li><details class="nav-group"><summary>Config</summary><ul><li><a href="/api-reference/get-site-notice" class="ref"><span class="m m-get">GET</span><span>Read the site notice</span></a></li><li><a href="/api-reference/list-nodes" class="ref"><span class="m m-get">GET</span><span>List Monero nodes</span></a></li></ul></details></li><li><details class="nav-group"><summary>Points</summary><ul><li><a href="/api-reference/get-points" class="ref"><span class="m m-get">GET</span><span>Get an address’s points</span></a></li><li><a href="/api-reference/get-points-leaderboard" class="ref"><span class="m m-get">GET</span><span>Get the points leaderboard</span></a></li></ul></details></li><li><details class="nav-group"><summary>Coinflip</summary><ul><li><a href="/api-reference/place-coinflip-bet" class="ref"><span class="m m-post">POST</span><span>Place a coinflip bet</span></a></li><li><a href="/api-reference/cash-out-coinflip" class="ref"><span class="m m-post">POST</span><span>Cash out a coinflip table</span></a></li><li><a href="/api-reference/coinflip-presence" class="ref"><span class="m m-post">POST</span><span>Keep a coinflip table open</span></a></li><li><a href="/api-reference/reopen-coinflip" class="ref"><span class="m m-post">POST</span><span>Reopen a coinflip table</span></a></li><li><a href="/api-reference/get-recent-coinflip-rounds" class="ref"><span class="m m-get">GET</span><span>List recent coinflip rounds</span></a></li><li><a href="/api-reference/get-coinflip-terms" class="ref"><span class="m m-get">GET</span><span>Get coinflip terms</span></a></li><li><a href="/api-reference/create-coinflip-order" class="ref"><span class="m m-post">POST</span><span>Create a coinflip table</span></a></li><li><a href="/api-reference/get-coinflip-order" class="ref"><span class="m m-get">GET</span><span>Read a coinflip table</span></a></li></ul></details></li></ul></div><div class="nav-section"><p class="nav-title">Policies</p><ul><li><a href="/compliance-policy" class="">Compliance policy</a></li><li><a href="/privacy-policy" class="">Wallet privacy policy</a></li></ul></div></nav>
+  </aside>
+  <main id="content" class="content">
+    <article class="doc">
+      <div class="doc-top"><p class="eyebrow">More products</p><div class="page-actions"><button type="button" class="ghost-btn" data-copy-page="/native-bridge.md"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/> <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg><span>Copy page</span></button><a class="ghost-btn" href="/native-bridge.md"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/> <path d="M14 2v5a1 1 0 0 0 1 1h5"/> <path d="M10 9H8"/> <path d="M16 13H8"/> <path d="M16 17H8"/></svg><span>Markdown</span></a></div></div>
+      <h1>Native bridge (XMR and HXMR)</h1>
+<p>The native bridge turns Monero into its wrapped version on Hyperliquid, <strong>HXMR</strong>, and back:</p>
+<ul>
+<li>A <strong>deposit</strong> sends native XMR and credits HXMR to a Hyperliquid address.</li>
+<li>A <strong>withdrawal</strong> sends HXMR back and pays out native XMR.</li>
+</ul>
+<p>Bridge orders work like swaps: you create one, the user funds it, you track it until it ends. The <a href="/order-lifecycle">lifecycle</a> and <a href="/deposits">deposit rules</a> apply. What changed on the bridge, and when, is in the <a href="/changelog">changelog</a>.</p>
+<aside class="callout callout-warning">
+<p class="callout-title"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/> <path d="M12 9v4"/> <path d="M12 17h.01"/></svg>XMR1 is closed</p><p>XMR1 (Hyperliquid token #404, spot market <code>@260</code>), the earlier wrapped Monero, was closed on 2026-11-20 after its deployer key was compromised. It is <strong>no longer a claim on Wagyu&#39;s Monero</strong>: do not show it as wrapped XMR, do not price it as XMR, and do not send it to a bridge order. Orders that were open in XMR1 are settled or refunded by support. HXMR, below, is the only wrapped Monero the bridge issues and accepts.</p>
+</aside><p>The Zcash bridge (ZEC1) closed on 2026-11-21 with no successor, and the Tron bridge (TRX1) was retired on 2026-11-11. Both stay listed in the terms below, switched off.</p>
+<h2 id="hxmr-token-identity"><a class="anchor" href="#hxmr-token-identity" aria-label="Link to this section">#</a>HXMR token identity</h2>
+<p>Check these values before you list, trade or accept HXMR. A token with the same ticker but another token ID is not Wagyu&#39;s.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ticker</td>
+<td><code>HXMR</code> (upper case)</td>
+</tr>
+<tr>
+<td>Full name</td>
+<td>Hyperliquid XMR - Wagyu.xyz</td>
+</tr>
+<tr>
+<td>Hyperliquid token index</td>
+<td><code>1339</code></td>
+</tr>
+<tr>
+<td>Token ID</td>
+<td><code>0x700beac50c950503f401d218e52014e7</code></td>
+</tr>
+<tr>
+<td>Spot market</td>
+<td><code>@1193</code> (HXMR/USDC)</td>
+</tr>
+<tr>
+<td><code>szDecimals</code> · <code>weiDecimals</code></td>
+<td><code>5</code> · <code>10</code> (smallest tradable size: 0.00001 HXMR)</td>
+</tr>
+<tr>
+<td>Supply</td>
+<td>20,000,000 HXMR, created in a 2-of-3 multisig vault, <code>0x3980feaade07f42cd5b93916996a4b1afdc113d9</code></td>
+</tr>
+<tr>
+<td>Deployer</td>
+<td><code>0x429c7679b01c8f27c4e38b2d04b176f13d2be9ba</code> (multisig)</td>
+</tr>
+<tr>
+<td>Live since</td>
+<td>2026-11-22</td>
+</tr>
+</tbody></table></div>
+<p>HXMR in circulation is what the bridge has released from that vault against Monero it received. Withdrawals, like every bridge direction, can be paused (see below), so do not promise users that they can redeem at any moment.</p>
+<h2 id="availability-fees-and-minimums"><a class="anchor" href="#availability-fees-and-minimums" aria-label="Link to this section">#</a>Availability, fees and minimums</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Pair</th>
+<th>asset</th>
+<th>Deposit (mint)</th>
+<th>Withdraw (redeem)</th>
+<th>Deposit fee</th>
+<th>Withdrawal fee</th>
+<th>Minimum</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>XMR ↔ HXMR</td>
+<td><code>xmr</code></td>
+<td>On</td>
+<td>On</td>
+<td>0%</td>
+<td>2%</td>
+<td>0.005 XMR</td>
+</tr>
+<tr>
+<td>TRX ↔ TRX1</td>
+<td><code>trx</code></td>
+<td>Off</td>
+<td>Off</td>
+<td>0%</td>
+<td>2%</td>
+<td>5 TRX</td>
+</tr>
+<tr>
+<td>ZEC ↔ ZEC1</td>
+<td><code>zec</code></td>
+<td>Off</td>
+<td>Off</td>
+<td>0%</td>
+<td>2%</td>
+<td>0.0001 ZEC</td>
+</tr>
+</tbody></table></div>
+<p><em>Live from <code>GET /v2/bridges/terms</code>, read when this page was built (24 Nov 2026, 15:11 UTC).</em></p>
+<ul>
+<li>Each asset is switched on or off independently, per direction. An asset stays listed while it is off (with its fees and minimum), so a picker can grey it out instead of hiding it. <code>trx</code> and <code>zec</code> are off for good.</li>
+<li>Fees are fractions in <code>GET /v2/bridges/terms</code>: deposits cost 0% and withdrawals 2% right now.</li>
+<li>The <strong>minimum</strong> applies to the gross amount sent, in both directions, and fees are taken from it. Sending exactly the minimum settles. It is in XMR, also for withdrawals, where it counts the HXMR sent.</li>
+<li>Read <code>GET /v2/bridges/terms</code> when you create an order. Do not hard-code an asset as available because it worked earlier.</li>
+</ul>
+<p>Creating an order for an asset or direction that is switched off answers <code>409</code> with <code>code: &quot;paused&quot;</code>, and the message names what is paused. That is a deliberate switch on Wagyu&#39;s side, not a problem with your request and not an outage: show the message, do not treat it as a validation error, and do not retry in a loop. See <a href="/actions-and-retries#error-codes">error codes</a>.</p>
+<h2 id="quote-an-amount"><a class="anchor" href="#quote-an-amount" aria-label="Link to this section">#</a>Quote an amount</h2>
+<p><code>GET /v2/bridges/quote</code> returns the net amount for a gross amount. This is 1 HXMR withdrawn back to XMR:</p>
+<div class="code-group" data-code-group><div class="code" data-lang="bash" data-title="curl"><div class="code-head"><span class="code-title">curl</span><button class="copy" type="button" aria-label="Copy code">Copy</button></div><pre class="shiki shiki-themes github-light github-dark" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'https://api-beta.wagyu.xyz/v2/bridges/quote?asset=xmr&#x26;direction=withdraw&#x26;amount=1000000000000'</span></span></code></pre></div>
+<div class="code" data-lang="javascript" data-title="JavaScript"><div class="code-head"><span class="code-title">JavaScript</span><button class="copy" type="button" aria-label="Copy code">Copy</button></div><pre class="shiki shiki-themes github-light github-dark" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e" tabindex="0"><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> res</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> await</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> fetch</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'https://api-beta.wagyu.xyz/v2/bridges/quote?asset=xmr&#x26;direction=withdraw&#x26;amount=1000000000000'</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> data</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> await</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> res.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">json</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">();</span></span></code></pre></div>
+<div class="code" data-lang="python" data-title="Python"><div class="code-head"><span class="code-title">Python</span><button class="copy" type="button" aria-label="Copy code">Copy</button></div><pre class="shiki shiki-themes github-light github-dark" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e" tabindex="0"><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> requests</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">res </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> requests.get(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">'https://api-beta.wagyu.xyz/v2/bridges/quote?asset=xmr&#x26;direction=withdraw&#x26;amount=1000000000000'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">timeout</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">30</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">data </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> res.json()</span></span></code></pre></div>
+</div><div class="code" data-lang="json" data-title="Response · 200 · captured 24 Nov 2026, 15:11 UTC"><div class="code-head"><span class="code-title">Response · 200 · captured 24 Nov 2026, 15:11 UTC</span><button class="copy" type="button" aria-label="Copy code">Copy</button></div><pre class="shiki shiki-themes github-light github-dark" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "asset"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"xmr"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "direction"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"withdraw"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "grossAtomic"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"1000000000000"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "netAtomic"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"980000000000"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "feeAtomic"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"20000000000"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "flatFeeAtomic"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"0"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "percentFeeAtomic"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"20000000000"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "feePercent"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "minimumAtomic"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"5000000000"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "belowMinimum"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">false</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  "available"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre></div>
+<ul>
+<li>Amounts are <strong>XMR atomic units</strong> (12 decimals) in both directions, including the HXMR side of a withdrawal: <code>1000000000000</code> is 1 HXMR. Hyperliquid itself counts HXMR in 10 wei decimals; convert only where you talk to Hyperliquid directly.</li>
+<li><code>belowMinimum: true</code> means the amount is under <code>minimumAtomic</code>; the net and fee fields are then <code>null</code>.</li>
+<li><code>available: false</code> means that asset or direction is off right now.</li>
+<li>For withdrawals you may pass <code>senderAddress</code>, the Hyperliquid address sending HXMR, so the quote can apply that sender&#39;s fee override. The settled amount is still computed from what actually arrives.</li>
+</ul>
+<h2 id="create-a-deposit-xmr-hxmr"><a class="anchor" href="#create-a-deposit-xmr-hxmr" aria-label="Link to this section">#</a>Create a deposit (XMR → HXMR)</h2>
+<div class="code" data-lang="bash" data-title="Creates a real order"><div class="code-head"><span class="code-title">Creates a real order</span><button class="copy" type="button" aria-label="Copy code">Copy</button></div><pre class="shiki shiki-themes github-light github-dark" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> -X</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> POST</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'https://api-beta.wagyu.xyz/v2/bridges'</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -H</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'content-type: application/json'</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -d</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> '{ "asset": "xmr", "direction": "deposit", "toAddress": "&#x3C;Hyperliquid address to receive HXMR>" }'</span></span></code></pre></div>
+<p>The response is the bridge order: save its <code>orderId</code> and private <code>sessionId</code>, and show its deposit address (<code>depositAddress</code>, a Monero address). A deposit order needs no amount: the HXMR amount follows what arrives.</p>
+<h2 id="create-a-withdrawal-hxmr-xmr"><a class="anchor" href="#create-a-withdrawal-hxmr-xmr" aria-label="Link to this section">#</a>Create a withdrawal (HXMR → XMR)</h2>
+<div class="code" data-lang="bash" data-title="Creates a real order"><div class="code-head"><span class="code-title">Creates a real order</span><button class="copy" type="button" aria-label="Copy code">Copy</button></div><pre class="shiki shiki-themes github-light github-dark" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> -X</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> POST</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'https://api-beta.wagyu.xyz/v2/bridges'</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -H</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'content-type: application/json'</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -d</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> '{ "asset": "xmr", "direction": "withdraw", "toAddress": "&#x3C;Monero address to receive XMR>" }'</span></span></code></pre></div>
+<p>The order waits in status <code>awaiting_hxmr</code> until the HXMR arrives. Its <code>xmr1DepositAddress</code> field is the Hyperliquid address the user sends HXMR to: the field kept its earlier name for compatibility, but it carries the HXMR deposit address. It can be <code>null</code> while the address is not ready; read the order again rather than showing an address of your own.</p>
+<p>Withdrawals are also amountless at creation. The payout is computed from the HXMR actually observed, never from an amount the client claims. Show the order&#39;s funding instruction rather than assuming an address or amount.</p>
+<h3 id="zcash-addresses-orders-created-before-the-closure"><a class="anchor" href="#zcash-addresses-orders-created-before-the-closure" aria-label="Link to this section">#</a>Zcash addresses (orders created before the closure)</h3>
+<p>The Zcash bridge is closed, so no new Zcash order can be created. This only helps you read an old ZEC1 withdrawal order or submit a refund address for one. These Zcash address types were accepted:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Address type</th>
+<th>Accepted</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Unified (<code>u1…</code>)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Sapling (<code>zs1…</code>)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Transparent (<code>t1…</code>, <code>t3…</code>)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>TEX (<code>tex1…</code>)</td>
+<td>No: it requires transparent-source funds</td>
+</tr>
+</tbody></table></div>
+<p>For the deposit address forms of old Zcash orders, see <a href="/deposits#zcash-deposit-addresses-old-orders">Deposits and refunds</a>.</p>
+<h2 id="track-and-recover"><a class="anchor" href="#track-and-recover" aria-label="Link to this section">#</a>Track and recover</h2>
+<p>Read bridge orders with <code>GET /v2/bridges/{id}</code> and the owner session, or follow them on the <code>/v2/bridges/{id}/events</code> <a href="/live-updates">WebSocket</a>. When present, <code>bridgeSettlement.input</code> and <code>bridgeSettlement.output</code> are the authoritative settlement amounts. For a failed or expired order that asks for one, submit a refund address with <code>PUT /v2/orders/{id}/refund-address</code>.</p>
+<p><code>fees.withdrawalFlat</code> in the terms is keyed by asset (<code>{ xmr, trx, zec }</code>); only <code>xmr</code> applies today. <code>withdrawalFlatXmr</code> and <code>withdrawalFlatTrx</code> remain for older clients.</p>
+
+      <nav class="pager" aria-label="Previous and next"><a class="prev" href="/live-updates"><span>Previous</span><strong>Live updates over WebSockets</strong></a><a class="next" href="/public-data"><span>Next</span><strong>Public data and statistics</strong></a></nav>
+    </article>
+    <footer class="site-footer">
+      <p>Wagyu Docs · Built from the live Wagyu API, 2026-11-24. Facts on these pages come from the live API and are checked when the site builds.</p>
+      <p><a href="https://wagyu.xyz">wagyu.xyz</a> · <a href="https://t.me/wagyu_support" rel="noopener">Support</a> · <a href="https://x.com/PerpetualCow" rel="noopener">X</a> · <a href="/llms.txt">llms.txt</a> · <a href="/openapi.json">openapi.json</a> · <a href="/compliance-policy">Compliance</a></p>
+    </footer>
+  </main>
+  <nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li class="d2"><a href="#hxmr-token-identity">HXMR token identity</a></li><li class="d2"><a href="#availability-fees-and-minimums">Availability, fees and minimums</a></li><li class="d2"><a href="#quote-an-amount">Quote an amount</a></li><li class="d2"><a href="#create-a-deposit-xmr-hxmr">Create a deposit (XMR → HXMR)</a></li><li class="d2"><a href="#create-a-withdrawal-hxmr-xmr">Create a withdrawal (HXMR → XMR)</a></li><li class="d3"><a href="#zcash-addresses-orders-created-before-the-closure">Zcash addresses (orders created before the closure)</a></li><li class="d2"><a href="#track-and-recover">Track and recover</a></li></ul></nav>
+</div>
+<div class="scrim" data-scrim hidden></div>
+<dialog class="search" id="search" aria-label="Search">
+  <form method="dialog" class="search-box"><span class="search-icon"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 21-4.34-4.34"/> <circle cx="11" cy="11" r="8"/></svg></span><input type="search" placeholder="Search guides and endpoints" autocomplete="off" spellcheck="false" aria-label="Search"><kbd>Esc</kbd></form>
+  <ul class="results" role="listbox"></ul>
+  <p class="search-hint">Tip: every page is also plain Markdown, and <a href="/llms.txt">/llms.txt</a> indexes them for AI tools.</p>
+</dialog>
+<script src="/assets/app.1f4fd7a1bd.js" defer></script>
+</body>
+</html>

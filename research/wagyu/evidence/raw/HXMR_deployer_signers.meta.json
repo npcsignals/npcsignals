@@ -1,0 +1,11 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "userToMultiSigSigners",
+    "user": "0x429c7679b01c8f27c4e38b2d04b176f13d2be9ba"
+  },
+  "started_utc": "2026-11-25T04:59:57.939391+00:00",
+  "http_status": 200,
+  "retrieved_utc": "2026-11-25T05:00:01.389497+00:00",
+  "sha256": "b97c8e4785cd6cc26e2367b5840b21476fd7395a593534fa9a787688aba8f923"
+}

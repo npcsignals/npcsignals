@@ -1,0 +1,8 @@
+{
+  "url": "https://publish.twitter.com/oembed?url=https://x.com/PerpetualCow/status/2115384084478185875",
+  "request": null,
+  "started_utc": "2026-11-25T04:58:38.287188+00:00",
+  "http_status": 200,
+  "retrieved_utc": "2026-11-25T04:58:45.186682+00:00",
+  "sha256": "2048c3358b31f3c272a673e2a4c8430b9e81fed1c3a2906c94c2b11e4fd9c68f"
+}

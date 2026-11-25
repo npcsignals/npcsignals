@@ -1,0 +1,938 @@
+[
+  {
+    "file": "evidence/raw/HXMR_deployer_signers.meta.json",
+    "response": "evidence/raw/HXMR_deployer_signers.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userToMultiSigSigners",
+      "user": "0x429c7679b01c8f27c4e38b2d04b176f13d2be9ba"
+    },
+    "started_utc": "2026-11-25T04:59:57.939391+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T05:00:01.389497+00:00",
+    "sha256": "b97c8e4785cd6cc26e2367b5840b21476fd7395a593534fa9a787688aba8f923"
+  },
+  {
+    "file": "evidence/raw/HXMR_details.meta.json",
+    "response": "evidence/raw/HXMR_details.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "tokenDetails",
+      "tokenId": "0x700beac50c950503f401d218e52014e7"
+    },
+    "started_utc": "2026-11-25T04:56:03.492762+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:06.410049+00:00",
+    "sha256": "10b0ad99c0e43dbf56c542aa6a8c807d3338afe21795ed23de27c062df3f71fd"
+  },
+  {
+    "file": "evidence/raw/HXMR_issuer_role.meta.json",
+    "response": "evidence/raw/HXMR_issuer_role.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userRole",
+      "user": "0x429c7679b01c8f27c4e38b2d04b176f13d2be9ba"
+    },
+    "started_utc": "2026-11-25T04:56:06.410650+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:09.457074+00:00",
+    "sha256": "6b3061507ef8cc2ca95320f790a9f9ccb3c850ae081df4b6f6e56e40d57203e4"
+  },
+  {
+    "file": "evidence/raw/HXMR_issuer_spot.meta.json",
+    "response": "evidence/raw/HXMR_issuer_spot.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x429c7679b01c8f27c4e38b2d04b176f13d2be9ba"
+    },
+    "started_utc": "2026-11-25T04:56:09.457306+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:12.590057+00:00",
+    "sha256": "09d437b145daf1f1cb05b6466bf0ead35ff2acb72030452cf751d1d03285325a"
+  },
+  {
+    "file": "evidence/raw/HXMR_treasury_ledger.meta.json",
+    "response": "evidence/raw/HXMR_treasury_ledger.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x3980feaade07f42cd5b93916996a4b1afdc113d9",
+      "startTime": 0
+    },
+    "started_utc": "2026-11-25T04:56:41.890673+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:44.967289+00:00",
+    "sha256": "b7e60ca0f9e039db3c5443d36de9d9de853b824cb96275cbf08874232c377b40"
+  },
+  {
+    "file": "evidence/raw/HXMR_treasury_role.meta.json",
+    "response": "evidence/raw/HXMR_treasury_role.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userRole",
+      "user": "0x3980feaade07f42cd5b93916996a4b1afdc113d9"
+    },
+    "started_utc": "2026-11-25T04:56:31.475810+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:35.283050+00:00",
+    "sha256": "6b3061507ef8cc2ca95320f790a9f9ccb3c850ae081df4b6f6e56e40d57203e4"
+  },
+  {
+    "file": "evidence/raw/HXMR_treasury_signers.meta.json",
+    "response": "evidence/raw/HXMR_treasury_signers.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userToMultiSigSigners",
+      "user": "0x3980feaade07f42cd5b93916996a4b1afdc113d9"
+    },
+    "started_utc": "2026-11-25T04:56:35.283310+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:38.212155+00:00",
+    "sha256": "b97c8e4785cd6cc26e2367b5840b21476fd7395a593534fa9a787688aba8f923"
+  },
+  {
+    "file": "evidence/raw/HXMR_treasury_spot.meta.json",
+    "response": "evidence/raw/HXMR_treasury_spot.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x3980feaade07f42cd5b93916996a4b1afdc113d9"
+    },
+    "started_utc": "2026-11-25T04:56:38.212562+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:41.890452+00:00",
+    "sha256": "acb29b9fdd45376739660febfd74e35e50e9bc25756f9423b4772de64bf0f645"
+  },
+  {
+    "file": "evidence/raw/TAO1_details.meta.json",
+    "response": "evidence/raw/TAO1_details.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "tokenDetails",
+      "tokenId": "0xdef4dea8024b5cfb01e89416c5b9357f"
+    },
+    "started_utc": "2026-11-25T04:55:53.624502+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:55:56.935088+00:00",
+    "sha256": "f1c3c3140327e04c14fa8ece602adb30dfc2dc2e08adaa6b8704fc4afb27008e"
+  },
+  {
+    "file": "evidence/raw/TAO1_issuer_role.meta.json",
+    "response": "evidence/raw/TAO1_issuer_role.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userRole",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T04:55:56.935269+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:55:59.821173+00:00",
+    "sha256": "6b3061507ef8cc2ca95320f790a9f9ccb3c850ae081df4b6f6e56e40d57203e4"
+  },
+  {
+    "file": "evidence/raw/TAO1_issuer_spot.meta.json",
+    "response": "evidence/raw/TAO1_issuer_spot.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T04:55:59.821340+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:03.492474+00:00",
+    "sha256": "0c76fca41c414dc1b127439171e816bc4244dc9a77cc86b76f020adce7157ebc"
+  },
+  {
+    "file": "evidence/raw/TRX1_details.meta.json",
+    "response": "evidence/raw/TRX1_details.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "tokenDetails",
+      "tokenId": "0xdef104b9682eff9de5a1f55d6ede83e8"
+    },
+    "started_utc": "2026-11-25T04:55:53.625065+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:55:56.859574+00:00",
+    "sha256": "b918b7f90523c2759acc325c8664a41f9f8a539d8e13a462e6e1177ea37fbcd4"
+  },
+  {
+    "file": "evidence/raw/TRX1_issuer_role.meta.json",
+    "response": "evidence/raw/TRX1_issuer_role.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userRole",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T04:55:56.859931+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:55:59.824724+00:00",
+    "sha256": "6b3061507ef8cc2ca95320f790a9f9ccb3c850ae081df4b6f6e56e40d57203e4"
+  },
+  {
+    "file": "evidence/raw/TRX1_issuer_spot.meta.json",
+    "response": "evidence/raw/TRX1_issuer_spot.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T04:55:59.824935+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:03.504482+00:00",
+    "sha256": "0c76fca41c414dc1b127439171e816bc4244dc9a77cc86b76f020adce7157ebc"
+  },
+  {
+    "file": "evidence/raw/XMR1_details.meta.json",
+    "response": "evidence/raw/XMR1_details.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "tokenDetails",
+      "tokenId": "0xbb2057659bd378d17e2e151bb04bdcaa"
+    },
+    "started_utc": "2026-11-25T04:55:53.623664+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:55:56.915467+00:00",
+    "sha256": "9e4187aa3278736d0703c5a0d6d2063fb2c9f86b4bb22f83be3a1374a1566c13"
+  },
+  {
+    "file": "evidence/raw/XMR1_issuer_role.meta.json",
+    "response": "evidence/raw/XMR1_issuer_role.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userRole",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T04:55:56.915662+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:55:59.823978+00:00",
+    "sha256": "6b3061507ef8cc2ca95320f790a9f9ccb3c850ae081df4b6f6e56e40d57203e4"
+  },
+  {
+    "file": "evidence/raw/XMR1_issuer_signers.meta.json",
+    "response": "evidence/raw/XMR1_issuer_signers.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userToMultiSigSigners",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T05:03:28.948657+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T05:03:32.892865+00:00",
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "file": "evidence/raw/XMR1_issuer_spot.meta.json",
+    "response": "evidence/raw/XMR1_issuer_spot.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T04:55:59.824398+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:03.496264+00:00",
+    "sha256": "0c76fca41c414dc1b127439171e816bc4244dc9a77cc86b76f020adce7157ebc"
+  },
+  {
+    "file": "evidence/raw/ZEC1_details.meta.json",
+    "response": "evidence/raw/ZEC1_details.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "tokenDetails",
+      "tokenId": "0xbf88385232dba5bfbbc0b0b587779386"
+    },
+    "started_utc": "2026-11-25T04:55:53.625977+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:55:56.997064+00:00",
+    "sha256": "3cfba02b563c3538e8d01ab105d0487a7cc11e7f52c75fc9ec099adb9666a0e4"
+  },
+  {
+    "file": "evidence/raw/ZEC1_issuer_role.meta.json",
+    "response": "evidence/raw/ZEC1_issuer_role.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userRole",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T04:55:56.997316+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:55:59.814513+00:00",
+    "sha256": "6b3061507ef8cc2ca95320f790a9f9ccb3c850ae081df4b6f6e56e40d57203e4"
+  },
+  {
+    "file": "evidence/raw/ZEC1_issuer_spot.meta.json",
+    "response": "evidence/raw/ZEC1_issuer_spot.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T04:55:59.814712+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:03.503033+00:00",
+    "sha256": "0c76fca41c414dc1b127439171e816bc4244dc9a77cc86b76f020adce7157ebc"
+  },
+  {
+    "file": "evidence/raw/arbitrum_0x1464dacaceb0d511f9964cdac5eba50ea42220bf_balance.meta.json",
+    "response": "evidence/raw/arbitrum_0x1464dacaceb0d511f9964cdac5eba50ea42220bf_balance.response",
+    "url": "https://arbitrum.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBalance",
+      "params": [
+        "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+        "0x1f6e58cd"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:16.607142+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:19.202994+00:00",
+    "sha256": "96b9d747f9b1f23561d0c76af2deb7331f52335e74885c8ef6d6017624fd09a7"
+  },
+  {
+    "file": "evidence/raw/arbitrum_0x1464dacaceb0d511f9964cdac5eba50ea42220bf_nonce.meta.json",
+    "response": "evidence/raw/arbitrum_0x1464dacaceb0d511f9964cdac5eba50ea42220bf_nonce.response",
+    "url": "https://arbitrum.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+        "0x1f6e58cd"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:19.203370+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:22.211782+00:00",
+    "sha256": "59ac3b21a79347d3674cfc45a676d41198d9fa22e8629ff3cb9753f73f61dd58"
+  },
+  {
+    "file": "evidence/raw/arbitrum_chain.meta.json",
+    "response": "evidence/raw/arbitrum_chain.response",
+    "url": "https://arbitrum.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "started_utc": "2026-11-25T04:58:10.188926+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:13.459722+00:00",
+    "sha256": "ec494f8de954cc9864080bb069a791f49ae9256fbce4951d968044bfd8c26f57"
+  },
+  {
+    "file": "evidence/raw/arbitrum_snapshot_block.meta.json",
+    "response": "evidence/raw/arbitrum_snapshot_block.response",
+    "url": "https://arbitrum.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "latest",
+        false
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:13.460241+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:16.606747+00:00",
+    "sha256": "f2ad25e8fe977907fb6a54d75122484cba409f5eee3ec0a6413b9c08463cc08c"
+  },
+  {
+    "file": "evidence/raw/bridge_block.meta.json",
+    "response": "evidence/raw/bridge_block.response",
+    "url": "https://arbitrum.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x1f57802c",
+        false
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:29.958965+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:32.878867+00:00",
+    "sha256": "021674ec46f7aa288ff9936436ee1aa4fd59e0a23cc60625a3ab3be49ed2a3e8"
+  },
+  {
+    "file": "evidence/raw/bridge_receipt.meta.json",
+    "response": "evidence/raw/bridge_receipt.response",
+    "url": "https://arbitrum.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x1b6f68247603d6c3d1754680d9f73aee87d1791a8e51ec92bea1dfa58a47733e"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:26.019279+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:29.956703+00:00",
+    "sha256": "cdae5b3e30a79459f94dd3b5c976d57cd055e8b8182bb004135a0d5df1b0352f"
+  },
+  {
+    "file": "evidence/raw/bridge_tx.meta.json",
+    "response": "evidence/raw/bridge_tx.response",
+    "url": "https://arbitrum.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x1b6f68247603d6c3d1754680d9f73aee87d1791a8e51ec92bea1dfa58a47733e"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:22.219156+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:26.018915+00:00",
+    "sha256": "919934a7fa767315e1b32d5b233b1ddb085b03861fcb3c398036179ad8eb1009"
+  },
+  {
+    "file": "evidence/raw/cert_home.meta.json",
+    "response": "evidence/raw/cert_home.response",
+    "url": "https://cert.is/",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:11.320008+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:14.765397+00:00",
+    "sha256": "e57523b10e56c8a3b74d33d0f2b37d525c393d0a850152991354827fdde5d654"
+  },
+  {
+    "file": "evidence/raw/changelog_current.meta.json",
+    "response": "evidence/raw/changelog_current.response",
+    "url": "https://docs.wagyu.xyz/changelog",
+    "request": null,
+    "started_utc": "2026-11-25T04:58:07.047323+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:09.931201+00:00",
+    "sha256": "cedb30830415f53141394ca0192545d97e9ac927617c62efa808d24eac5c19c6"
+  },
+  {
+    "file": "evidence/raw/current_openapi.meta.json",
+    "response": "evidence/raw/current_openapi.response",
+    "url": "https://docs.wagyu.xyz/openapi.json",
+    "request": null,
+    "started_utc": "2026-11-25T04:58:09.931573+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:13.819247+00:00",
+    "sha256": "2f5f818782947403239648c4c4dc77ffb21c5663cd11d803d7140ad8b7579eda"
+  },
+  {
+    "file": "evidence/raw/distribution_a_ledger.meta.json",
+    "response": "evidence/raw/distribution_a_ledger.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x19c46f4bb8f50a74e4cc14d97ac070a0d8bc5221",
+      "startTime": 1795305600000
+    },
+    "started_utc": "2026-11-25T04:59:41.637208+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:59:45.041165+00:00",
+    "sha256": "fefaf046207bc950b242c6f3a0d80b3f28c518838360321261dfc67a4b9e2c82"
+  },
+  {
+    "file": "evidence/raw/distribution_a_spot.meta.json",
+    "response": "evidence/raw/distribution_a_spot.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x19c46f4bb8f50a74e4cc14d97ac070a0d8bc5221"
+    },
+    "started_utc": "2026-11-25T04:59:45.042364+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:59:48.301552+00:00",
+    "sha256": "4c73ea36dc63d211f47b769011d92f901d1557bd9823cd60767cfe38236dc59d"
+  },
+  {
+    "file": "evidence/raw/distribution_b_ledger.meta.json",
+    "response": "evidence/raw/distribution_b_ledger.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x4c6d679eac539bf7c5a0b7ebd8949ae93b1e5ee9",
+      "startTime": 1795305600000
+    },
+    "started_utc": "2026-11-25T04:59:48.302202+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:59:51.221174+00:00",
+    "sha256": "29e119c8c1e67fe7272d16da01830439a12ce0e73e4cc639a63ac37fe8575f41"
+  },
+  {
+    "file": "evidence/raw/distribution_b_spot.meta.json",
+    "response": "evidence/raw/distribution_b_spot.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x4c6d679eac539bf7c5a0b7ebd8949ae93b1e5ee9"
+    },
+    "started_utc": "2026-11-25T04:59:51.223916+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:59:53.982114+00:00",
+    "sha256": "e0f4f99a73f1d57f2f3adad87d8c78c9bd09ef0500661383f74dcdbfee2a7ebc"
+  },
+  {
+    "file": "evidence/raw/eth_history.meta.json",
+    "response": "evidence/raw/eth_history.response",
+    "url": "https://eth.blockscout.com/api/v2/addresses/0x1464dacaceb0d511f9964cdac5eba50ea42220bf/transactions",
+    "request": null,
+    "started_utc": "2026-11-25T04:59:23.487372+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:59:26.866112+00:00",
+    "sha256": "e29ea03f50991d5c0b4cf5537039162becb62cfcd871945a6650bd0efd690838"
+  },
+  {
+    "file": "evidence/raw/ethereum_0x1464dacaceb0d511f9964cdac5eba50ea42220bf_balance.meta.json",
+    "response": "evidence/raw/ethereum_0x1464dacaceb0d511f9964cdac5eba50ea42220bf_balance.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBalance",
+      "params": [
+        "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+        "0x1943460"
+      ]
+    },
+    "started_utc": "2026-11-25T04:57:57.215803+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:00.334746+00:00",
+    "sha256": "3baa3d727d21a78688e6c37439126efc6dbf598bbcff5a5342ca5780b3d83751"
+  },
+  {
+    "file": "evidence/raw/ethereum_0x1464dacaceb0d511f9964cdac5eba50ea42220bf_nonce.meta.json",
+    "response": "evidence/raw/ethereum_0x1464dacaceb0d511f9964cdac5eba50ea42220bf_nonce.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+        "0x1943460"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:00.335331+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:03.536599+00:00",
+    "sha256": "e2585c04a540f906f9c59eda11a23e0a0306beb621b27d7498bc38d2ba3320c9"
+  },
+  {
+    "file": "evidence/raw/ethereum_0xf32d7842611a5d63b875075dadd19c55f3f1dc59_balance.meta.json",
+    "response": "evidence/raw/ethereum_0xf32d7842611a5d63b875075dadd19c55f3f1dc59_balance.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBalance",
+      "params": [
+        "0xf32d7842611a5d63b875075dadd19c55f3f1dc59",
+        "0x1943460"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:03.537098+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:07.034154+00:00",
+    "sha256": "6b27b18c2efb5f8c590135cebbd0351bcda65fa0aabda9527f0bed16fcb35e6a"
+  },
+  {
+    "file": "evidence/raw/ethereum_0xf32d7842611a5d63b875075dadd19c55f3f1dc59_nonce.meta.json",
+    "response": "evidence/raw/ethereum_0xf32d7842611a5d63b875075dadd19c55f3f1dc59_nonce.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xf32d7842611a5d63b875075dadd19c55f3f1dc59",
+        "0x1943460"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:07.034687+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:10.188663+00:00",
+    "sha256": "29d0810d962dcae9ba2b6e2f513b2574094d4afc8d8b3a7ac19b6ef3e8ed8d6a"
+  },
+  {
+    "file": "evidence/raw/ethereum_chain.meta.json",
+    "response": "evidence/raw/ethereum_chain.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "started_utc": "2026-11-25T04:57:49.646262+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:57:54.365798+00:00",
+    "sha256": "79226432df73e05966f20e4d291fb5048bfef1138d7078f8feab534126df1aa5"
+  },
+  {
+    "file": "evidence/raw/ethereum_snapshot_block.meta.json",
+    "response": "evidence/raw/ethereum_snapshot_block.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "latest",
+        false
+      ]
+    },
+    "started_utc": "2026-11-25T04:57:54.366169+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:57:57.214955+00:00",
+    "sha256": "4d0bb3cede7f3a8286e3f8851de47a4291fe97f323291d5017eaeb25021a9057"
+  },
+  {
+    "file": "evidence/raw/hip1.meta.json",
+    "response": "evidence/raw/hip1.response",
+    "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-1-native-token-standard.md",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:07.780119+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:11.075060+00:00",
+    "sha256": "e097a6202a88c682a19a65758257f2da2a08833999c987e185e85453026cc29b"
+  },
+  {
+    "file": "evidence/raw/hip1_sdk.meta.json",
+    "response": "evidence/raw/hip1_sdk.response",
+    "url": "https://raw.githubusercontent.com/hyperliquid-dex/hyperliquid-python-sdk/master/hyperliquid/info.py",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:14.864582+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:18.406607+00:00",
+    "sha256": "fc36d225a2b865d474e5682ad4f095d9917e84ef5dba9c80de3d4600467f4882"
+  },
+  {
+    "file": "evidence/raw/info_docs.meta.json",
+    "response": "evidence/raw/info_docs.response",
+    "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint.md",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:11.075557+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:14.864064+00:00",
+    "sha256": "eb109e17003dd00c36cbdfd3afe58cdc649224b450180f331a9a07ea6f412b10"
+  },
+  {
+    "file": "evidence/raw/issuer_incident_ledger_no_end.meta.json",
+    "response": "evidence/raw/issuer_incident_ledger_no_end.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1795132800000
+    },
+    "started_utc": "2026-11-25T04:57:04.642814+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:57:08.581094+00:00",
+    "sha256": "6d0455f0c2dc441f04e8a478dc1ac940a46d7bb5012c9d6d9fcb60ebd5d7360d"
+  },
+  {
+    "file": "evidence/raw/issuer_spot.meta.json",
+    "response": "evidence/raw/issuer_spot.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "started_utc": "2026-11-25T04:56:21.528750+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:24.953194+00:00",
+    "sha256": "0c76fca41c414dc1b127439171e816bc4244dc9a77cc86b76f020adce7157ebc"
+  },
+  {
+    "file": "evidence/raw/multisig_docs.meta.json",
+    "response": "evidence/raw/multisig_docs.response",
+    "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/multi-sig.md",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:07.781503+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:11.116914+00:00",
+    "sha256": "eff755709fa36894359d2a55b4a5ee679a016d53c8862ed0605ff1e6232a30fe"
+  },
+  {
+    "file": "evidence/raw/native_bridge_current.meta.json",
+    "response": "evidence/raw/native_bridge_current.response",
+    "url": "https://docs.wagyu.xyz/native-bridge",
+    "request": null,
+    "started_utc": "2026-11-25T04:58:04.098365+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:07.046876+00:00",
+    "sha256": "dc0841e91b0f9bff49fdc16eeb8fb8fa1ef62725982c3bebe1f3bace5220ec84"
+  },
+  {
+    "file": "evidence/raw/onward_block.meta.json",
+    "response": "evidence/raw/onward_block.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x193a858",
+        false
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:27.985819+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:30.966510+00:00",
+    "sha256": "15c84f0ecdd0b82c729c72648772adb6d8bdccc47d5e30fcef90df538b0e09e5"
+  },
+  {
+    "file": "evidence/raw/onward_receipt.meta.json",
+    "response": "evidence/raw/onward_receipt.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x74a704c0b00bd9cb6c671e339f361718c7d885d5776d13074ecb0ed17edf4752"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:25.129738+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:27.984986+00:00",
+    "sha256": "a03f6f338690e543a33c00c598ff4b604b24a573b823d220796db849c1415f9e"
+  },
+  {
+    "file": "evidence/raw/onward_tx.meta.json",
+    "response": "evidence/raw/onward_tx.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x74a704c0b00bd9cb6c671e339f361718c7d885d5776d13074ecb0ed17edf4752"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:22.219623+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:25.129460+00:00",
+    "sha256": "9a583d3609dbda54995708c1308980b32ef7e667f0dc9e7a2fb6d7c792f9d02b"
+  },
+  {
+    "file": "evidence/raw/operator_oct28.meta.json",
+    "response": "evidence/raw/operator_oct28.response",
+    "url": "https://publish.twitter.com/oembed?url=https://x.com/PerpetualCow/status/2115384084478185875",
+    "request": null,
+    "started_utc": "2026-11-25T04:58:38.287188+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:45.186682+00:00",
+    "sha256": "2048c3358b31f3c272a673e2a4c8430b9e81fed1c3a2906c94c2b11e4fd9c68f"
+  },
+  {
+    "file": "evidence/raw/seller_aggregated.meta.json",
+    "response": "evidence/raw/seller_aggregated.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFillsByTime",
+      "user": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+      "startTime": 0,
+      "aggregateByTime": true
+    },
+    "started_utc": "2026-11-25T04:56:24.953443+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:28.503436+00:00",
+    "sha256": "e6613303af03940854c50e2fb320e2213dabb875a38d7fd526f5ceee2aa61f9d"
+  },
+  {
+    "file": "evidence/raw/seller_fills_no_end.meta.json",
+    "response": "evidence/raw/seller_fills_no_end.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFillsByTime",
+      "user": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+      "startTime": 1795132800000,
+      "aggregateByTime": true
+    },
+    "started_utc": "2026-11-25T04:57:11.723791+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:57:14.877979+00:00",
+    "sha256": "e6613303af03940854c50e2fb320e2213dabb875a38d7fd526f5ceee2aa61f9d"
+  },
+  {
+    "file": "evidence/raw/seller_incident_ledger_no_end.meta.json",
+    "response": "evidence/raw/seller_incident_ledger_no_end.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+      "startTime": 1795132800000
+    },
+    "started_utc": "2026-11-25T04:57:08.581465+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:57:11.723054+00:00",
+    "sha256": "b6c6e9cdcfc837fcf57a31b54bb6cbf286e8eef25a4100b556b72f60288e2a0d"
+  },
+  {
+    "file": "evidence/raw/seller_raw_page_0.meta.json",
+    "response": "evidence/raw/seller_raw_page_0.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFillsByTime",
+      "user": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+      "startTime": 0
+    },
+    "started_utc": "2026-11-25T05:01:59.607140+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T05:02:04.232337+00:00",
+    "sha256": "6ba4599672ac3f746dfb8ada4cbffebf00479d2a14d6aedd6ea19a5ca38ca4ec"
+  },
+  {
+    "file": "evidence/raw/seller_raw_page_1.meta.json",
+    "response": "evidence/raw/seller_raw_page_1.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFillsByTime",
+      "user": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+      "startTime": 1795150609914
+    },
+    "started_utc": "2026-11-25T05:02:04.248979+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T05:02:07.428983+00:00",
+    "sha256": "28725e926aa59f5ad438c136cced745a741934f941273dd925f0bf11d9a42188"
+  },
+  {
+    "file": "evidence/raw/seller_raw_page_2.meta.json",
+    "response": "evidence/raw/seller_raw_page_2.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFillsByTime",
+      "user": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf",
+      "startTime": 1795151811477
+    },
+    "started_utc": "2026-11-25T05:02:07.443623+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T05:02:11.051313+00:00",
+    "sha256": "bd8a9c403248b8782cc25b667b26e1835314c990a11ffb61c3ef62753e76d7fe"
+  },
+  {
+    "file": "evidence/raw/seller_spot.meta.json",
+    "response": "evidence/raw/seller_spot.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x1464dacaceb0d511f9964cdac5eba50ea42220bf"
+    },
+    "started_utc": "2026-11-25T04:56:15.467303+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:18.254023+00:00",
+    "sha256": "82417fe5f990624bd065b1bfa17078a7393e37c7458f9c73bef0ae00be95274f"
+  },
+  {
+    "file": "evidence/raw/spotMeta.meta.json",
+    "response": "evidence/raw/spotMeta.response",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotMeta"
+    },
+    "started_utc": "2026-11-25T04:55:48.704529+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:55:53.612048+00:00",
+    "sha256": "01feb4313be53af202b92a44ec94b4979a2ea3ab8f3e330a1def94df23f46a8c"
+  },
+  {
+    "file": "evidence/raw/tornado_block.meta.json",
+    "response": "evidence/raw/tornado_block.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x193a679",
+        false
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:27.985289+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:30.955012+00:00",
+    "sha256": "d93e2349db81796e0deb42cb2241e15bf1d611318a0f187ec5843c6e71913666"
+  },
+  {
+    "file": "evidence/raw/tornado_receipt.meta.json",
+    "response": "evidence/raw/tornado_receipt.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x33513047a342ea41bbcc6503aa8c889a8b5d05a4ef332354fba682fdc60b53ee"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:25.124052+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:27.984598+00:00",
+    "sha256": "0a4781c9bba950ea4889f7d533279c210f4328cac452a8cfc0b0a5b15db11e8b"
+  },
+  {
+    "file": "evidence/raw/tornado_tx.meta.json",
+    "response": "evidence/raw/tornado_tx.response",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x33513047a342ea41bbcc6503aa8c889a8b5d05a4ef332354fba682fdc60b53ee"
+      ]
+    },
+    "started_utc": "2026-11-25T04:58:22.218330+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:58:25.123825+00:00",
+    "sha256": "0194b87daf0890777fcefffc35524e3f2908b5d4ff34388ad3103d5615587be4"
+  },
+  {
+    "file": "evidence/raw/wagyu_docs.meta.json",
+    "response": "evidence/raw/wagyu_docs.response",
+    "url": "https://docs.wagyu.xyz/",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:07.776852+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:11.319509+00:00",
+    "sha256": "ca7ab1703e0e329f50c22936c891fd16d7099e15a916b03d13a3a6ac9e018f56"
+  },
+  {
+    "file": "evidence/raw/wayback_20250209.meta.json",
+    "response": "evidence/raw/wayback_20250209.response",
+    "url": "https://web.archive.org/web/20250209174636id_/http://wagyu.xyz/",
+    "request": null,
+    "started_utc": "2026-11-25T05:09:20.918916+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T05:09:26.952028+00:00",
+    "sha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023"
+  },
+  {
+    "file": "evidence/raw/wayback_20251231.meta.json",
+    "response": "evidence/raw/wayback_20251231.response",
+    "url": "https://web.archive.org/web/20251231101110id_/https://www.wagyu.xyz/",
+    "request": null,
+    "started_utc": "2026-11-25T05:09:20.917734+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T05:09:26.688463+00:00",
+    "sha256": "6262a277cec712642615139487a7f207a48bab1fb06ebaccdfa5308586f1725c"
+  },
+  {
+    "file": "evidence/raw/wayback_index.meta.json",
+    "response": "evidence/raw/wayback_index.response",
+    "url": "https://web.archive.org/cdx/search/cdx?url=wagyu.xyz&output=json&filter=statuscode:200&filter=mimetype:text/html&collapse=timestamp:6&filter=timestamp:202[56].*&limit=30",
+    "request": null,
+    "started_utc": "2026-11-25T04:56:14.768652+00:00",
+    "http_status": 200,
+    "retrieved_utc": "2026-11-25T04:56:18.537492+00:00",
+    "sha256": "0e5c1cfc59c81f9967d69889b522ef691d663355963ee83e1a9df6898dab638b"
+  }
+]
