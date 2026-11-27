@@ -1,0 +1,953 @@
+[
+  {
+    "metadata": "raw/clearinghouseState.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "clearinghouseState",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "start_utc": "2026-11-27T07:59:24.351250+00:00",
+    "status": 200,
+    "sha256": "cb7ec194957b32fc137744d5a104e1540ec11418e17939bf75025cd0c1e450c7",
+    "end_utc": "2026-11-27T07:59:31.208887+00:00"
+  },
+  {
+    "metadata": "raw/historicalOrders.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "historicalOrders",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "start_utc": "2026-11-27T07:59:31.744535+00:00",
+    "status": 200,
+    "sha256": "0366337d679b622a2b7627758b06b90754d8c4834faa8d8452876fe84374ded2",
+    "end_utc": "2026-11-27T07:59:35.389499+00:00"
+  },
+  {
+    "metadata": "raw/historical_07_frogman_accounts.json",
+    "url": "https://raw.githubusercontent.com/npcsignals/npcsignals/d692be10b67c2717d3b007a656579ebc07c67948/research/wagyu/visuals/07_frogman_accounts.svg",
+    "request": null,
+    "start_utc": "2026-11-27T08:04:22.339254+00:00",
+    "status": 200,
+    "sha256": "a927d62409870cf489ebb478a81804402321188415265110d9bb46160625a955",
+    "end_utc": "2026-11-27T08:04:26.501437+00:00"
+  },
+  {
+    "metadata": "raw/historical_08_values.json",
+    "url": "https://raw.githubusercontent.com/npcsignals/npcsignals/d692be10b67c2717d3b007a656579ebc07c67948/research/wagyu/visuals/08_values.svg",
+    "request": null,
+    "start_utc": "2026-11-27T08:04:26.502033+00:00",
+    "status": 200,
+    "sha256": "1e751ab915c8e5f1434dea07157e678f089fac10e6e95a6101c028a3737f2693",
+    "end_utc": "2026-11-27T08:04:29.974458+00:00"
+  },
+  {
+    "metadata": "raw/historical_10_compensation.json",
+    "url": "https://raw.githubusercontent.com/npcsignals/npcsignals/d692be10b67c2717d3b007a656579ebc07c67948/research/wagyu/visuals/10_compensation.svg",
+    "request": null,
+    "start_utc": "2026-11-27T08:04:29.975477+00:00",
+    "status": 200,
+    "sha256": "8c7d0f55ebf1feee1fb14a931548e720c886ddd7cb07b9a5d8937f54e0cbe70b",
+    "end_utc": "2026-11-27T08:04:34.535142+00:00"
+  },
+  {
+    "metadata": "raw/hosting_heartbeat.json",
+    "url": "https://status.1984.is/api/status-page/heartbeat/public",
+    "request": null,
+    "start_utc": "2026-11-27T07:59:43.190656+00:00",
+    "status": 200,
+    "sha256": "db751e821e47f5f32d132add53e79c57f6a655f24f91a8b623487d0434ace8b3",
+    "end_utc": "2026-11-27T07:59:53.516669+00:00"
+  },
+  {
+    "metadata": "raw/hosting_primary.json",
+    "url": "https://status.1984.is/api/status-page/public",
+    "request": null,
+    "start_utc": "2026-11-27T07:59:38.479605+00:00",
+    "status": 200,
+    "sha256": "c935e4f1699436827cd559b6fc79fd1c8d2ad1e109c371e98f883b0cab673d54",
+    "end_utc": "2026-11-27T07:59:43.190514+00:00"
+  },
+  {
+    "metadata": "raw/incident_to_present.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1795132800000
+    },
+    "start_utc": "2026-11-27T08:02:13.038649+00:00",
+    "status": 200,
+    "sha256": "6d0455f0c2dc441f04e8a478dc1ac940a46d7bb5012c9d6d9fcb60ebd5d7360d",
+    "end_utc": "2026-11-27T08:02:17.035402+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_1.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1774637481989
+    },
+    "start_utc": "2026-11-27T07:59:56.428400+00:00",
+    "status": 200,
+    "sha256": "667fc466cd7cf2dab348bbf82bf7b54c01654be3d2015f02c9616fb3cf54acdb",
+    "end_utc": "2026-11-27T08:00:01.702627+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_10.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781375234513
+    },
+    "start_utc": "2026-11-27T08:00:39.054976+00:00",
+    "status": 200,
+    "sha256": "ec0315cfab558da7bea7847a717d9fbbfbead98d1667c02f957e8c629cccb904",
+    "end_utc": "2026-11-27T08:00:42.688624+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_11.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781375894107
+    },
+    "start_utc": "2026-11-27T08:00:42.689278+00:00",
+    "status": 200,
+    "sha256": "f2e399580dfe6d98a0f0800cc001bc79dd552ef6eae5b41482615cd705fd6e41",
+    "end_utc": "2026-11-27T08:00:48.123062+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_12.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781375971931
+    },
+    "start_utc": "2026-11-27T08:00:48.123695+00:00",
+    "status": 200,
+    "sha256": "79b701d55c0e54f3ba7c2b2ab49647b73c982701470212277c6504652cea6389",
+    "end_utc": "2026-11-27T08:00:52.364147+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_13.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376050827
+    },
+    "start_utc": "2026-11-27T08:00:52.364785+00:00",
+    "status": 200,
+    "sha256": "9a1955cb42290e456e212f062ad6a89d1a5e26b81324c8206b0529d6f01b6bc1",
+    "end_utc": "2026-11-27T08:00:57.307640+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_14.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376108650
+    },
+    "start_utc": "2026-11-27T08:00:57.308255+00:00",
+    "status": 200,
+    "sha256": "44fe0217ad8ea736718870496b54e42daa246840d44848b68d6b145e74e42144",
+    "end_utc": "2026-11-27T08:01:00.985721+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_15.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376151324
+    },
+    "start_utc": "2026-11-27T08:01:00.986213+00:00",
+    "status": 200,
+    "sha256": "fead0c3e5970fe43c0a20727f15a73bdc11dd56582c5af7ab8608803fdd1b332",
+    "end_utc": "2026-11-27T08:01:05.260821+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_16.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376172925
+    },
+    "start_utc": "2026-11-27T08:01:05.261233+00:00",
+    "status": 200,
+    "sha256": "d4893b8ad1724117853aef0fa4c13d73b36a7bfda57d3a281aaa629f592cca30",
+    "end_utc": "2026-11-27T08:01:09.448899+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_17.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376194570
+    },
+    "start_utc": "2026-11-27T08:01:09.449413+00:00",
+    "status": 200,
+    "sha256": "451ddc3dc6043b27b641c2755ba65779d9dd2def0742c86fc0bff39d0fbec58d",
+    "end_utc": "2026-11-27T08:01:13.923175+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_18.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376215392
+    },
+    "start_utc": "2026-11-27T08:01:13.923639+00:00",
+    "status": 200,
+    "sha256": "4b25c31cb242601e42ddf14d691106bcbde943be4c4beb86e8318e8b2f36c348",
+    "end_utc": "2026-11-27T08:01:17.826548+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_19.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376236483
+    },
+    "start_utc": "2026-11-27T08:01:17.827145+00:00",
+    "status": 200,
+    "sha256": "03fb5de78dd4ab52f05fab9706e521a8812cf1484053ce7fda7fc7efd193f0a2",
+    "end_utc": "2026-11-27T08:01:22.798233+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_2.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1775156557153
+    },
+    "start_utc": "2026-11-27T08:00:01.703084+00:00",
+    "status": 200,
+    "sha256": "48ed8cfc77826dd9d74c6cd7ea15515c6506f5571ef8fa3e02ab41394dc7dc03",
+    "end_utc": "2026-11-27T08:00:05.934025+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_20.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376258313
+    },
+    "start_utc": "2026-11-27T08:01:22.798977+00:00",
+    "status": 200,
+    "sha256": "572d73567d33799dde13b4592ce16dd9fd0dd61071b63f841b5a56d65bed3c7d",
+    "end_utc": "2026-11-27T08:01:26.933129+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_21.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376279024
+    },
+    "start_utc": "2026-11-27T08:01:26.933583+00:00",
+    "status": 200,
+    "sha256": "74bf8430f62c99c2fd128bd982524aade7bcda28928c6e70248b0c2200046369",
+    "end_utc": "2026-11-27T08:01:31.182202+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_22.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376299562
+    },
+    "start_utc": "2026-11-27T08:01:31.182882+00:00",
+    "status": 200,
+    "sha256": "731472e8ce50c5fac3fb84ec54af01eef70ce6e48581a02e4ae7a2cdeeb9ff09",
+    "end_utc": "2026-11-27T08:01:35.402461+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_23.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376321084
+    },
+    "start_utc": "2026-11-27T08:01:35.403032+00:00",
+    "status": 200,
+    "sha256": "a27d748ac24f0dc0bbc4a91b91b0b3a4e038e203bc73afd5338568d3d2a10864",
+    "end_utc": "2026-11-27T08:01:40.245926+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_24.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376342263
+    },
+    "start_utc": "2026-11-27T08:01:40.246382+00:00",
+    "status": 200,
+    "sha256": "eb54e7823cd31ead06862fb708028ed464d960e5dd54dfb53f943e2a6b5ba6e4",
+    "end_utc": "2026-11-27T08:01:45.459222+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_25.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376363891
+    },
+    "start_utc": "2026-11-27T08:01:45.459776+00:00",
+    "status": 200,
+    "sha256": "c9e5e6a72a96914ff1b183ce41c54626ebbd79f73aaaef4ed873f141307ef420",
+    "end_utc": "2026-11-27T08:01:49.809543+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_26.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376385484
+    },
+    "start_utc": "2026-11-27T08:01:49.810029+00:00",
+    "status": 200,
+    "sha256": "5221b4860b8c92816ac144153f29fc486956d2fb408c6764245bb3baaa68659d",
+    "end_utc": "2026-11-27T08:01:55.103666+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_27.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376406336
+    },
+    "start_utc": "2026-11-27T08:01:55.104222+00:00",
+    "status": 200,
+    "sha256": "01712cd6881862068501326bf5c01c94dc33865cd387875b605ba902e0650658",
+    "end_utc": "2026-11-27T08:01:59.461075+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_28.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376427459
+    },
+    "start_utc": "2026-11-27T08:01:59.461602+00:00",
+    "status": 200,
+    "sha256": "58971dbeea7db83757193dacaa25e3aaf785f7da3aab9ebc5e53131fbd9a4d80",
+    "end_utc": "2026-11-27T08:02:04.099608+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_29.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376448777
+    },
+    "start_utc": "2026-11-27T08:02:04.100104+00:00",
+    "status": 200,
+    "sha256": "95a820133c9eaa2e262b60ddeab83c24c9908027594166efc74b6e3b3ecef364",
+    "end_utc": "2026-11-27T08:02:10.424060+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_3.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1775591355847
+    },
+    "start_utc": "2026-11-27T08:00:05.934478+00:00",
+    "status": 200,
+    "sha256": "59ede02d0bca91401a8c7c4b8b2de9bdcfc3312d123678a90e477073354c7134",
+    "end_utc": "2026-11-27T08:00:10.289939+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_30.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376470577
+    },
+    "start_utc": "2026-11-27T08:02:10.424645+00:00",
+    "status": 200,
+    "sha256": "592ec102839cad61e6a9122963d7584ae4c353917ac6e431c0bfa707634931bd",
+    "end_utc": "2026-11-27T08:02:15.057505+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_31.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376492283
+    },
+    "start_utc": "2026-11-27T08:02:15.058044+00:00",
+    "status": 200,
+    "sha256": "e37e9bad4d5003ff95c773b3b3c5249528fd701d343030a32ac1540c878d742b",
+    "end_utc": "2026-11-27T08:02:20.948532+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_32.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376513701
+    },
+    "start_utc": "2026-11-27T08:02:20.949616+00:00",
+    "status": 200,
+    "sha256": "8028ed9f1986411d972e61b429efe36c48f10c6dbc626361236f0c577b5bcf4a",
+    "end_utc": "2026-11-27T08:02:24.750993+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_33.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376536141
+    },
+    "start_utc": "2026-11-27T08:02:24.751582+00:00",
+    "status": 200,
+    "sha256": "b39aaa1cc407db76969fb754becec8818428b6cc85b98fa1ec5b51eed466ff5d",
+    "end_utc": "2026-11-27T08:02:28.521495+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_34.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376558106
+    },
+    "start_utc": "2026-11-27T08:02:28.522038+00:00",
+    "status": 200,
+    "sha256": "d5fb200c824257c6ea2415222f6a60ae1b001163f4a3d37cbcd031c7c3112426",
+    "end_utc": "2026-11-27T08:02:32.349422+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_35.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376579471
+    },
+    "start_utc": "2026-11-27T08:02:32.350006+00:00",
+    "status": 200,
+    "sha256": "cff383f40c1696e00834a8b5b6e1a410553462dfa2675fea3d9dfbb3b4f78da0",
+    "end_utc": "2026-11-27T08:02:37.835368+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_36.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376602826
+    },
+    "start_utc": "2026-11-27T08:02:37.835817+00:00",
+    "status": 200,
+    "sha256": "21b6dc434ac1333f57f0fe3caeda1a339b3aec475326455bd9aca181fee92916",
+    "end_utc": "2026-11-27T08:02:42.204014+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_37.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376625740
+    },
+    "start_utc": "2026-11-27T08:02:42.204510+00:00",
+    "status": 200,
+    "sha256": "6c1f248b964f076d020380cff5e530e8b6f7a575da020a55fbd96be78ab89a4d",
+    "end_utc": "2026-11-27T08:02:46.423812+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_38.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376648129
+    },
+    "start_utc": "2026-11-27T08:02:46.424291+00:00",
+    "status": 200,
+    "sha256": "f8652645a1a8b2005c0abf69c2f580ee9f9765c7a38839211a962a29c3256af7",
+    "end_utc": "2026-11-27T08:02:52.352125+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_39.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376670754
+    },
+    "start_utc": "2026-11-27T08:02:52.352586+00:00",
+    "status": 200,
+    "sha256": "4b3045f8a5712bc639e85495783d0b865429b7aa9f98dda6a670bed070489b40",
+    "end_utc": "2026-11-27T08:02:58.824489+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_4.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1776179309519
+    },
+    "start_utc": "2026-11-27T08:00:10.290317+00:00",
+    "status": 200,
+    "sha256": "b3d1a8420fb5c84863b53381bf7ec4d845ae5e206fcb1d835858de9f9756b2b5",
+    "end_utc": "2026-11-27T08:00:13.942627+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_40.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376692753
+    },
+    "start_utc": "2026-11-27T08:02:58.825081+00:00",
+    "status": 200,
+    "sha256": "f81519866f7238f9b49466591b03d0e6017dc6b7c5a47c0e5f1f7264068cbe2f",
+    "end_utc": "2026-11-27T08:03:03.023264+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_41.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376714460
+    },
+    "start_utc": "2026-11-27T08:03:03.023955+00:00",
+    "status": 200,
+    "sha256": "bc87987a3460ef9d1789e8ce663962c437cf4c46ce8619d25edb757751ddcbc8",
+    "end_utc": "2026-11-27T08:03:07.562246+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_42.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376737044
+    },
+    "start_utc": "2026-11-27T08:03:07.562692+00:00",
+    "status": 200,
+    "sha256": "970134f155cc747b5505c2a1614bfca1b291ace013b0ec7ecb7158215b1943e2",
+    "end_utc": "2026-11-27T08:03:12.464583+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_43.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376758499
+    },
+    "start_utc": "2026-11-27T08:03:12.465097+00:00",
+    "status": 200,
+    "sha256": "d26e28a531589f0cd16009a55f25c35e3b1f5e4316f62b3ff06ceb8165671027",
+    "end_utc": "2026-11-27T08:03:26.749510+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_44.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376779580
+    },
+    "start_utc": "2026-11-27T08:03:26.749988+00:00",
+    "status": 200,
+    "sha256": "a8c959f19f8f58957e8d5bcdcf4e067d02bbcabd5f0ead21070d94ed230e44ea",
+    "end_utc": "2026-11-27T08:03:30.593167+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_45.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376802778
+    },
+    "start_utc": "2026-11-27T08:03:30.593797+00:00",
+    "status": 200,
+    "sha256": "1332481952f76c5f10cf54beec05fe0fd4b90aeadc0b192d3f728cfb2f93e67b",
+    "end_utc": "2026-11-27T08:03:34.724471+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_46.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376828035
+    },
+    "start_utc": "2026-11-27T08:03:34.724950+00:00",
+    "status": 200,
+    "sha256": "fc7d4045187a96f2182096e4280926aa9a1c4791a691b59244ff256414d62fef",
+    "end_utc": "2026-11-27T08:03:38.643516+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_47.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376853637
+    },
+    "start_utc": "2026-11-27T08:03:38.643964+00:00",
+    "status": 200,
+    "sha256": "a1768b7f109cc47b7340a47f8f0f052a003955536048635ccf9dfd85c8260f5b",
+    "end_utc": "2026-11-27T08:03:44.147613+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_48.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376878435
+    },
+    "start_utc": "2026-11-27T08:03:44.148276+00:00",
+    "status": 200,
+    "sha256": "be7852601510306057f0c5789bfd8c71342e684cc19b66c20299ab27ca6aea6e",
+    "end_utc": "2026-11-27T08:03:48.538163+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_49.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781376905944
+    },
+    "start_utc": "2026-11-27T08:03:48.538632+00:00",
+    "status": 200,
+    "sha256": "0bd676ebfa841fb465f5623e7e4dd38f303d2544e065987fcedc478c708c69fa",
+    "end_utc": "2026-11-27T08:03:52.550142+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_5.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781374847191
+    },
+    "start_utc": "2026-11-27T08:00:13.943093+00:00",
+    "status": 200,
+    "sha256": "a0de4f012dca1f8660d309b3a2aa05d9a871b1f51f8ef9bb68272d6286bb71fa",
+    "end_utc": "2026-11-27T08:00:17.958662+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_6.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781374925458
+    },
+    "start_utc": "2026-11-27T08:00:17.959233+00:00",
+    "status": 200,
+    "sha256": "72f427a0b34aaa39e188c1399c6dfa0807b2b9ecb5b2a737467942fad3a628ef",
+    "end_utc": "2026-11-27T08:00:24.996392+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_7.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781375002212
+    },
+    "start_utc": "2026-11-27T08:00:24.997161+00:00",
+    "status": 200,
+    "sha256": "6eccb3fdfb0df698687802860e9a2f29a73a0e34aab7ba6384e388a6ebecaf19",
+    "end_utc": "2026-11-27T08:00:29.908703+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_8.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781375079707
+    },
+    "start_utc": "2026-11-27T08:00:29.909370+00:00",
+    "status": 200,
+    "sha256": "f542615eb93339af3b6351ab983691134f31be92c802efa29e54f881e960bdc3",
+    "end_utc": "2026-11-27T08:00:33.393427+00:00"
+  },
+  {
+    "metadata": "raw/issuer_ledger_page_9.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1781375156465
+    },
+    "start_utc": "2026-11-27T08:00:33.393902+00:00",
+    "status": 200,
+    "sha256": "a0cb4294f6156440d1d37aab99eaba9bc798015ceda3cf72f06c908f757fc803",
+    "end_utc": "2026-11-27T08:00:39.054124+00:00"
+  },
+  {
+    "metadata": "raw/operator_original_page.json",
+    "url": "https://x.com/PerpetualCow/status/2123760480061718801",
+    "request": null,
+    "start_utc": "2026-11-27T08:03:33.486918+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "end_utc": "2026-11-27T08:03:37.041113+00:00"
+  },
+  {
+    "metadata": "raw/operator_syndication.json",
+    "url": "https://cdn.syndication.twimg.com/tweet-result?id=2123760480061718801&lang=en",
+    "request": null,
+    "start_utc": "2026-11-27T08:03:28.616607+00:00",
+    "status": 200,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "end_utc": "2026-11-27T08:03:33.486599+00:00"
+  },
+  {
+    "metadata": "raw/recipient_userFillsByTime.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFillsByTime",
+      "user": "0x19c46f4bb8f50a74e4cc14d97ac070a0d8bc5221",
+      "startTime": 1795607300000
+    },
+    "start_utc": "2026-11-27T08:00:06.275617+00:00",
+    "status": 200,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "end_utc": "2026-11-27T08:00:09.348081+00:00"
+  },
+  {
+    "metadata": "raw/recipient_userNonFundingLedgerUpdates.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x19c46f4bb8f50a74e4cc14d97ac070a0d8bc5221",
+      "startTime": 1795607300000
+    },
+    "start_utc": "2026-11-27T08:00:01.647536+00:00",
+    "status": 200,
+    "sha256": "b45d12c8de3b3bf19e83e970233dccc3d96d377d538d4d8ce406a2461879c1bd",
+    "end_utc": "2026-11-27T08:00:06.275421+00:00"
+  },
+  {
+    "metadata": "raw/spotClearinghouseState.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotClearinghouseState",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "start_utc": "2026-11-27T07:59:24.350410+00:00",
+    "status": 200,
+    "sha256": "794ea7cb23224ef10f5765e01b3ec3cd04611f9695317916fb1aa6588ddf0b86",
+    "end_utc": "2026-11-27T07:59:31.744277+00:00"
+  },
+  {
+    "metadata": "raw/spotDeployState.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotDeployState",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "start_utc": "2026-11-27T08:03:53.483045+00:00",
+    "status": 200,
+    "sha256": "1a2db7ec5cd17847795148a5f0372cdecfdb718a5c2576d622c3090d2059fa4a",
+    "end_utc": "2026-11-27T08:03:56.812285+00:00"
+  },
+  {
+    "metadata": "raw/spotDeployState_now.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "spotDeployState",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "start_utc": "2026-11-27T08:02:17.035601+00:00",
+    "status": 200,
+    "sha256": "1a2db7ec5cd17847795148a5f0372cdecfdb718a5c2576d622c3090d2059fa4a",
+    "end_utc": "2026-11-27T08:02:20.716415+00:00"
+  },
+  {
+    "metadata": "raw/treasury_userFillsByTime.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFillsByTime",
+      "user": "0x3980feaade07f42cd5b93916996a4b1afdc113d9",
+      "startTime": 1795607300000
+    },
+    "start_utc": "2026-11-27T07:59:57.375972+00:00",
+    "status": 200,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "end_utc": "2026-11-27T08:00:01.647428+00:00"
+  },
+  {
+    "metadata": "raw/treasury_userNonFundingLedgerUpdates.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x3980feaade07f42cd5b93916996a4b1afdc113d9",
+      "startTime": 1795607300000
+    },
+    "start_utc": "2026-11-27T07:59:53.516939+00:00",
+    "status": 200,
+    "sha256": "13821fe815192293dad74108aaf561b607d622bb96b494739be35f61f4483cb9",
+    "end_utc": "2026-11-27T07:59:57.375799+00:00"
+  },
+  {
+    "metadata": "raw/userFees.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFees",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "start_utc": "2026-11-27T07:59:32.316583+00:00",
+    "status": 200,
+    "sha256": "471108658dd027173e0efaea6113738fa492202e81521b4a4323564a040d50cc",
+    "end_utc": "2026-11-27T07:59:35.155960+00:00"
+  },
+  {
+    "metadata": "raw/userFills.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFills",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "start_utc": "2026-11-27T07:59:24.351694+00:00",
+    "status": 200,
+    "sha256": "015b8f7697050712f89b6e3632adb04089ca547282a5e3b6048c7eca1177d9b8",
+    "end_utc": "2026-11-27T07:59:32.039337+00:00"
+  },
+  {
+    "metadata": "raw/userFillsByTime.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFillsByTime",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 0
+    },
+    "start_utc": "2026-11-27T07:59:24.352159+00:00",
+    "status": 200,
+    "sha256": "bf787a13552bd8079573829267d90b6c9cc24b213a6473ad6de2204ae1e88a5c",
+    "end_utc": "2026-11-27T07:59:32.317692+00:00"
+  },
+  {
+    "metadata": "raw/userFillsByTime_1795500000000.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFillsByTime",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1795500000000
+    },
+    "start_utc": "2026-11-27T07:59:35.142005+00:00",
+    "status": 200,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "end_utc": "2026-11-27T07:59:38.463142+00:00"
+  },
+  {
+    "metadata": "raw/userFillsByTime_1795580888797.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFillsByTime",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1795580888797
+    },
+    "start_utc": "2026-11-27T07:59:32.317918+00:00",
+    "status": 200,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "end_utc": "2026-11-27T07:59:35.193777+00:00"
+  },
+  {
+    "metadata": "raw/userFunding.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userFunding",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 0
+    },
+    "start_utc": "2026-11-27T07:59:31.209043+00:00",
+    "status": 200,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "end_utc": "2026-11-27T07:59:35.141837+00:00"
+  },
+  {
+    "metadata": "raw/userNonFundingLedgerUpdates.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 0
+    },
+    "start_utc": "2026-11-27T07:59:24.353097+00:00",
+    "status": 200,
+    "sha256": "af75764b486aeacf38f521284199b625266e230542825a6ee0942150c6b3cca8",
+    "end_utc": "2026-11-27T07:59:32.316077+00:00"
+  },
+  {
+    "metadata": "raw/userNonFundingLedgerUpdates_1795500000000.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1795500000000
+    },
+    "start_utc": "2026-11-27T07:59:35.194058+00:00",
+    "status": 200,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "end_utc": "2026-11-27T07:59:38.477560+00:00"
+  },
+  {
+    "metadata": "raw/userNonFundingLedgerUpdates_1795580888797.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userNonFundingLedgerUpdates",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a",
+      "startTime": 1795580888797
+    },
+    "start_utc": "2026-11-27T07:59:35.156059+00:00",
+    "status": 200,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "end_utc": "2026-11-27T07:59:38.445013+00:00"
+  },
+  {
+    "metadata": "raw/userRateLimit.json",
+    "url": "https://api.hyperliquid.xyz/info",
+    "request": {
+      "type": "userRateLimit",
+      "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+    },
+    "start_utc": "2026-11-27T07:59:32.039496+00:00",
+    "status": 200,
+    "sha256": "dd7b463ab1afd10046a25c04c3504463c09bc6dda80d0eec0fe89c3b39919e5a",
+    "end_utc": "2026-11-27T07:59:35.752817+00:00"
+  }
+]

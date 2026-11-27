@@ -1,0 +1,53 @@
+{
+  "cutoff_utc": "2026-11-25T04:28:08.797000+00:00",
+  "accounts": 36,
+  "baseline_xmr1": "3586.887420",
+  "current_xmr1": "3586.887420",
+  "new_fills": 0,
+  "new_ledger_records": 0,
+  "changed_accounts": [],
+  "acquisition_cost_usdc": "2029761.5937",
+  "mark_price_usdc": "0.0168",
+  "mid_price_usdc": "0.008851",
+  "mark_value_usdc": "60.2597086560",
+  "mid_value_usdc": "31.747540554420",
+  "best_bid": {
+    "px": "0.000903",
+    "sz": "13318.53",
+    "n": 1
+  },
+  "best_ask": {
+    "px": "0.0168",
+    "sz": "405.22",
+    "n": 1
+  },
+  "bid_depth_gross_notional_usdc": "3.238959340260",
+  "bid_depth_unfilled_xmr1": "0.000000",
+  "verified_current_realizable_value": "not established: no sale, redemption or compensation executed/verified; static book indication is not guaranteed proceeds",
+  "collapse_pre_observation": {
+    "t": 1795150080000,
+    "T": 1795150139999,
+    "s": "@260",
+    "i": "1m",
+    "o": "493.63",
+    "c": "493.63",
+    "h": "493.63",
+    "l": "493.63",
+    "v": "0.03",
+    "n": 1
+  },
+  "first_sub_1_minute": {
+    "t": 1795151880000,
+    "T": 1795151939999,
+    "s": "@260",
+    "i": "1m",
+    "o": "5.0",
+    "c": "0.99",
+    "h": "5.0",
+    "l": "0.872",
+    "v": "21387.59",
+    "n": 64
+  },
+  "spot_snapshot_start": "2026-11-25T04:28:35.407439+00:00",
+  "spot_snapshot_end": "2026-11-25T04:29:54.015602+00:00"
+}

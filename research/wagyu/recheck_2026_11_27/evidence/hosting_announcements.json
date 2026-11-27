@@ -1,0 +1,13 @@
+[
+  {
+    "id": 3,
+    "style": "warning",
+    "title": "A November 2026 security incident",
+    "content": "**Service Restoration Update \u2013 November 26, 19:45 UTC**\n\nService restoration is progressing well, with a substantial majority of our VPS customers now back online. Our focus remains on ensuring a safe and stable restoration of all services.\n\n- **Email & Webmail:** Fully operational since early Tuesday morning, November 24. Webmail is accessible at https://vefpostur.1984.is.\n- **VPS Services:** Approximately 80% of our VPS instances are now online. We expect this figure to reach approximately 95% by tomorrow morning, November 27. Work will continue on restoring the remaining instances.\n- **Shared Web Hosting & Managed VPS Hosting:** Preparations for restoration are nearing completion. We expect to begin bringing these services online at 21:00 UTC tonight, November 26, with services becoming progressively available throughout the night.\n\nAs before, these timelines are estimates and remain subject to the progress of our restoration efforts.\n\nWe would like to reiterate that, with the sole exception of the seven websites originally targeted by the attack, our investigation has confirmed that customer-hosted data remained safe and was neither accessed nor altered by the attackers.\n\nWe sincerely apologise for the prolonged disruption and greatly appreciate the patience, understanding and support our customers have shown us throughout this incident.\n\nFurther updates will continue to be published on this page.",
+    "pin": true,
+    "active": true,
+    "createdDate": "2026-11-21 17:20:09",
+    "lastUpdatedDate": "2026-11-26 19:48:09",
+    "status_page_id": 1
+  }
+]

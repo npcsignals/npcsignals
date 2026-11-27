@@ -1,0 +1,11 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "spotDeployState",
+    "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+  },
+  "start_utc": "2026-11-27T08:02:17.035601+00:00",
+  "status": 200,
+  "sha256": "1a2db7ec5cd17847795148a5f0372cdecfdb718a5c2576d622c3090d2059fa4a",
+  "end_utc": "2026-11-27T08:02:20.716415+00:00"
+}

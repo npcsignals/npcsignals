@@ -1,0 +1,3 @@
+  Post-mortem of the $13m XMR hack:  It's WORSE than I thought.  Turns out that the entire hosting provider of  https://t.co/skXiWey4Fb  got hacked with everyone's data + internal server files today.  The XMR1 deployer key was held on an OLD server on there that I DELETED, but… — PerpetualCow.hl (@PerpetualCow)  November 20, 2026  
+  
+
