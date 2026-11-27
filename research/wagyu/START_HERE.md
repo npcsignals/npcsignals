@@ -44,3 +44,7 @@ no leaked private customer data was accessed and no involved party was contacted
 [reproduction and api limits](REPRODUCIBILITY.md) · [remaining evidence gaps](EVIDENCE_GAPS.md).
 
 [all research](../INDEX.md) · [original frogman investigation](../frogman-wallet-drain/START_HERE.md) · [evidence selection and provenance](PUBLICATION_NOTES.md).
+
+## dated evidence supplement / 27 november 2026
+
+[read the 27 november reconciliation](recheck_2026_11_27/START_HERE.md) for later account observations, hosting-source comparison, the unresolved issuer balance change and the matched hxmr transfer. the original report and figures above retain their 25 november observation scope.

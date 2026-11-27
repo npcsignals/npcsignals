@@ -1,0 +1,8 @@
+{
+  "url": "https://status.1984.is/api/status-page/public",
+  "request": null,
+  "start_utc": "2026-11-27T07:59:38.479605+00:00",
+  "status": 200,
+  "sha256": "c935e4f1699436827cd559b6fc79fd1c8d2ad1e109c371e98f883b0cab673d54",
+  "end_utc": "2026-11-27T07:59:43.190514+00:00"
+}

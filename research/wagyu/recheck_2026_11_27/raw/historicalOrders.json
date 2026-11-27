@@ -1,0 +1,11 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "historicalOrders",
+    "user": "0x207700bd207df757825f9193ef9c648c1c65e06a"
+  },
+  "start_utc": "2026-11-27T07:59:31.744535+00:00",
+  "status": 200,
+  "sha256": "0366337d679b622a2b7627758b06b90754d8c4834faa8d8452876fe84374ded2",
+  "end_utc": "2026-11-27T07:59:35.389499+00:00"
+}
